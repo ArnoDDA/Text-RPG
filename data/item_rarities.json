@@ -1,0 +1,44 @@
+[
+  {
+    "id": "common",
+    "label": "普通／常见",
+    "label_en": "Common",
+    "order": 1,
+    "description": "能够稳定制作、种植、采集或流通的物品；品质仍可有好坏，但通常不依赖少数专门渠道。",
+    "description_en": "Reliably made, grown, gathered, or traded; quality can vary without requiring a specialist source."
+  },
+  {
+    "id": "rare",
+    "label": "稀有",
+    "label_en": "Rare",
+    "order": 2,
+    "description": "需要较高工艺、有限产地、专业资格或稳定特殊性质，能够获得但不在普通市场随处可见。",
+    "description_en": "Requires advanced craft, a limited source, specialist access, or a stable special property."
+  },
+  {
+    "id": "exceptional",
+    "label": "罕见",
+    "label_en": "Exceptional",
+    "order": 3,
+    "description": "只有少数工坊、组织或环境能够稳定提供，取得、使用和维护通常都需要明确条件。",
+    "description_en": "Reliably supplied only by a few workshops, institutions, or environments, with explicit access and upkeep conditions."
+  },
+  {
+    "id": "legendary",
+    "label": "传说",
+    "label_en": "Legendary",
+    "order": 4,
+    "instance_only": true,
+    "description": "已知世界中极少数真正存在的具体物品；每一件都有明确名称、来历与历史记录，传说等级属于那一件物品，不能作为普通制式批量生成。",
+    "description_en": "A very small number of named individual items with established provenance and history; this tier cannot be mass-produced as a standard design."
+  },
+  {
+    "id": "mythic",
+    "label": "神话",
+    "label_en": "Mythic",
+    "order": 5,
+    "instance_only": true,
+    "description": "几乎不可复现、原则上仅此一件的具体物品，并与神明、法则或世界级事件直接相关；必须经过世界观共同确立，不能仅凭剧情中的夸张名称获得。",
+    "description_en": "A unique individual item tied directly to divinity, law, or a world-scale event; it must be established in canon rather than inferred from a grand name."
+  }
+]

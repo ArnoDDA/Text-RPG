@@ -1,0 +1,4216 @@
+[
+  {
+    "id": "weapon.sword",
+    "category": "Weapons",
+    "label": "单手剑",
+    "signals": [
+      "佩剑",
+      "短剑",
+      "弯刀",
+      "礼剑",
+      "铁剑",
+      "锻刃",
+      "环刀",
+      "护刀",
+      "护卫刃",
+      "剑",
+      "刀"
+    ]
+  },
+  {
+    "id": "weapon.greatsword",
+    "category": "Weapons",
+    "label": "双手重剑",
+    "signals": [
+      "双手大剑",
+      "双手剑",
+      "宽柄大剑",
+      "兽人大剑",
+      "大剑",
+      "重剑"
+    ]
+  },
+  {
+    "id": "weapon.dagger",
+    "category": "Weapons",
+    "label": "匕首",
+    "signals": [
+      "匕首",
+      "短刀",
+      "索刀"
+    ]
+  },
+  {
+    "id": "weapon.axe",
+    "category": "Weapons",
+    "label": "斧",
+    "signals": [
+      "钩斧",
+      "战斧",
+      "手斧",
+      "长柄斧",
+      "斧"
+    ]
+  },
+  {
+    "id": "weapon.spear",
+    "category": "Weapons",
+    "label": "长矛",
+    "signals": [
+      "破冰枪",
+      "穿刺枪",
+      "长枪",
+      "短矛",
+      "长矛",
+      "枪矛",
+      "盾矛",
+      "猎矛",
+      "矛",
+      "枪"
+    ]
+  },
+  {
+    "id": "weapon.polearm",
+    "category": "Weapons",
+    "label": "戟",
+    "signals": [
+      "短戟",
+      "长戟",
+      "钩枪",
+      "镐枪",
+      "长柄斧",
+      "钩刃长兵",
+      "戟"
+    ]
+  },
+  {
+    "id": "weapon.blunt",
+    "category": "Weapons",
+    "label": "锤",
+    "signals": [
+      "战锤",
+      "重锤",
+      "符锤",
+      "锤头"
+    ]
+  },
+  {
+    "id": "weapon.flexible",
+    "category": "Weapons",
+    "label": "鞭",
+    "signals": [
+      "链刃",
+      "链锤",
+      "软鞭",
+      "长鞭",
+      "绳镖",
+      "鞭"
+    ]
+  },
+  {
+    "id": "weapon.bow",
+    "category": "Weapons",
+    "label": "短弓",
+    "signals": [
+      "猎弓",
+      "短弓",
+      "守林弓",
+      "静弦猎弓"
+    ]
+  },
+  {
+    "id": "weapon.longbow",
+    "category": "Weapons",
+    "label": "长弓",
+    "signals": [
+      "长弓",
+      "大弓",
+      "重弓"
+    ]
+  },
+  {
+    "id": "weapon.crossbow",
+    "category": "Weapons",
+    "label": "弩",
+    "signals": [
+      "重弩",
+      "轻弩",
+      "手弩",
+      "发射器",
+      "弩"
+    ]
+  },
+  {
+    "id": "weapon.thrown",
+    "category": "Weapons",
+    "label": "投掷武器",
+    "signals": [
+      "飞刀",
+      "飞斧",
+      "投石索",
+      "回旋刃",
+      "标枪",
+      "投枪"
+    ]
+  },
+  {
+    "id": "weapon.ammunition",
+    "category": "Weapons",
+    "label": "弓弩弹药",
+    "signals": [
+      "箭矢",
+      "弩矢",
+      "钝矢",
+      "箭支",
+      "弩箭"
+    ]
+  },
+  {
+    "id": "weapon.staff",
+    "category": "Weapons",
+    "label": "棍杖",
+    "signals": [
+      "战棍",
+      "铁头棍",
+      "长棍",
+      "短棍",
+      "棍棒"
+    ]
+  },
+  {
+    "id": "weapon.focus",
+    "category": "Tools & everyday goods",
+    "label": "施法媒介",
+    "signals": [
+      "法杖",
+      "练习杖",
+      "施法短杖",
+      "灯杖",
+      "法球",
+      "施法媒介"
+    ]
+  },
+  {
+    "id": "weapon.siege",
+    "category": "Weapons",
+    "label": "重型武器",
+    "signals": [
+      "弩炮",
+      "投石机",
+      "攻城槌",
+      "重型发射器",
+      "床弩",
+      "攻城武器"
+    ]
+  },
+  {
+    "id": "weapon.explosive",
+    "category": "Weapons",
+    "label": "爆炸物",
+    "signals": [
+      "炸弹",
+      "爆裂瓶",
+      "火油弹",
+      "炼金弹",
+      "爆炸物",
+      "燃烧瓶"
+    ]
+  },
+  {
+    "id": "weapon.trap",
+    "category": "Weapons",
+    "label": "陷阱",
+    "signals": [
+      "捕兽夹",
+      "绊索陷阱",
+      "符文陷阱",
+      "地刺",
+      "布设武器",
+      "机关陷阱"
+    ]
+  },
+  {
+    "id": "weapon.other",
+    "category": "Weapons",
+    "label": "其他武器",
+    "signals": [
+      "兵器",
+      "武器"
+    ]
+  },
+  {
+    "id": "armor.heavy",
+    "category": "Armor & protection",
+    "label": "重甲",
+    "signals": [
+      "重型铠甲",
+      "重型护甲",
+      "重甲",
+      "板甲",
+      "精工胸甲",
+      "近卫胸甲",
+      "全身甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.medium",
+    "category": "Armor & protection",
+    "label": "锁甲",
+    "signals": [
+      "锁甲",
+      "链甲",
+      "环甲",
+      "鳞甲",
+      "鳞片背心",
+      "锁衬"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.light",
+    "category": "Armor & protection",
+    "label": "软甲",
+    "signals": [
+      "填充布甲",
+      "布甲",
+      "棉甲",
+      "皮甲",
+      "护衣"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.shield",
+    "category": "Armor & protection",
+    "label": "盾牌",
+    "signals": [
+      "桥盾",
+      "大盾",
+      "圆盾",
+      "塔盾",
+      "散流盾",
+      "盾牌",
+      "轻盾"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.head",
+    "category": "Armor & protection",
+    "label": "头盔",
+    "signals": [
+      "护盔",
+      "头盔",
+      "铁盔",
+      "皮盔",
+      "战斗护面"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.accessory",
+    "category": "Armor & protection",
+    "label": "局部护甲",
+    "signals": [
+      "护臂",
+      "护膝",
+      "护袖",
+      "护靴",
+      "缓冲腰带",
+      "防护披肩",
+      "防护斗篷",
+      "防护手套",
+      "浮带"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.hazard",
+    "category": "Armor & protection",
+    "label": "环境防护具",
+    "signals": [
+      "护目镜",
+      "呼吸罩",
+      "滤罩",
+      "防尘面罩",
+      "防毒面罩",
+      "隔火手套",
+      "炼金围裙",
+      "救生浮带"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.ward",
+    "category": "Armor & protection",
+    "label": "法术护具",
+    "signals": [
+      "防咒护符",
+      "结界护符",
+      "散流盾",
+      "护身符",
+      "防护结界",
+      "避咒"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.mount",
+    "category": "Armor & protection",
+    "label": "坐骑护甲",
+    "signals": [
+      "马铠",
+      "兽铠",
+      "坐骑护甲",
+      "护兽甲",
+      "鞍甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.unspecified",
+    "category": "Armor & protection",
+    "label": "防具（形制待确认）",
+    "signals": [
+      "铠甲",
+      "护甲",
+      "装甲",
+      "防具",
+      "护具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.top",
+    "category": "Clothing & adornment",
+    "label": "衬衣",
+    "signals": [
+      "衬衣",
+      "亚麻衬衣",
+      "短衫"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.tunic",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "上衣",
+    "signals": [
+      "上衣",
+      "短上衣"
+    ]
+  },
+  {
+    "id": "clothing.vest",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "背心",
+    "signals": [
+      "背心",
+      "马甲"
+    ]
+  },
+  {
+    "id": "clothing.bottom",
+    "category": "Clothing & adornment",
+    "label": "裤装",
+    "signals": [
+      "裤装",
+      "长裤",
+      "短裤",
+      "裤子",
+      "长裙",
+      "短裙"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.skirt",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "裙装",
+    "signals": [
+      "裙装",
+      "裙子"
+    ]
+  },
+  {
+    "id": "clothing.robe",
+    "category": "Clothing & adornment",
+    "label": "长袍",
+    "signals": [
+      "长袍",
+      "睡袍"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.house_robe",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "便袍",
+    "signals": [
+      "便袍",
+      "家居袍"
+    ]
+  },
+  {
+    "id": "clothing.underwear",
+    "category": "Clothing & adornment",
+    "label": "贴身衣物",
+    "signals": [
+      "贴身衣物",
+      "内衣",
+      "内衬",
+      "衬裤",
+      "袜子",
+      "袜"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.socks",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "袜类",
+    "signals": [
+      "袜类",
+      "袜子"
+    ]
+  },
+  {
+    "id": "clothing.lining",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "衣物内衬",
+    "signals": [
+      "衣物内衬",
+      "内衬"
+    ]
+  },
+  {
+    "id": "clothing.outerwear",
+    "category": "Clothing & adornment",
+    "label": "外衣",
+    "signals": [
+      "外衣",
+      "披风",
+      "斗篷",
+      "披衣",
+      "外套",
+      "外袍",
+      "围巾",
+      "雨披"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.cape",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "服饰披风",
+    "signals": [
+      "服饰披风",
+      "衣着披风"
+    ]
+  },
+  {
+    "id": "clothing.warmwear",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "保暖件",
+    "signals": [
+      "保暖件",
+      "保暖衣物"
+    ]
+  },
+  {
+    "id": "clothing.headwear",
+    "category": "Clothing & adornment",
+    "label": "帽子",
+    "signals": [
+      "帽子",
+      "雨帽",
+      "礼帽"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.headscarf",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "头巾",
+    "signals": [
+      "头巾",
+      "包头巾"
+    ]
+  },
+  {
+    "id": "clothing.veil",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "日常面纱",
+    "signals": [
+      "日常面纱",
+      "面纱"
+    ]
+  },
+  {
+    "id": "clothing.handwear",
+    "category": "Clothing & adornment",
+    "label": "日常手套",
+    "signals": [
+      "日常手套",
+      "旅行手套",
+      "皮手套",
+      "手套"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.hand_wraps",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "护手衣物",
+    "signals": [
+      "护手衣物",
+      "护手布"
+    ]
+  },
+  {
+    "id": "clothing.footwear",
+    "category": "Clothing & adornment",
+    "label": "鞋靴",
+    "signals": [
+      "舞鞋",
+      "皮靴",
+      "长靴",
+      "鞋",
+      "靴"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.uniform",
+    "category": "Clothing & adornment",
+    "label": "制服",
+    "signals": [
+      "制服",
+      "识别袍",
+      "队服",
+      "官服",
+      "制式服装"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.organization_wear",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "组织服装",
+    "signals": [
+      "组织服装",
+      "组织制服"
+    ]
+  },
+  {
+    "id": "clothing.workwear",
+    "category": "Clothing & adornment",
+    "label": "工作服",
+    "signals": [
+      "工作服",
+      "工作围裙",
+      "工装",
+      "船工服",
+      "防潮衣",
+      "书写袖套",
+      "实习腰带"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.functional_wear",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "功能服装",
+    "signals": [
+      "功能服装",
+      "功能衣物"
+    ]
+  },
+  {
+    "id": "clothing.ceremonial",
+    "category": "Clothing & adornment",
+    "label": "礼服",
+    "signals": [
+      "礼服",
+      "节庆礼服",
+      "仪式服",
+      "盛装",
+      "听审服",
+      "祭服"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.ritual_wear",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "仪式服饰",
+    "signals": [
+      "仪式服饰",
+      "仪式服"
+    ]
+  },
+  {
+    "id": "clothing.adornment",
+    "category": "Clothing & adornment",
+    "label": "饰物",
+    "signals": [
+      "饰物",
+      "戒指",
+      "项链",
+      "手镯",
+      "耳环",
+      "耳饰",
+      "发簪",
+      "徽章",
+      "绶带",
+      "首饰",
+      "胸针",
+      "吊饰"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.insignia",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "徽记",
+    "signals": [
+      "徽记",
+      "徽章",
+      "标记"
+    ]
+  },
+  {
+    "id": "clothing.general",
+    "category": "Clothing & adornment",
+    "label": "其他衣着（形制待确认）",
+    "signals": [
+      "衣服",
+      "服装",
+      "衣着",
+      "腰带",
+      "袖套"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "tool.document",
+    "category": "Tools & everyday goods",
+    "label": "书籍",
+    "signals": [
+      "书籍",
+      "法术书",
+      "书册",
+      "抄本",
+      "账册",
+      "名册",
+      "告示",
+      "记录板",
+      "石板",
+      "说明书",
+      "日志",
+      "日记",
+      "信件",
+      "手册",
+      "词页"
+    ]
+  },
+  {
+    "id": "tool.spell",
+    "category": "Tools & everyday goods",
+    "label": "施法载体",
+    "signals": [
+      "施法载体",
+      "术式卷轴",
+      "施法卷轴",
+      "练习术式",
+      "符咒卷"
+    ]
+  },
+  {
+    "id": "tool.spell_consumable",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "术式耗材",
+    "signals": [
+      "术式耗材",
+      "施法耗材"
+    ]
+  },
+  {
+    "id": "tool.writing",
+    "category": "Tools & everyday goods",
+    "label": "书写用品",
+    "signals": [
+      "书写用品",
+      "复写羽笔",
+      "纸笔",
+      "羽笔",
+      "印版",
+      "墨水"
+    ]
+  },
+  {
+    "id": "tool.printing",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "印制用品",
+    "signals": [
+      "印制用品",
+      "印刷用品"
+    ]
+  },
+  {
+    "id": "tool.light",
+    "category": "Tools & everyday goods",
+    "label": "灯具",
+    "signals": [
+      "灯具",
+      "附魔灯",
+      "航标灯",
+      "节灯",
+      "油灯",
+      "提灯",
+      "蜡烛",
+      "火把",
+      "灯芯",
+      "灯盘"
+    ]
+  },
+  {
+    "id": "tool.lighting_supply",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "照明器材",
+    "signals": [
+      "照明器材",
+      "照明设备"
+    ]
+  },
+  {
+    "id": "tool.communication",
+    "category": "Tools & everyday goods",
+    "label": "通讯器",
+    "signals": [
+      "通讯器",
+      "传讯镜",
+      "传讯符",
+      "传讯",
+      "雨讯",
+      "信号器"
+    ]
+  },
+  {
+    "id": "tool.message_sender",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "传讯器",
+    "signals": [
+      "传讯器",
+      "传讯装置"
+    ]
+  },
+  {
+    "id": "tool.recording",
+    "category": "Tools & everyday goods",
+    "label": "留影装置",
+    "signals": [
+      "留影装置",
+      "留影画片",
+      "记录晶片",
+      "录音石",
+      "留影镜"
+    ]
+  },
+  {
+    "id": "tool.audio_recorder",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "录音装置",
+    "signals": [
+      "录音装置",
+      "录音器"
+    ]
+  },
+  {
+    "id": "tool.data_recorder",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "记录装置",
+    "signals": [
+      "记录装置",
+      "记录器"
+    ]
+  },
+  {
+    "id": "tool.instrument",
+    "category": "Tools & everyday goods",
+    "label": "观测器具",
+    "signals": [
+      "观测器具",
+      "透镜",
+      "水位尺",
+      "气流片",
+      "潮汐刻度盘",
+      "验重秤",
+      "观测",
+      "警铃",
+      "刻度盘",
+      "测量"
+    ]
+  },
+  {
+    "id": "tool.measurement",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "测量器具",
+    "signals": [
+      "测量器具",
+      "测量仪"
+    ]
+  },
+  {
+    "id": "tool.craft",
+    "category": "Tools & everyday goods",
+    "label": "工坊工具",
+    "signals": [
+      "工坊工具",
+      "工具箱",
+      "针线包",
+      "织补针",
+      "织机",
+      "修帆夹",
+      "刻记刀",
+      "扫帚",
+      "工具台",
+      "钳",
+      "锤",
+      "锯"
+    ]
+  },
+  {
+    "id": "tool.labor",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "劳作工具",
+    "signals": [
+      "劳作工具",
+      "劳动工具"
+    ]
+  },
+  {
+    "id": "tool.rigging",
+    "category": "Tools & everyday goods",
+    "label": "绳索",
+    "signals": [
+      "绳索",
+      "绳子",
+      "抓钩",
+      "铁钩",
+      "滑轮",
+      "铰盘",
+      "固定带",
+      "缆绳"
+    ]
+  },
+  {
+    "id": "tool.hook",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "钩具",
+    "signals": [
+      "钩具",
+      "挂钩"
+    ]
+  },
+  {
+    "id": "tool.fastener",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "固定器材",
+    "signals": [
+      "固定器材",
+      "固定件"
+    ]
+  },
+  {
+    "id": "tool.gathering",
+    "category": "Tools & everyday goods",
+    "label": "农林工具",
+    "signals": [
+      "农林工具",
+      "农具",
+      "锄头",
+      "镰刀",
+      "渔网",
+      "鱼竿",
+      "采药工具",
+      "伐木工具",
+      "捕兽夹"
+    ]
+  },
+  {
+    "id": "tool.foraging",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "采集工具",
+    "signals": [
+      "采集工具",
+      "采集器具"
+    ]
+  },
+  {
+    "id": "tool.fishing_hunting",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "渔猎工具",
+    "signals": [
+      "渔猎工具",
+      "捕鱼工具",
+      "狩猎工具"
+    ]
+  },
+  {
+    "id": "tool.automaton",
+    "category": "Tools & everyday goods",
+    "label": "非觉醒辅助构装",
+    "signals": [
+      "构装偶",
+      "跑腿构装",
+      "辅助构装"
+    ]
+  },
+  {
+    "id": "tool.domestic",
+    "category": "Tools & everyday goods",
+    "label": "烹饪器具",
+    "signals": [
+      "烹饪器具",
+      "煮锅",
+      "净衣",
+      "访客铃",
+      "水盆",
+      "餐具",
+      "火塘架",
+      "洗手台",
+      "器皿",
+      "锅",
+      "壶"
+    ]
+  },
+  {
+    "id": "tool.household",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "家用器具",
+    "signals": [
+      "家用器具",
+      "家用品"
+    ]
+  },
+  {
+    "id": "tool.hygiene",
+    "category": "Tools & everyday goods",
+    "label": "清洁用品",
+    "signals": [
+      "清洁用品",
+      "扫帚",
+      "盥洗",
+      "洗手台",
+      "皂",
+      "肥皂",
+      "抹布",
+      "净衣"
+    ]
+  },
+  {
+    "id": "tool.washing",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "盥洗用品",
+    "signals": [
+      "盥洗用品",
+      "洗漱用品"
+    ]
+  },
+  {
+    "id": "tool.personal_hygiene",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "卫生用品",
+    "signals": [
+      "卫生用品",
+      "个人卫生用品"
+    ]
+  },
+  {
+    "id": "tool.water",
+    "category": "Tools & everyday goods",
+    "label": "取水器具",
+    "signals": [
+      "取水器具",
+      "净水符",
+      "净水陶壶",
+      "陶滤芯",
+      "净水纹槽"
+    ]
+  },
+  {
+    "id": "tool.water_purifier",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "净水器具",
+    "signals": [
+      "净水器具",
+      "净水设备"
+    ]
+  },
+  {
+    "id": "tool.climate",
+    "category": "Tools & everyday goods",
+    "label": "供暖器具",
+    "signals": [
+      "供暖器具",
+      "暖炉石",
+      "冷藏食匣",
+      "蓄冷",
+      "保温器"
+    ]
+  },
+  {
+    "id": "tool.temperature",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "调温器具",
+    "signals": [
+      "调温器具",
+      "温控器具"
+    ]
+  },
+  {
+    "id": "tool.container",
+    "category": "Tools & everyday goods",
+    "label": "容器",
+    "signals": [
+      "容器",
+      "保鲜器皿",
+      "保鲜罐",
+      "防虫餐罩",
+      "冷藏食匣"
+    ]
+  },
+  {
+    "id": "tool.storage_vessel",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "保存器具",
+    "signals": [
+      "保存器具",
+      "保鲜器具"
+    ]
+  },
+  {
+    "id": "tool.furniture",
+    "category": "Tools & everyday goods",
+    "label": "家具",
+    "signals": [
+      "家具",
+      "桌子",
+      "椅子",
+      "木床",
+      "床铺",
+      "床垫",
+      "柜子",
+      "书架",
+      "屏风",
+      "地毯"
+    ]
+  },
+  {
+    "id": "tool.decor",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "陈设",
+    "signals": [
+      "陈设",
+      "摆设"
+    ]
+  },
+  {
+    "id": "tool.bedding",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "寝具",
+    "signals": [
+      "寝具",
+      "床上用品"
+    ]
+  },
+  {
+    "id": "tool.timekeeping",
+    "category": "Tools & everyday goods",
+    "label": "计时器具",
+    "signals": [
+      "计时器具",
+      "时钟",
+      "怀表",
+      "沙漏",
+      "日晷",
+      "计时器",
+      "报时钟",
+      "历牌"
+    ]
+  },
+  {
+    "id": "tool.calendar",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "日历",
+    "signals": [
+      "日历",
+      "历书"
+    ]
+  },
+  {
+    "id": "tool.alarm",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "报时器具",
+    "signals": [
+      "报时器具",
+      "报时钟"
+    ]
+  },
+  {
+    "id": "tool.leisure",
+    "category": "Tools & everyday goods",
+    "label": "演出器材",
+    "signals": [
+      "演出器材",
+      "棋子",
+      "棋盘",
+      "戏剧面具",
+      "幻景幕",
+      "音乐盒",
+      "烟花",
+      "乐器",
+      "笛",
+      "鼓"
+    ]
+  },
+  {
+    "id": "tool.game",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "游戏器具",
+    "signals": [
+      "游戏器具",
+      "游戏用具"
+    ]
+  },
+  {
+    "id": "tool.toy",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "玩具",
+    "signals": [
+      "玩具",
+      "玩偶"
+    ]
+  },
+  {
+    "id": "tool.key",
+    "category": "Tools & everyday goods",
+    "label": "锁钥",
+    "signals": [
+      "锁钥",
+      "钥匙",
+      "门锁",
+      "铁锁",
+      "封盒",
+      "封蜡模"
+    ]
+  },
+  {
+    "id": "tool.seal",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "封存器",
+    "signals": [
+      "封存器",
+      "封印器具"
+    ]
+  },
+  {
+    "id": "tool.magic",
+    "category": "Tools & everyday goods",
+    "label": "通用魔法器具",
+    "signals": [
+      "魔法器具",
+      "附魔器具",
+      "符文装置",
+      "奥术装置",
+      "魔导装置",
+      "奇术器"
+    ]
+  },
+  {
+    "id": "tool.arcane_implement",
+    "category": "Tools & everyday goods",
+    "label": "法器",
+    "signals": [
+      "法器",
+      "法宝",
+      "魔导器",
+      "储能权杖",
+      "术式器",
+      "御法器"
+    ]
+  },
+  {
+    "id": "tool.ritual",
+    "category": "Tools & everyday goods",
+    "label": "仪式器具",
+    "signals": [
+      "仪式器具",
+      "祭器",
+      "熏炉",
+      "圣器",
+      "占卜盘",
+      "祈愿章",
+      "见证盘"
+    ]
+  },
+  {
+    "id": "tool.religious",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "祭祀器具",
+    "signals": [
+      "祭祀器具",
+      "祭器"
+    ]
+  },
+  {
+    "id": "tool.divination",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "占卜器具",
+    "signals": [
+      "占卜器具",
+      "占卜用具"
+    ]
+  },
+  {
+    "id": "tool.general",
+    "category": "Tools & everyday goods",
+    "label": "其他日用器具",
+    "signals": [
+      "器具",
+      "工具",
+      "符石"
+    ]
+  },
+  {
+    "id": "travel.flying",
+    "category": "Travel gear & transport",
+    "label": "可主动飞行的载具",
+    "signals": [
+      "飞毯",
+      "悬行扫帚",
+      "飞天扫帚",
+      "飞行扫帚"
+    ]
+  },
+  {
+    "id": "travel.gliding",
+    "category": "Travel gear & transport",
+    "label": "滑翔器具",
+    "signals": [
+      "滑翔器具",
+      "缓落披风",
+      "缓落旅行披风",
+      "滑行板"
+    ]
+  },
+  {
+    "id": "travel.descent_gear",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "缓落装备",
+    "signals": [
+      "缓落装备",
+      "缓降装备"
+    ]
+  },
+  {
+    "id": "travel.land",
+    "category": "Travel gear & transport",
+    "label": "陆上载具",
+    "signals": [
+      "棚车",
+      "水车",
+      "货车",
+      "马车",
+      "护兽车",
+      "拖橇",
+      "吊篮"
+    ]
+  },
+  {
+    "id": "travel.water",
+    "category": "Travel gear & transport",
+    "label": "船舟",
+    "signals": [
+      "帆船",
+      "破冰舟",
+      "平底舟",
+      "引航小艇",
+      "小舟",
+      "渡舟",
+      "船"
+    ]
+  },
+  {
+    "id": "travel.storage",
+    "category": "Travel gear & transport",
+    "label": "行囊",
+    "signals": [
+      "行囊",
+      "扩容袋",
+      "储物箱",
+      "背包",
+      "干粮袋",
+      "口粮袋",
+      "水袋",
+      "水囊"
+    ]
+  },
+  {
+    "id": "travel.navigation",
+    "category": "Travel gear & transport",
+    "label": "导航器具",
+    "signals": [
+      "导航器具",
+      "地图",
+      "海图",
+      "星位盘",
+      "星盘",
+      "罗盘",
+      "指南针",
+      "路签",
+      "歌路"
+    ]
+  },
+  {
+    "id": "travel.waymark",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "路标",
+    "signals": [
+      "路标",
+      "里程碑"
+    ]
+  },
+  {
+    "id": "travel.camp",
+    "category": "Travel gear & transport",
+    "label": "宿营用品",
+    "signals": [
+      "宿营用品",
+      "帐篷",
+      "营帐",
+      "营布",
+      "睡袋",
+      "防潮垫",
+      "旅行毯",
+      "宿营",
+      "营具",
+      "炊具"
+    ]
+  },
+  {
+    "id": "travel.travel_kit",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "旅行用品",
+    "signals": [
+      "旅行用品",
+      "旅用品"
+    ]
+  },
+  {
+    "id": "travel.mount",
+    "category": "Travel gear & transport",
+    "label": "骑乘配具",
+    "signals": [
+      "骑乘配具",
+      "鞍具",
+      "马鞍",
+      "缰具",
+      "围栏",
+      "水罐架"
+    ]
+  },
+  {
+    "id": "travel.pack_animal_gear",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "驮运配具",
+    "signals": [
+      "驮运配具",
+      "驮具"
+    ]
+  },
+  {
+    "id": "travel.infrastructure",
+    "category": "Travel gear & transport",
+    "label": "交通设施",
+    "signals": [
+      "交通设施",
+      "系泊架",
+      "升降笼",
+      "滑索",
+      "浮桥",
+      "引航台",
+      "装卸架",
+      "泊位设施"
+    ]
+  },
+  {
+    "id": "travel.loading",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "装卸设施",
+    "signals": [
+      "装卸设施",
+      "装卸设备"
+    ]
+  },
+  {
+    "id": "travel.docking",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "停靠设施",
+    "signals": [
+      "停靠设施",
+      "码头设施"
+    ]
+  },
+  {
+    "id": "travel.rescue",
+    "category": "Travel gear & transport",
+    "label": "救援装备",
+    "signals": [
+      "救援装备",
+      "救援抛索",
+      "求生包",
+      "遇险信标",
+      "救生筏",
+      "救生圈",
+      "雪崩绳",
+      "救援器材"
+    ]
+  },
+  {
+    "id": "travel.survival",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "求生装备",
+    "signals": [
+      "求生装备",
+      "求生器材"
+    ]
+  },
+  {
+    "id": "travel.distress",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "遇险装备",
+    "signals": [
+      "遇险装备",
+      "遇险器材"
+    ]
+  },
+  {
+    "id": "travel.portal",
+    "category": "Travel gear & transport",
+    "label": "传送锚",
+    "signals": [
+      "传送锚",
+      "传送门",
+      "锚定符标",
+      "迁跃装置"
+    ]
+  },
+  {
+    "id": "travel.general",
+    "category": "Travel gear & transport",
+    "label": "其他行旅用品",
+    "signals": [
+      "行旅",
+      "旅行",
+      "运输"
+    ]
+  },
+  {
+    "id": "food.bread",
+    "category": "Food & drink",
+    "label": "面包",
+    "signals": [
+      "面包",
+      "扁饼",
+      "烤饼",
+      "薄饼",
+      "坚饼"
+    ]
+  },
+  {
+    "id": "food.grain_cake",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "谷物饼",
+    "signals": [
+      "谷物饼",
+      "麦饼",
+      "米饼"
+    ]
+  },
+  {
+    "id": "food.grain",
+    "category": "Food & drink",
+    "label": "米类主食",
+    "signals": [
+      "米类主食",
+      "面条",
+      "炖面",
+      "米饭",
+      "粥"
+    ]
+  },
+  {
+    "id": "food.flour",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "面食",
+    "signals": [
+      "面食",
+      "面条"
+    ]
+  },
+  {
+    "id": "food.porridge",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "粥品",
+    "signals": [
+      "粥品",
+      "粥"
+    ]
+  },
+  {
+    "id": "food.grain_staple",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "谷物主食",
+    "signals": [
+      "谷物主食",
+      "谷物饭"
+    ]
+  },
+  {
+    "id": "food.meal",
+    "category": "Food & drink",
+    "label": "汤羹",
+    "signals": [
+      "汤羹",
+      "暖锅",
+      "蘑菇锅",
+      "浓汤",
+      "鱼汤",
+      "豆汤",
+      "热汤",
+      "香料汤"
+    ]
+  },
+  {
+    "id": "food.stew",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "炖菜",
+    "signals": [
+      "炖菜",
+      "炖肉"
+    ]
+  },
+  {
+    "id": "food.hot_meal",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "组合热食",
+    "signals": [
+      "组合热食",
+      "热食"
+    ]
+  },
+  {
+    "id": "food.produce",
+    "category": "Food & drink",
+    "label": "鲜果",
+    "signals": [
+      "鲜果",
+      "苹果",
+      "梨子",
+      "浆果",
+      "柑橘",
+      "蘑菇"
+    ]
+  },
+  {
+    "id": "food.vegetable",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "蔬菜",
+    "signals": [
+      "蔬菜",
+      "菜蔬"
+    ]
+  },
+  {
+    "id": "food.mushroom",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "菌菇",
+    "signals": [
+      "菌菇",
+      "蘑菇"
+    ]
+  },
+  {
+    "id": "food.animal",
+    "category": "Food & drink",
+    "label": "肉类",
+    "signals": [
+      "肉类",
+      "奶酪",
+      "酸乳",
+      "乳食",
+      "乳饼",
+      "鲜肉",
+      "鸡蛋",
+      "烤鱼",
+      "煎鱼"
+    ]
+  },
+  {
+    "id": "food.dairy",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "乳制品",
+    "signals": [
+      "乳制品",
+      "牛奶",
+      "奶酪"
+    ]
+  },
+  {
+    "id": "food.egg",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "蛋类",
+    "signals": [
+      "蛋类",
+      "鸡蛋"
+    ]
+  },
+  {
+    "id": "food.fresh",
+    "category": "Food & drink",
+    "label": "其他鲜食（形制待确认）",
+    "signals": [
+      "鲜食",
+      "生鲜"
+    ]
+  },
+  {
+    "id": "food.preserved",
+    "category": "Food & drink",
+    "label": "干粮",
+    "signals": [
+      "干粮",
+      "风干",
+      "熏肉",
+      "腌肉",
+      "肉干",
+      "腌鱼",
+      "腌海产",
+      "果干",
+      "坚果",
+      "咸鱼"
+    ]
+  },
+  {
+    "id": "food.pickled",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "腌制食品",
+    "signals": [
+      "腌制食品",
+      "腌菜",
+      "腌肉"
+    ]
+  },
+  {
+    "id": "food.drink",
+    "category": "Food & drink",
+    "label": "饮品",
+    "signals": [
+      "饮水",
+      "清水",
+      "茶",
+      "酒",
+      "果汁",
+      "果饮",
+      "乳饮",
+      "枣饮",
+      "蜜饮",
+      "香汁"
+    ]
+  },
+  {
+    "id": "food.alcohol",
+    "category": "Food & drink",
+    "label": "酒",
+    "signals": [
+      "酒",
+      "葡萄酒",
+      "麦酒",
+      "烈酒",
+      "蜜酒",
+      "果酒",
+      "酒酿"
+    ]
+  },
+  {
+    "id": "food.fermented_drink",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "发酵饮品",
+    "signals": [
+      "发酵饮品",
+      "发酵饮料"
+    ]
+  },
+  {
+    "id": "food.feed",
+    "category": "Food & drink",
+    "label": "动物饲料",
+    "signals": [
+      "动物饲料",
+      "草料",
+      "饲料",
+      "兽粮",
+      "马料",
+      "鸟食",
+      "宠物口粮"
+    ]
+  },
+  {
+    "id": "food.animal_ration",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "动物口粮",
+    "signals": [
+      "动物口粮",
+      "役兽口粮"
+    ]
+  },
+  {
+    "id": "food.sweet",
+    "category": "Food & drink",
+    "label": "甜点",
+    "signals": [
+      "甜点",
+      "糖",
+      "糕",
+      "点心",
+      "蜜酥",
+      "馅饼",
+      "刨冰",
+      "酥饼"
+    ]
+  },
+  {
+    "id": "food.candy",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "糖果",
+    "signals": [
+      "糖果",
+      "糖块"
+    ]
+  },
+  {
+    "id": "food.general",
+    "category": "Food & drink",
+    "label": "其他食物",
+    "signals": [
+      "食物",
+      "餐食",
+      "食材"
+    ]
+  },
+  {
+    "id": "medicine.potion",
+    "category": "Medicine & alchemy",
+    "label": "饮用药剂",
+    "signals": [
+      "饮用药剂",
+      "药剂",
+      "药水",
+      "注射剂",
+      "雾化剂",
+      "口服液"
+    ]
+  },
+  {
+    "id": "medicine.injectable",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "注射药剂",
+    "signals": [
+      "注射药剂",
+      "注射液"
+    ]
+  },
+  {
+    "id": "medicine.aerosol",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "雾化药剂",
+    "signals": [
+      "雾化药剂",
+      "喷雾药剂"
+    ]
+  },
+  {
+    "id": "medicine.care",
+    "category": "Medicine & alchemy",
+    "label": "随身急救",
+    "signals": [
+      "随身急救",
+      "绷带",
+      "敷料",
+      "回温毯",
+      "腕带",
+      "护手包",
+      "夹板",
+      "医具"
+    ]
+  },
+  {
+    "id": "medicine.remedy",
+    "category": "Medicine & alchemy",
+    "label": "药草",
+    "signals": [
+      "药草",
+      "药草茶",
+      "药膏",
+      "膏药",
+      "药草束",
+      "药丸",
+      "药片",
+      "药粉",
+      "止痛浅纹贴",
+      "静梦香囊"
+    ]
+  },
+  {
+    "id": "medicine.tablet",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "片剂",
+    "signals": [
+      "片剂",
+      "药片"
+    ]
+  },
+  {
+    "id": "medicine.topical",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "外用制品",
+    "signals": [
+      "外用制品",
+      "外敷药"
+    ]
+  },
+  {
+    "id": "medicine.facility",
+    "category": "Medicine & alchemy",
+    "label": "医疗收纳",
+    "signals": [
+      "医疗收纳",
+      "医药箱",
+      "药箱",
+      "药柜",
+      "担架",
+      "分诊牌",
+      "治疗台",
+      "手术器械"
+    ]
+  },
+  {
+    "id": "medicine.treatment_equipment",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "治疗设备",
+    "signals": [
+      "治疗设备",
+      "医疗设备"
+    ]
+  },
+  {
+    "id": "medicine.transfer_equipment",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "转运设备",
+    "signals": [
+      "转运设备",
+      "转运器材"
+    ]
+  },
+  {
+    "id": "medicine.diagnostic",
+    "category": "Medicine & alchemy",
+    "label": "检查器具",
+    "signals": [
+      "检查器具",
+      "诊具",
+      "诊断器",
+      "观测环",
+      "体温计",
+      "验毒器",
+      "检测试纸",
+      "脉息仪"
+    ]
+  },
+  {
+    "id": "medicine.diagnosis",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "诊断器具",
+    "signals": [
+      "诊断器具",
+      "诊断工具"
+    ]
+  },
+  {
+    "id": "medicine.monitoring",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "监测器具",
+    "signals": [
+      "监测器具",
+      "监测仪器"
+    ]
+  },
+  {
+    "id": "medicine.sanitation",
+    "category": "Medicine & alchemy",
+    "label": "消毒用品",
+    "signals": [
+      "消毒用品",
+      "净创水",
+      "消毒剂",
+      "清洗套具",
+      "净器砂",
+      "灭菌器"
+    ]
+  },
+  {
+    "id": "medicine.epidemic_control",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "防疫用品",
+    "signals": [
+      "防疫用品",
+      "防疫物资"
+    ]
+  },
+  {
+    "id": "medicine.wound_cleaning",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "净创用品",
+    "signals": [
+      "净创用品",
+      "清创用品"
+    ]
+  },
+  {
+    "id": "medicine.poison",
+    "category": "Medicine & alchemy",
+    "label": "毒物",
+    "signals": [
+      "毒物",
+      "毒药",
+      "毒剂",
+      "麻醉剂",
+      "致眠剂",
+      "毒粉",
+      "毒液"
+    ]
+  },
+  {
+    "id": "medicine.anesthetic",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "麻醉物",
+    "signals": [
+      "麻醉物",
+      "麻醉剂"
+    ]
+  },
+  {
+    "id": "medicine.poison_preparation",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "毒物制剂",
+    "signals": [
+      "毒物制剂",
+      "毒剂"
+    ]
+  },
+  {
+    "id": "medicine.alchemy",
+    "category": "Medicine & alchemy",
+    "label": "炼金试剂",
+    "signals": [
+      "炼金试剂",
+      "腐蚀剂",
+      "溶剂",
+      "显影剂",
+      "黏合剂",
+      "烟雾剂",
+      "催化剂"
+    ]
+  },
+  {
+    "id": "medicine.functional_preparation",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "功能制剂",
+    "signals": [
+      "功能制剂",
+      "功能药剂"
+    ]
+  },
+  {
+    "id": "medicine.general",
+    "category": "Medicine & alchemy",
+    "label": "其他医疗用品",
+    "signals": [
+      "医疗",
+      "医用",
+      "药",
+      "医"
+    ]
+  },
+  {
+    "id": "material.metal",
+    "category": "Materials & trade",
+    "label": "金属",
+    "signals": [
+      "金属",
+      "铁锭",
+      "铁料",
+      "铜料",
+      "青铜",
+      "矿石",
+      "矿砂",
+      "矿脉样芯",
+      "剑坯"
+    ]
+  },
+  {
+    "id": "material.ore",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "矿料",
+    "signals": [
+      "矿料",
+      "矿物原料"
+    ]
+  },
+  {
+    "id": "material.fabric",
+    "category": "Materials & trade",
+    "label": "布料",
+    "signals": [
+      "布料",
+      "帆布",
+      "羊毛布",
+      "亚麻布",
+      "皮革",
+      "丝线",
+      "布匹"
+    ]
+  },
+  {
+    "id": "material.raw_leather",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "皮革原料",
+    "signals": [
+      "皮革原料",
+      "生皮"
+    ]
+  },
+  {
+    "id": "material.stone",
+    "category": "Materials & trade",
+    "label": "石材",
+    "signals": [
+      "石材",
+      "石料",
+      "砖瓦",
+      "黏土",
+      "砂石",
+      "水晶料"
+    ]
+  },
+  {
+    "id": "material.clay",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "陶土",
+    "signals": [
+      "陶土",
+      "黏土"
+    ]
+  },
+  {
+    "id": "material.glassmaking",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "玻璃料",
+    "signals": [
+      "玻璃料",
+      "制玻璃原料"
+    ]
+  },
+  {
+    "id": "material.wood",
+    "category": "Materials & trade",
+    "label": "木材",
+    "signals": [
+      "木材",
+      "木板",
+      "竹材",
+      "藤条",
+      "纸浆",
+      "植物纤维",
+      "软木"
+    ]
+  },
+  {
+    "id": "material.fiber",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "纤维",
+    "signals": [
+      "纤维",
+      "植物纤维"
+    ]
+  },
+  {
+    "id": "material.plant",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "植物材料",
+    "signals": [
+      "植物材料",
+      "植物原料"
+    ]
+  },
+  {
+    "id": "material.animal",
+    "category": "Materials & trade",
+    "label": "骨材",
+    "signals": [
+      "骨材",
+      "骨料",
+      "兽骨",
+      "兽角",
+      "甲壳",
+      "羽毛",
+      "兽筋"
+    ]
+  },
+  {
+    "id": "material.horn",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "角材",
+    "signals": [
+      "角材",
+      "兽角"
+    ]
+  },
+  {
+    "id": "material.fur",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "毛皮",
+    "signals": [
+      "毛皮",
+      "兽皮"
+    ]
+  },
+  {
+    "id": "material.provisions",
+    "category": "Materials & trade",
+    "label": "散装食材",
+    "signals": [
+      "散装食材",
+      "食盐",
+      "香料",
+      "谷物",
+      "面粉",
+      "药草束"
+    ]
+  },
+  {
+    "id": "material.bulk_spices",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "散装香料",
+    "signals": [
+      "散装香料",
+      "香料原料"
+    ]
+  },
+  {
+    "id": "material.fuel",
+    "category": "Materials & trade",
+    "label": "燃料",
+    "signals": [
+      "燃料",
+      "灯油",
+      "蜡"
+    ]
+  },
+  {
+    "id": "material.lighting_supply",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "照明耗材",
+    "signals": [
+      "照明耗材",
+      "灯油",
+      "灯芯"
+    ]
+  },
+  {
+    "id": "material.pigment",
+    "category": "Materials & trade",
+    "label": "染料",
+    "signals": [
+      "染料"
+    ]
+  },
+  {
+    "id": "material.glaze",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "釉料",
+    "signals": [
+      "釉料",
+      "陶瓷釉料"
+    ]
+  },
+  {
+    "id": "material.packaging",
+    "category": "Materials & trade",
+    "label": "货运容器",
+    "signals": [
+      "货运容器",
+      "货筐",
+      "酒桶",
+      "货箱"
+    ]
+  },
+  {
+    "id": "material.magic",
+    "category": "Materials & trade",
+    "label": "附魔工艺材料",
+    "signals": [
+      "纹片",
+      "符纹",
+      "封术墨",
+      "星砂玻璃",
+      "充纹陶片",
+      "附魔材料"
+    ]
+  },
+  {
+    "id": "material.chemical",
+    "category": "Materials & trade",
+    "label": "化工原料",
+    "signals": [
+      "化工原料",
+      "酸液",
+      "碱液",
+      "硫磺",
+      "药用粉末",
+      "试剂原料"
+    ]
+  },
+  {
+    "id": "material.alchemical_raw",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "炼金原料",
+    "signals": [
+      "炼金原料",
+      "炼金材料"
+    ]
+  },
+  {
+    "id": "material.medicinal_raw",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "药用原料",
+    "signals": [
+      "药用原料",
+      "药材原料"
+    ]
+  },
+  {
+    "id": "material.paper",
+    "category": "Materials & trade",
+    "label": "纸张",
+    "signals": [
+      "纸张",
+      "羊皮纸",
+      "墨水",
+      "书写纸",
+      "空白卷轴",
+      "蜡板"
+    ]
+  },
+  {
+    "id": "material.writing_supply",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "书写耗材",
+    "signals": [
+      "书写耗材",
+      "书写材料"
+    ]
+  },
+  {
+    "id": "material.money",
+    "category": "Materials & trade",
+    "label": "货币",
+    "signals": [
+      "货币",
+      "金币",
+      "银币",
+      "铜币",
+      "汇票",
+      "货险单",
+      "货单",
+      "凭据",
+      "物资券",
+      "封签"
+    ]
+  },
+  {
+    "id": "material.trade_token",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "贸易凭据",
+    "signals": [
+      "贸易凭据",
+      "票据",
+      "凭证"
+    ]
+  },
+  {
+    "id": "material.general",
+    "category": "Materials & trade",
+    "label": "普通材料",
+    "signals": [
+      "普通材料",
+      "材料"
+    ]
+  },
+  {
+    "id": "material.trade_goods",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "商货",
+    "signals": [
+      "商货",
+      "贸易货物"
+    ]
+  },
+  {
+    "id": "treasure.jewelry",
+    "category": "Treasures & relics",
+    "label": "珠宝",
+    "signals": [
+      "珠宝",
+      "宝石",
+      "珍珠",
+      "银饰",
+      "吊饰",
+      "首饰"
+    ]
+  },
+  {
+    "id": "treasure.ornament",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "珍贵饰品",
+    "signals": [
+      "珍贵饰品",
+      "贵重饰物"
+    ]
+  },
+  {
+    "id": "treasure.collectible",
+    "category": "Treasures & relics",
+    "label": "纪念品",
+    "signals": [
+      "纪念品",
+      "纪念",
+      "复制品",
+      "复刻",
+      "木雕",
+      "陶盘",
+      "船模",
+      "挂毯",
+      "雕件",
+      "礼剑",
+      "星盘",
+      "铭牌",
+      "工艺"
+    ]
+  },
+  {
+    "id": "treasure.craft_collectible",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "工艺收藏",
+    "signals": [
+      "工艺收藏",
+      "工艺品收藏"
+    ]
+  },
+  {
+    "id": "treasure.historical",
+    "category": "Treasures & relics",
+    "label": "史料",
+    "signals": [
+      "史料",
+      "古钱币",
+      "旧币",
+      "古董",
+      "历史遗物",
+      "石拓",
+      "古代歌册"
+    ]
+  },
+  {
+    "id": "treasure.antique",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "古物",
+    "signals": [
+      "古物",
+      "古董"
+    ]
+  },
+  {
+    "id": "treasure.ceremonial",
+    "category": "Treasures & relics",
+    "label": "礼仪珍品",
+    "signals": [
+      "礼仪珍品",
+      "礼剑",
+      "权杖",
+      "冠冕",
+      "仪仗",
+      "授勋章",
+      "传承印玺",
+      "印玺"
+    ]
+  },
+  {
+    "id": "treasure.identity_token",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "身份信物",
+    "signals": [
+      "身份信物",
+      "身份凭信"
+    ]
+  },
+  {
+    "id": "treasure.arcane",
+    "category": "Treasures & relics",
+    "label": "魔法珍品",
+    "signals": [
+      "魔法珍品",
+      "奥术珍品",
+      "附魔珍宝",
+      "神器",
+      "圣遗物",
+      "魔法收藏品"
+    ]
+  },
+  {
+    "id": "treasure.arcane_relic",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "魔法遗物",
+    "signals": [
+      "魔法遗物",
+      "超自然遗物"
+    ]
+  },
+  {
+    "id": "treasure.natural",
+    "category": "Treasures & relics",
+    "label": "稀有标本",
+    "signals": [
+      "稀有标本",
+      "巨兽牙",
+      "龙鳞标本",
+      "奇石",
+      "化石",
+      "珍稀贝壳"
+    ]
+  },
+  {
+    "id": "treasure.natural_curio",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "自然奇珍",
+    "signals": [
+      "自然奇珍",
+      "自然珍奇"
+    ]
+  },
+  {
+    "id": "treasure.general",
+    "category": "Treasures & relics",
+    "label": "其他珍品",
+    "signals": [
+      "珍宝",
+      "珍品",
+      "收藏品"
+    ]
+  },
+  {
+    "id": "weapon.rapier",
+    "category": "Weapons",
+    "label": "细剑",
+    "signals": [
+      "细剑",
+      "决斗剑",
+      "刺剑",
+      "花剑"
+    ]
+  },
+  {
+    "id": "weapon.sling",
+    "category": "Weapons",
+    "label": "投石索",
+    "signals": [
+      "投石索",
+      "石索",
+      "弹射器",
+      "投石"
+    ]
+  },
+  {
+    "id": "weapon.harpoon",
+    "category": "Weapons",
+    "label": "鱼叉",
+    "signals": [
+      "鱼叉",
+      "捕鲸叉",
+      "索叉",
+      "叉枪"
+    ]
+  },
+  {
+    "id": "weapon.net",
+    "category": "Weapons",
+    "label": "网具",
+    "signals": [
+      "捕网",
+      "渔网",
+      "套索网",
+      "网具"
+    ]
+  },
+  {
+    "id": "weapon.hook",
+    "category": "Weapons",
+    "label": "钩爪",
+    "signals": [
+      "钩爪",
+      "攀援钩",
+      "爪刃",
+      "铁钩"
+    ]
+  },
+  {
+    "id": "weapon.kukri",
+    "category": "Weapons",
+    "label": "弯刃砍刀",
+    "signals": [
+      "弯刃砍刀",
+      "厚背刀",
+      "林地砍刀",
+      "钩首刀"
+    ]
+  },
+  {
+    "id": "weapon.warhammer",
+    "category": "Weapons",
+    "label": "战锤",
+    "signals": [
+      "战锤",
+      "破甲锤",
+      "方头锤",
+      "铁砧锤"
+    ]
+  },
+  {
+    "id": "weapon.warpick",
+    "category": "Weapons",
+    "label": "鹤嘴锄",
+    "signals": [
+      "鹤嘴锄",
+      "破甲镐",
+      "战镐",
+      "尖镐"
+    ]
+  },
+  {
+    "id": "weapon.halberd",
+    "category": "Weapons",
+    "label": "戟斧",
+    "signals": [
+      "戟斧",
+      "复合长兵",
+      "卫戟",
+      "钩镰戟"
+    ]
+  },
+  {
+    "id": "weapon.javelin",
+    "category": "Weapons",
+    "label": "标枪",
+    "signals": [
+      "标枪",
+      "投矛",
+      "轻标枪",
+      "猎投矛"
+    ]
+  },
+  {
+    "id": "weapon.blowgun",
+    "category": "Weapons",
+    "label": "吹箭",
+    "signals": [
+      "吹箭",
+      "吹箭管",
+      "短管发射器",
+      "毒针管"
+    ]
+  },
+  {
+    "id": "weapon.chakram",
+    "category": "Weapons",
+    "label": "环刃",
+    "signals": [
+      "环刃",
+      "回旋投具",
+      "投环",
+      "飞环"
+    ]
+  },
+  {
+    "id": "weapon.repeating_crossbow",
+    "category": "Weapons",
+    "label": "连发弩",
+    "signals": [
+      "连发弩",
+      "匣式弩",
+      "多矢弩",
+      "连弩"
+    ]
+  },
+  {
+    "id": "weapon.tower_bow",
+    "category": "Weapons",
+    "label": "城防弩",
+    "signals": [
+      "固定弓架",
+      "墙面弩架",
+      "守城弓架",
+      "重型弩架"
+    ]
+  },
+  {
+    "id": "weapon.boar_spear",
+    "category": "Weapons",
+    "label": "拒马矛",
+    "signals": [
+      "拒马矛",
+      "猎兽长枪",
+      "猎兽枪",
+      "叉矛"
+    ]
+  },
+  {
+    "id": "weapon.ice_pick",
+    "category": "Weapons",
+    "label": "破冰锥",
+    "signals": [
+      "破冰锥",
+      "登攀凿",
+      "冰镐刃",
+      "岩壁凿"
+    ]
+  },
+  {
+    "id": "weapon.sapper",
+    "category": "Weapons",
+    "label": "工事破拆器",
+    "signals": [
+      "工事破拆器",
+      "攻城钻",
+      "破门楔",
+      "拆墙锤"
+    ]
+  },
+  {
+    "id": "weapon.sabre",
+    "category": "Weapons",
+    "label": "军刀",
+    "signals": [
+      "军刀",
+      "骑兵刀",
+      "佩刀"
+    ]
+  },
+  {
+    "id": "weapon.knife",
+    "category": "Weapons",
+    "label": "短刀",
+    "signals": [
+      "短刀",
+      "猎刀",
+      "剥皮刀"
+    ]
+  },
+  {
+    "id": "weapon.hook_axe",
+    "category": "Weapons",
+    "label": "钩斧",
+    "signals": [
+      "钩斧",
+      "钩头斧",
+      "战钩斧"
+    ]
+  },
+  {
+    "id": "weapon.shortspear",
+    "category": "Weapons",
+    "label": "短矛",
+    "signals": [
+      "短矛",
+      "短枪",
+      "投矛杆"
+    ]
+  },
+  {
+    "id": "weapon.lance",
+    "category": "Weapons",
+    "label": "骑枪",
+    "signals": [
+      "骑枪",
+      "长枪",
+      "枪矛"
+    ]
+  },
+  {
+    "id": "weapon.hook_blade",
+    "category": "Weapons",
+    "label": "钩刃",
+    "signals": [
+      "钩刃",
+      "钩镰",
+      "钩形刀"
+    ]
+  },
+  {
+    "id": "weapon.long_axe",
+    "category": "Weapons",
+    "label": "长柄斧",
+    "signals": [
+      "长柄斧",
+      "战戟斧",
+      "长杆斧"
+    ]
+  },
+  {
+    "id": "weapon.bludgeon",
+    "category": "Weapons",
+    "label": "钝器",
+    "signals": [
+      "钝器",
+      "棍槌",
+      "重型钝器"
+    ]
+  },
+  {
+    "id": "weapon.chain",
+    "category": "Weapons",
+    "label": "链兵器",
+    "signals": [
+      "链兵器",
+      "链鞭",
+      "链节武器"
+    ]
+  },
+  {
+    "id": "weapon.soft",
+    "category": "Weapons",
+    "label": "软兵器",
+    "signals": [
+      "软兵器",
+      "绳兵器",
+      "软刃"
+    ]
+  },
+  {
+    "id": "weapon.hunting_bow",
+    "category": "Weapons",
+    "label": "猎弓",
+    "signals": [
+      "猎弓",
+      "狩猎弓",
+      "林弓"
+    ]
+  },
+  {
+    "id": "weapon.war_bow",
+    "category": "Weapons",
+    "label": "重弓",
+    "signals": [
+      "重弓",
+      "战弓",
+      "强弓"
+    ]
+  },
+  {
+    "id": "weapon.launcher",
+    "category": "Weapons",
+    "label": "发射器",
+    "signals": [
+      "发射器",
+      "投射器",
+      "弹射发射器"
+    ]
+  },
+  {
+    "id": "weapon.quarterstaff",
+    "category": "Weapons",
+    "label": "长棍",
+    "signals": [
+      "长棍",
+      "战斗长棍",
+      "棍杖长杆"
+    ]
+  },
+  {
+    "id": "weapon.siege_engine",
+    "category": "Weapons",
+    "label": "攻城武器",
+    "signals": [
+      "攻城武器",
+      "攻城器",
+      "攻城器械"
+    ]
+  },
+  {
+    "id": "weapon.alchemical",
+    "category": "Weapons",
+    "label": "炼金投掷武器",
+    "signals": [
+      "炼金投掷武器",
+      "炼金投掷物",
+      "化学投掷弹"
+    ]
+  },
+  {
+    "id": "weapon.deployable",
+    "category": "Weapons",
+    "label": "布设武器",
+    "signals": [
+      "布设武器",
+      "布置兵器",
+      "预置武器"
+    ]
+  },
+  {
+    "id": "weapon.duelist",
+    "category": "Weapons",
+    "label": "决斗剑",
+    "signals": [
+      "决斗剑",
+      "决斗用剑",
+      "剑斗刃"
+    ]
+  },
+  {
+    "id": "weapon.catapult",
+    "category": "Weapons",
+    "label": "弹射器",
+    "signals": [
+      "弹射器",
+      "投石弹射器",
+      "机械弹射器"
+    ]
+  },
+  {
+    "id": "weapon.capture",
+    "category": "Weapons",
+    "label": "捕缚器",
+    "signals": [
+      "捕缚器",
+      "捕缚武器",
+      "缚捕具"
+    ]
+  },
+  {
+    "id": "weapon.climbing_blade",
+    "category": "Weapons",
+    "label": "攀援刃",
+    "signals": [
+      "攀援刃",
+      "攀壁刃",
+      "登攀刀"
+    ]
+  },
+  {
+    "id": "weapon.back_sword",
+    "category": "Weapons",
+    "label": "厚背刀",
+    "signals": [
+      "厚背刀",
+      "厚刃刀",
+      "砍削刀"
+    ]
+  },
+  {
+    "id": "weapon.armor_hammer",
+    "category": "Weapons",
+    "label": "破甲锤",
+    "signals": [
+      "破甲锤",
+      "破甲槌",
+      "穿甲锤"
+    ]
+  },
+  {
+    "id": "weapon.armor_pick",
+    "category": "Weapons",
+    "label": "破甲镐",
+    "signals": [
+      "破甲镐",
+      "穿甲镐",
+      "破甲尖镐"
+    ]
+  },
+  {
+    "id": "weapon.composite_polearm",
+    "category": "Weapons",
+    "label": "复合长兵",
+    "signals": [
+      "复合长兵",
+      "复合长柄兵",
+      "多刃长兵"
+    ]
+  },
+  {
+    "id": "weapon.thrown_spear",
+    "category": "Weapons",
+    "label": "投矛",
+    "signals": [
+      "投矛",
+      "投掷矛",
+      "短投枪"
+    ]
+  },
+  {
+    "id": "weapon.short_launcher",
+    "category": "Weapons",
+    "label": "短管发射器",
+    "signals": [
+      "短管发射器",
+      "短管投射器",
+      "管式发射器"
+    ]
+  },
+  {
+    "id": "weapon.returning_thrower",
+    "category": "Weapons",
+    "label": "回旋投具",
+    "signals": [
+      "回旋投具",
+      "回旋器",
+      "回返投器"
+    ]
+  },
+  {
+    "id": "weapon.magazine_crossbow",
+    "category": "Weapons",
+    "label": "匣式弩",
+    "signals": [
+      "匣式弩",
+      "弹匣弩",
+      "储矢弩"
+    ]
+  },
+  {
+    "id": "weapon.fixed_bow",
+    "category": "Weapons",
+    "label": "固定弓架",
+    "signals": [
+      "固定弓架",
+      "弓架",
+      "固定发射弓"
+    ]
+  },
+  {
+    "id": "weapon.beast_lance",
+    "category": "Weapons",
+    "label": "猎兽长枪",
+    "signals": [
+      "猎兽长枪",
+      "猎兽枪",
+      "猎兽矛"
+    ]
+  },
+  {
+    "id": "weapon.climbing_chisel",
+    "category": "Weapons",
+    "label": "登攀凿",
+    "signals": [
+      "登攀凿",
+      "攀岩凿",
+      "登山凿"
+    ]
+  },
+  {
+    "id": "weapon.siege_tool",
+    "category": "Weapons",
+    "label": "攻城工具",
+    "signals": [
+      "攻城工具",
+      "攻城工器",
+      "破城工具"
+    ]
+  },
+  {
+    "id": "armor.bracer",
+    "category": "Armor & protection",
+    "label": "护臂",
+    "signals": [
+      "护臂",
+      "护腕",
+      "臂甲",
+      "腕甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.mask",
+    "category": "Armor & protection",
+    "label": "面甲",
+    "signals": [
+      "面甲",
+      "防毒面罩",
+      "护面",
+      "面罩"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.underlayer",
+    "category": "Armor & protection",
+    "label": "护甲内衬",
+    "signals": [
+      "护甲内衬",
+      "甲胄衬层",
+      "软垫甲",
+      "防震衬"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.cape",
+    "category": "Armor & protection",
+    "label": "防护斗篷",
+    "signals": [
+      "防护斗篷",
+      "护身披风",
+      "耐火披风",
+      "斗篷甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.gorget",
+    "category": "Armor & protection",
+    "label": "喉甲",
+    "signals": [
+      "喉甲",
+      "颈甲",
+      "领甲",
+      "护喉"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.shoulder",
+    "category": "Armor & protection",
+    "label": "肩甲",
+    "signals": [
+      "肩甲",
+      "肩铠",
+      "肩部护具",
+      "披肩甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.leg",
+    "category": "Armor & protection",
+    "label": "腿甲",
+    "signals": [
+      "腿甲",
+      "胫甲",
+      "护腿甲",
+      "膝下甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.boot",
+    "category": "Armor & protection",
+    "label": "铁靴",
+    "signals": [
+      "铁靴",
+      "战斗护靴",
+      "护胫靴",
+      "甲靴"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.buckler",
+    "category": "Armor & protection",
+    "label": "小圆盾",
+    "signals": [
+      "小圆盾",
+      "臂盾",
+      "拳盾",
+      "腕盾"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.barding",
+    "category": "Armor & protection",
+    "label": "分片马铠",
+    "signals": [
+      "分片马铠",
+      "兽用护罩",
+      "轻型马铠",
+      "驮兽护甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.rain",
+    "category": "Armor & protection",
+    "label": "防雨护具",
+    "signals": [
+      "防雨护具",
+      "防潮罩",
+      "盐雾护衣",
+      "防水护具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.fire",
+    "category": "Armor & protection",
+    "label": "隔热护具",
+    "signals": [
+      "隔热护具",
+      "耐火护衣",
+      "隔火罩",
+      "耐热甲片"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.amulet",
+    "category": "Armor & protection",
+    "label": "护符",
+    "signals": [
+      "护符",
+      "护身符",
+      "防护吊坠",
+      "个人护符"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.mirror",
+    "category": "Armor & protection",
+    "label": "反射镜",
+    "signals": [
+      "反射镜",
+      "抗咒护片",
+      "镜面护符",
+      "反光护片"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.plate",
+    "category": "Armor & protection",
+    "label": "板甲",
+    "signals": [
+      "板甲",
+      "板金甲",
+      "全板甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.scale",
+    "category": "Armor & protection",
+    "label": "鳞甲",
+    "signals": [
+      "鳞甲",
+      "鳞片甲",
+      "鳞片护甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.leather",
+    "category": "Armor & protection",
+    "label": "皮甲",
+    "signals": [
+      "皮甲",
+      "软皮甲",
+      "硬皮甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.faceguard",
+    "category": "Armor & protection",
+    "label": "战斗护面",
+    "signals": [
+      "战斗护面",
+      "面护",
+      "战面具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.protective_accessory",
+    "category": "Armor & protection",
+    "label": "防护附件",
+    "signals": [
+      "防护附件",
+      "护甲附件",
+      "附加护具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.work_protection",
+    "category": "Armor & protection",
+    "label": "作业防护具",
+    "signals": [
+      "作业防护具",
+      "工作防护",
+      "工坊防护具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.ward_device",
+    "category": "Armor & protection",
+    "label": "结界器",
+    "signals": [
+      "结界器",
+      "结界装置",
+      "防护结界器"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.beast",
+    "category": "Armor & protection",
+    "label": "兽用护甲",
+    "signals": [
+      "兽用护甲",
+      "兽铠",
+      "役兽甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.wrist",
+    "category": "Armor & protection",
+    "label": "护腕",
+    "signals": [
+      "护腕",
+      "腕甲",
+      "腕部护具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.mask_guard",
+    "category": "Armor & protection",
+    "label": "防护面罩",
+    "signals": [
+      "防护面罩",
+      "防毒面罩",
+      "滤毒面罩"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.padding",
+    "category": "Armor & protection",
+    "label": "软垫",
+    "signals": [
+      "软垫",
+      "甲胄软垫",
+      "防震衬垫"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.cloak",
+    "category": "Armor & protection",
+    "label": "披风",
+    "signals": [
+      "披风",
+      "护身披风",
+      "耐火披风"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.neck_guard",
+    "category": "Armor & protection",
+    "label": "颈部护具",
+    "signals": [
+      "颈部护具",
+      "颈部防护",
+      "护颈"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.shoulder_guard",
+    "category": "Armor & protection",
+    "label": "肩部护具",
+    "signals": [
+      "肩部护具",
+      "肩部防护",
+      "肩披护具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.greaves",
+    "category": "Armor & protection",
+    "label": "胫甲",
+    "signals": [
+      "胫甲",
+      "胫部护具",
+      "小腿甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.combat_boot",
+    "category": "Armor & protection",
+    "label": "战斗护靴",
+    "signals": [
+      "战斗护靴",
+      "护胫靴",
+      "战靴甲"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.arm_shield",
+    "category": "Armor & protection",
+    "label": "臂盾",
+    "signals": [
+      "臂盾",
+      "拳盾",
+      "腕盾"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.beast_cover",
+    "category": "Armor & protection",
+    "label": "兽用护罩",
+    "signals": [
+      "兽用护罩",
+      "驮兽护甲",
+      "兽身护罩"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.moisture",
+    "category": "Armor & protection",
+    "label": "防潮护具",
+    "signals": [
+      "防潮护具",
+      "防潮罩",
+      "防水护具"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.salt_spray",
+    "category": "Armor & protection",
+    "label": "盐雾护具",
+    "signals": [
+      "盐雾护具",
+      "盐雾护衣",
+      "海雾防护"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.fire_resistant",
+    "category": "Armor & protection",
+    "label": "耐火护具",
+    "signals": [
+      "耐火护具",
+      "耐火护衣",
+      "耐热甲片"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.personal_charm",
+    "category": "Armor & protection",
+    "label": "个人防护饰物",
+    "signals": [
+      "个人防护饰物",
+      "防护吊坠",
+      "个人护符"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "armor.anti_curse_plate",
+    "category": "Armor & protection",
+    "label": "抗咒护片",
+    "signals": [
+      "抗咒护片",
+      "镜面护符",
+      "反咒护片"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.scarf",
+    "category": "Clothing & adornment",
+    "label": "围巾",
+    "signals": [
+      "围巾",
+      "颈巾"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.face_wrap",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "面巾",
+    "signals": [
+      "面巾",
+      "遮面巾"
+    ]
+  },
+  {
+    "id": "clothing.neck_jewelry",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "颈饰",
+    "signals": [
+      "颈饰",
+      "颈部饰物"
+    ]
+  },
+  {
+    "id": "clothing.belt",
+    "category": "Clothing & adornment",
+    "label": "腰带",
+    "signals": [
+      "腰带",
+      "束带",
+      "工具腰带"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.sash",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "腰封",
+    "signals": [
+      "腰封",
+      "宽腰带"
+    ]
+  },
+  {
+    "id": "clothing.gloves",
+    "category": "Clothing & adornment",
+    "label": "礼仪手套",
+    "signals": [
+      "礼仪手套",
+      "丝手套",
+      "白手套"
+    ],
+    "group": "Wearables & protection"
+  },
+  {
+    "id": "clothing.long_gloves",
+    "category": "Clothing & adornment",
+    "group": "Wearables & protection",
+    "label": "长手套",
+    "signals": [
+      "长手套",
+      "丝长手套"
+    ]
+  },
+  {
+    "id": "food.spice",
+    "category": "Food & drink",
+    "label": "香料",
+    "signals": [
+      "香料",
+      "盐",
+      "胡椒",
+      "香草粉"
+    ]
+  },
+  {
+    "id": "food.seasoning",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "调味料",
+    "signals": [
+      "调味料",
+      "调味品"
+    ]
+  },
+  {
+    "id": "food.tea",
+    "category": "Food & drink",
+    "label": "茶",
+    "signals": [
+      "茶",
+      "茶砖"
+    ]
+  },
+  {
+    "id": "food.herbal_drink",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "草本饮",
+    "signals": [
+      "草本饮",
+      "草药饮"
+    ]
+  },
+  {
+    "id": "food.hot_drink",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "热饮",
+    "signals": [
+      "热饮",
+      "热饮品"
+    ]
+  },
+  {
+    "id": "food.ration",
+    "category": "Food & drink",
+    "label": "旅行口粮",
+    "signals": [
+      "旅行口粮",
+      "干粮",
+      "行军粮",
+      "压缩饼"
+    ]
+  },
+  {
+    "id": "food.travel_dry_ration",
+    "category": "Food & drink",
+    "group": "Food & drink",
+    "label": "旅行干粮",
+    "signals": [
+      "旅行干粮",
+      "干粮包"
+    ]
+  },
+  {
+    "id": "medicine.bandage",
+    "category": "Medicine & alchemy",
+    "label": "绷带",
+    "signals": [
+      "绷带",
+      "止血布"
+    ]
+  },
+  {
+    "id": "medicine.splint",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "夹板",
+    "signals": [
+      "夹板",
+      "固定夹板"
+    ]
+  },
+  {
+    "id": "medicine.care_kit",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "护理包",
+    "signals": [
+      "护理包",
+      "医护包"
+    ]
+  },
+  {
+    "id": "medicine.antidote",
+    "category": "Medicine & alchemy",
+    "label": "解毒剂",
+    "signals": [
+      "解毒剂",
+      "解毒药",
+      "抗毒剂"
+    ]
+  },
+  {
+    "id": "medicine.neutralizer",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "中和剂",
+    "signals": [
+      "中和剂",
+      "中和药剂"
+    ]
+  },
+  {
+    "id": "medicine.inhalant",
+    "category": "Medicine & alchemy",
+    "label": "吸入剂",
+    "signals": [
+      "吸入剂",
+      "药烟",
+      "鼻吸剂"
+    ]
+  },
+  {
+    "id": "medicine.fumigant",
+    "category": "Medicine & alchemy",
+    "group": "Medicine & alchemy",
+    "label": "熏蒸药",
+    "signals": [
+      "熏蒸药",
+      "熏蒸剂"
+    ]
+  },
+  {
+    "id": "material.glass",
+    "category": "Materials & trade",
+    "label": "玻璃",
+    "signals": [
+      "玻璃",
+      "镜片",
+      "透明矿",
+      "玻璃片"
+    ]
+  },
+  {
+    "id": "material.transparent_mineral",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "透明矿材",
+    "signals": [
+      "透明矿材",
+      "透明矿物"
+    ]
+  },
+  {
+    "id": "material.leather",
+    "category": "Materials & trade",
+    "label": "皮革",
+    "signals": [
+      "皮革",
+      "鞣皮",
+      "兽皮",
+      "皮料"
+    ]
+  },
+  {
+    "id": "material.tanning",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "鞣制材料",
+    "signals": [
+      "鞣制材料",
+      "鞣料"
+    ]
+  },
+  {
+    "id": "material.mineral",
+    "category": "Materials & trade",
+    "label": "矿石",
+    "signals": [
+      "矿石",
+      "矿砂"
+    ]
+  },
+  {
+    "id": "material.crystal",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "晶体",
+    "signals": [
+      "晶体",
+      "晶石"
+    ]
+  },
+  {
+    "id": "material.mineral_powder",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "矿粉",
+    "signals": [
+      "矿粉",
+      "矿物粉末"
+    ]
+  },
+  {
+    "id": "material.ink",
+    "category": "Materials & trade",
+    "label": "墨水",
+    "signals": [
+      "墨水",
+      "隐形墨"
+    ]
+  },
+  {
+    "id": "material.dye_solution",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "染液",
+    "signals": [
+      "染液",
+      "染料溶液"
+    ]
+  },
+  {
+    "id": "material.developer",
+    "category": "Materials & trade",
+    "group": "Materials & trade",
+    "label": "显影剂",
+    "signals": [
+      "显影剂",
+      "显影液"
+    ]
+  },
+  {
+    "id": "tool.lockpick",
+    "category": "Tools & everyday goods",
+    "label": "锁具工具",
+    "signals": [
+      "锁具工具",
+      "开锁工具",
+      "撬锁针"
+    ]
+  },
+  {
+    "id": "tool.lockpicks",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "开锁针",
+    "signals": [
+      "开锁针",
+      "撬锁针"
+    ]
+  },
+  {
+    "id": "tool.cookware",
+    "category": "Tools & everyday goods",
+    "label": "炊具",
+    "signals": [
+      "炊具",
+      "锅具",
+      "铁锅"
+    ]
+  },
+  {
+    "id": "tool.outdoor_tableware",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "野外餐具",
+    "signals": [
+      "野外餐具",
+      "旅行餐具"
+    ]
+  },
+  {
+    "id": "tool.map",
+    "category": "Tools & everyday goods",
+    "label": "地图",
+    "signals": [
+      "地图",
+      "航图"
+    ]
+  },
+  {
+    "id": "tool.map_waymark",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "路标图",
+    "signals": [
+      "路标图",
+      "路线图"
+    ]
+  },
+  {
+    "id": "tool.blueprint",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "图纸",
+    "signals": [
+      "图纸",
+      "设计图"
+    ]
+  },
+  {
+    "id": "tool.survey",
+    "category": "Tools & everyday goods",
+    "label": "测量器具",
+    "signals": [
+      "测量器具",
+      "测量仪",
+      "测绘器",
+      "勘探器",
+      "测距仪"
+    ]
+  },
+  {
+    "id": "tool.mapping",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "测绘器具",
+    "signals": [
+      "测绘器具",
+      "制图工具"
+    ]
+  },
+  {
+    "id": "tool.exploration",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "勘探器具",
+    "signals": [
+      "勘探器具",
+      "勘探工具"
+    ]
+  },
+  {
+    "id": "tool.repair",
+    "category": "Tools & everyday goods",
+    "label": "修理工具",
+    "signals": [
+      "修理工具",
+      "工具箱",
+      "维修包"
+    ]
+  },
+  {
+    "id": "tool.portable_workshop",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "便携工坊",
+    "signals": [
+      "便携工坊",
+      "移动工坊"
+    ]
+  },
+  {
+    "id": "tool.signal",
+    "category": "Tools & everyday goods",
+    "label": "信号灯",
+    "signals": [
+      "信号灯",
+      "求救哨",
+      "信号弹"
+    ]
+  },
+  {
+    "id": "tool.signal_flag",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "旗标",
+    "signals": [
+      "旗标",
+      "信号旗"
+    ]
+  },
+  {
+    "id": "tool.whistle",
+    "category": "Tools & everyday goods",
+    "group": "Tools & everyday goods",
+    "label": "哨具",
+    "signals": [
+      "哨具",
+      "哨子"
+    ]
+  },
+  {
+    "id": "travel.boat",
+    "category": "Travel gear & transport",
+    "label": "小舟",
+    "signals": [
+      "小舟",
+      "独木舟"
+    ]
+  },
+  {
+    "id": "travel.ferry",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "渡船",
+    "signals": [
+      "渡船",
+      "渡舟"
+    ]
+  },
+  {
+    "id": "travel.watercraft",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "水上载具",
+    "signals": [
+      "水上载具",
+      "水上交通工具"
+    ]
+  },
+  {
+    "id": "travel.cart",
+    "category": "Travel gear & transport",
+    "label": "货车",
+    "signals": [
+      "货车",
+      "马车",
+      "车辆"
+    ]
+  },
+  {
+    "id": "travel.handcart",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "推车",
+    "signals": [
+      "推车",
+      "手推车"
+    ]
+  },
+  {
+    "id": "travel.vehicle",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "陆上车辆",
+    "signals": [
+      "陆上车辆",
+      "车辆"
+    ]
+  },
+  {
+    "id": "travel.pack",
+    "category": "Travel gear & transport",
+    "label": "背包",
+    "signals": [
+      "背包",
+      "行囊",
+      "旅行包"
+    ]
+  },
+  {
+    "id": "travel.saddlebags",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "鞍袋",
+    "signals": [
+      "鞍袋",
+      "马鞍袋"
+    ]
+  },
+  {
+    "id": "travel.travel_bag",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "旅行行囊",
+    "signals": [
+      "旅行行囊",
+      "旅行囊"
+    ]
+  },
+  {
+    "id": "travel.weather",
+    "category": "Travel gear & transport",
+    "label": "天气观测器具",
+    "signals": [
+      "天气观测器具",
+      "天气仪",
+      "风向标",
+      "避候帐",
+      "雨披"
+    ]
+  },
+  {
+    "id": "travel.weather_shelter",
+    "category": "Travel gear & transport",
+    "group": "Travel gear & transport",
+    "label": "避候装备",
+    "signals": [
+      "避候装备",
+      "避雨装备"
+    ]
+  },
+  {
+    "id": "treasure.document",
+    "category": "Treasures & relics",
+    "label": "契约",
+    "signals": [
+      "契约",
+      "契约原件",
+      "古文书",
+      "遗嘱"
+    ]
+  },
+  {
+    "id": "treasure.original_archive",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "原始档案",
+    "signals": [
+      "原始档案",
+      "原始记录"
+    ]
+  },
+  {
+    "id": "treasure.coin",
+    "category": "Treasures & relics",
+    "label": "古币",
+    "signals": [
+      "古币",
+      "旧铸币"
+    ]
+  },
+  {
+    "id": "treasure.commemorative_coin",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "纪念币",
+    "signals": [
+      "纪念币",
+      "纪念钱币"
+    ]
+  },
+  {
+    "id": "treasure.mint_sample",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "铸币样本",
+    "signals": [
+      "铸币样本",
+      "铸币范本"
+    ]
+  },
+  {
+    "id": "treasure.relic_fragment",
+    "category": "Treasures & relics",
+    "label": "遗物碎片",
+    "signals": [
+      "遗物碎片",
+      "残件",
+      "遗迹碎片",
+      "断碑"
+    ]
+  },
+  {
+    "id": "treasure.historical_remnant",
+    "category": "Treasures & relics",
+    "group": "Treasures & relics",
+    "label": "历史残件",
+    "signals": [
+      "历史残件",
+      "历史遗存"
+    ]
+  }
+]

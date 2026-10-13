@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "arno",
+      "title": "Arno",
+      "summary": "死灵法师复活后，阿维恩王国陷入一场没有固定终点的长期危机。王国通过中间人召集多支冒险者小队，Arno 与四名旧队友也因此重新聚到一起。",
+      "description": "故事发生在迷失之地：一个拥有多块大陆、湾区、群岛航路和魔法异域的广阔剑与魔法世界。Arno 所在的阿维恩王国位于环镜大陆的镜海西北部；镜海只是这个世界的一片重要内海。魔法存在于学院、神殿、工坊和日常服务中，也始终受到训练、材料、法律与身体负荷的约束。七年前，Arno 与赛芮娅、奥林、玛尔卡和伊芙琳利用矿道、旧术式与严密准备击败黑龙烬鳞。如今五人各自生活，彼此仍是可以托付性命、也可以公开拒绝对方的旧友。最近，一名曾被认为已经消亡的死灵法师被复活并重新现世，阿维恩王国各地开始出现失序的亡灵、异常的遗迹活动和互相矛盾的消息。王国没有把所有事情交给一支队伍，而是通过中间人召集多支冒险者小队，分别调查不同地区、不同版本的线索。Arno 的故事从一次单纯的旧友重逢开始：五个人相隔七年，再次在王冠城旧渡口的归锚酒馆坐到同一张桌前。王国的征召和碎岩谷的异常会在此后自然进入他们的生活，但这个夜晚首先属于故人、酒菜和彼此错过的七年。队伍可以接受王国委托、改谈条件、暂时离开、追查自己的线索，也可以把时间花在地底探索、地方冒险、王国秘密和彼此关系上。死灵法师危机是一条会随着行动改变的长线背景，不规定任务顺序、固定过程或唯一结局；即使某个阶段的威胁被压下去，善后、政治变化、遗留势力和更远处的新线索仍会让故事继续。",
+      "defaults": {
+        "title": "Arno",
+        "player": "Arno",
+        "concept": "退役圣骑士",
+        "location": "王冠城 · 旧渡口 · 归锚酒馆",
+        "character": {
+          "bond": "四名共同屠龙、彼此能够拒绝和离开的旧队友",
+          "burden": "七年前在碎岩谷立下并仍然约束自己的守护誓言",
+          "opening_pressure": "Arno 与赛芮娅、奥林、玛尔卡和伊芙琳已经七年没有同坐一桌。归锚酒馆正值晚餐最热闹的时候，四名旧友为 Arno 留着座位，也都带着这些年形成的新习惯和没有说完的旧话。今晚没有人催他们接任务或作决定；第一件事只是认出彼此、坐下来，并重新学会像从前那样说话。",
+          "opening_narration": "傍晚的雨刚停，归锚酒馆里却像从来没有安静过。旧渡口的船工挤在壁炉旁烘靴子，两桌商旅正为一枚骰子吵得面红耳赤，角落里的三弦琴被笑声和碰杯声盖住大半。炖肉、麦酒、潮湿斗篷和苹果木烟混在一起，门每开一次，河风就把热气推得满屋乱跑。Arno 跨进门时，没有谁为一个新客停下手里的杯子；这只是一间正忙着过夜晚的酒馆。\n\n最先发现他的是赛芮娅。她原本侧坐在靠窗长凳的椅背上，一只脚还悬在半空，银白长发被窗缝里的风吹得乱晃。看清门口的人后，她的眼睛一下亮了，抬手越过半个大厅招呼，差点扫翻奥林面前的酒杯。“我就说他会来。”她笑得毫不收敛，“玛尔卡欠我一杯。还有，Arno——七年不见，你还是进门先看出口。这个习惯到底是谨慎，还是怕结账？”\n\n奥林及时扶住杯子，先检查桌面，再用研究古代遗物似的认真神情端详 Arno。“根据目前的观察，”他说，“目标仍能独立行走，盔甲保养合格，面部老化程度也在合理范围。初步结论：确实是本人，不必请学院来做昂贵鉴定。”他维持了两秒严肃，嘴角便先背叛了他，“当然，如果你带了礼物，结论还能更乐观一点。”说完他站起身，像是准备给老朋友一个体面的拥抱，却被法杖绊了一下，只好顺势把椅子踢开，假装一切都在计算之中。\n\n“少给自己的笨手笨脚写报告。”玛尔卡从过道另一头回来，双手各端着三只沉甸甸的陶杯。她的短角几乎擦到吊灯，高大的身躯让拥挤的人群自然分出一条路。她把酒放下，走到 Arno 面前，从头到脚看了一遍，结论来得和她挥斧一样干脆：“没缺胳膊，没少腿。很好。”她伸手拍了拍 Arno 的肩，力道足以让普通人后退半步，脸上的笑却暖得没有半点威胁，“坐下。饭还是热的。谁敢今晚先谈正事，我就让谁去替厨房劈一冬天的柴。”\n\n伊芙琳坐在长桌最里面。喧闹没有沾乱她的一根发丝，黑色长发落在剪裁考究的深色外套上，银质领针在烛光里冷冷一闪。她身边明明没有护卫，也没有人宣读头衔，酒馆里的人却本能地给这位吸血鬼女公爵留出了半步距离。她一直等到另外三个人闹完，才摘下一只手套，抬起深酒红色的眼睛。“七年，三个月，十一天。”她说得平淡，仿佛只是纠正账本上的日期，“有人迟到了很久。”\n\n赛芮娅立刻撑着桌子探过身：“你居然记了天数。”伊芙琳的目光移过去，冷得足以让一杯酒自己结霜。“领主需要良好的时间观念。”“当然，公爵大人。”奥林郑重举杯，“我们绝不会暗示这和想念有关。”玛尔卡已经把最大的那盘烤肉推到空位前，闻言笑出声来。伊芙琳没有辩解，只用指尖把那把空椅往外推了一点，动作很轻，也很明确。她为 Arno 留了位置，而且显然从一开始就没打算承认。\n\n桌上没有摊开的地图，没有等人签字的委托，也没有谁准备把七年的空白压缩成一句“近来如何”。赛芮娅已经攒了三个夸张得可疑的林地故事；奥林声称自己的学徒让他提前衰老了十岁；玛尔卡坚持先吃饭，所有长话都该排在第二盘之后；伊芙琳端着颜色很深的酒，冷眼看他们互相拆台，偶尔一句话就能让整桌笑得更响。远处有人唱跑了调，邻桌又一次为骰子拍桌，热汤表面的油光随着脚步微微摇晃。\n\n玛尔卡用靴尖把椅子稳稳勾到 Arno 面前。赛芮娅托着下巴，笑吟吟地望过来；奥林举杯示意；伊芙琳则稍稍抬起下颌，给出了近乎正式的允许。“坐吧，Arno。”她说，“今晚没有公爵、法师、猎手和圣骑士，只有五个很久没坐在一起的老朋友。先让我们看看，这七年把你变成了什么样的人。”",
+          "world_context": "迷失之地是整个已知世界的总称，包含环镜大陆、西雾大陆、赤昼大陆、北湾诸地、风暴群岛，以及散布各地、长期受到魔法改变的辉痕之地。Arno 当前生活在环镜大陆的镜海西北部；王冠城是阿维恩王国的河港首都，旧渡口是船工、税吏、商旅和普通居民共同使用的南岸街区。魔法存在于学院、神殿、工坊和日常服务中，但力量受训练、材料、法律、身体和社会关系约束。死灵法师复活后，阿维恩王国正通过中间人召集多支冒险者小队处理各地异常；不同队伍会接触到不同线索，王国也不一定掌握完整真相。"
+        }
+      },
+      "setup": {
+        "scene": {
+          "location": "王冠城 · 旧渡口 · 归锚酒馆",
+          "location_id": "returning_anchor_inn",
+          "immediate_situation": "归锚酒馆正值晚餐最热闹的时候，Arno 刚刚走进门，四名七年未见的旧友正在靠窗长桌旁等他。眼前只是久别重逢，没有任务、倒计时或必须立刻处理的危机。",
+          "present_entities": ["serya_moontread", "orin_veyth", "malka_redanvil", "evelyn_nox"],
+          "state": {
+            "activity": "dialogue",
+            "threat": "calm",
+            "basis": "五名旧友在正常营业的热闹酒馆里重逢、吃饭并交换近况，现场没有危险或紧迫事务。"
+          },
+          "model": {
+            "player_position": "归锚酒馆一层入口内侧，正对四名旧友所在的靠窗长桌",
+            "participants": [
+              {"id": "serya_moontread", "name": "赛芮娅·月迹", "position": "靠窗长凳上", "activity": "笑着朝刚进门的 Arno 招手", "condition": "无伤", "stance": "allied"},
+              {"id": "orin_veyth", "name": "奥林·维斯", "position": "长桌内侧", "activity": "端着酒杯，用一本正经的口吻拿迟到开玩笑", "condition": "无伤", "stance": "allied"},
+              {"id": "malka_redanvil", "name": "玛尔卡·赤砧", "position": "长桌靠过道一侧", "activity": "把热菜和酒杯挪开，为 Arno 腾出座位", "condition": "无伤", "stance": "allied"},
+              {"id": "evelyn_nox", "name": "伊芙琳·诺斯", "position": "长桌主位一侧", "activity": "安静观察几名旧友重逢，等 Arno 入席", "condition": "无伤", "stance": "allied"}
+            ],
+            "elements": [
+              {"id": "reunion_table", "name": "为五个人留出的靠窗长桌", "kind": "service", "position": "酒馆一层临河窗边", "state": "摆着热菜、酒杯和一把留给 Arno 的空椅"},
+              {"id": "hearth_and_common_room", "name": "热闹的酒馆大厅", "kind": "other", "position": "长桌周围", "state": "船工、旅客和乐手正在吃饭、掷骰子与交谈"}
+            ],
+            "pressures": []
+          }
+        },
+        "player_state": {
+          "condition": "unhurt",
+          "mechanics": {
+            "attributes": {"physique": 38, "agility": 25, "perception": 29, "intellect": 23, "will": 42, "charisma": 31, "mystic_power": 27},
+            "abilities": [
+              {"id": "technique_oathbound_interception", "mastery": "mastered", "source_detail": "长期盾剑训练与仍然有效的守护誓言"},
+              {"id": "technique_stabilizing_touch", "mastery": "skilled", "source_detail": "战地救护训练与誓约祷词"}
+            ],
+            "specialties": [
+              {"id": "shield_sword_combat", "name": "盾剑战斗"},
+              {"id": "heavy_armor_marching", "name": "重甲行军"},
+              {"id": "battlefield_first_aid", "name": "战地救护"},
+              {"id": "oath_law", "name": "誓约礼法"}
+            ],
+            "loads": {"physical": "稳定", "focus": "稳定", "mystic": "稳定"},
+            "resources": {"wallet": {"currency": "copper", "balance": 1800}, "transactions": []}
+          }
+        },
+        "places": [
+          {
+            "id": "crown_city",
+            "name": "王冠城",
+            "kind": "settlement",
+            "status": "active",
+            "description": "阿维恩王国的河港首都，王室、自治领、行会与普通居民围绕桥梁、渡口、文书和河运共同生活。",
+            "atmosphere": "繁忙、守序，却处处可见不同权利和旧约彼此重叠",
+            "features": ["七座桥", "王室文书院", "河港市集", "修会医院"]
+          },
+          {
+            "id": "old_ferry",
+            "name": "王冠城 · 旧渡口",
+            "kind": "district",
+            "status": "active",
+            "parent_id": "crown_city",
+            "parent_name": "王冠城",
+            "description": "王冠城南岸仍在使用的老渡口，船工、税吏、商旅、病人和避开主城门的人在此交汇。",
+            "atmosphere": "喧闹而务实",
+            "features": ["旧石阶", "船夫行会标记", "水位刻痕", "廉价客栈"]
+          },
+          {
+            "id": "returning_anchor_inn",
+            "name": "王冠城 · 旧渡口 · 归锚酒馆",
+            "kind": "building",
+            "status": "active",
+            "parent_id": "old_ferry",
+            "parent_name": "王冠城 · 旧渡口",
+            "description": "面向旧渡口的公共酒馆，过去曾接待五人的小队，如今仍服务船工、旅客和附近居民；它不是小队私产。",
+            "atmosphere": "熟悉、温暖而热闹，旧友之间尚有一点七年未见的生疏",
+            "current_summary": "Arno 刚刚抵达，四名旧友在靠窗长桌旁为他留着座位。",
+            "access": "正常营业，可自由进出；客房、临河窗台和一层公共桌位均可使用。",
+            "features": ["临河窗台", "二层客房", "壁炉", "通往旧渡口的正门"]
+          }
+        ],
+        "people": [
+          {
+            "id": "serya_moontread",
+            "name": "赛芮娅·月迹",
+            "profile": {
+              "role": "镜海北缘巡路领队、游猎向导",
+              "ancestry": "精灵族",
+              "gender": "女性",
+              "age_stage": "成年早期",
+              "height_cm": 169,
+              "weight_kg": 55,
+              "description": "银白长发，琥珀色眼睛，左耳留着一道浅浅的灼痕。她那件深绿短斗篷走过许多林径，也在碎岩谷的风里出现过。",
+              "appearance": "赛芮娅身形轻捷，常年行走野外使她的脚步安静而利落。银白长发通常随手束起，左耳的浅灼痕是七年前留下的。",
+              "personality": "她好奇、爱笑，也爱给熟人临时起绰号；一旦察觉危险，玩笑会立刻收住。她尤其留意那些没有能力替自己说话的人。",
+              "background": "赛芮娅在林地社群长大，成年后没有留在故乡，而是沿着镜海北缘替人带路、寻人和巡查林地。七年前，她循着烬鳞留下的痕迹找到了那条能让五个人活着走进碎岩谷的路。屠龙之后，北缘几个聚落共同请她协调三段商路的季节巡查；她带着一支人数不多的巡路队，仍会亲自接追踪、寻人和带路的委托。",
+              "voice": "她说话简短，笑意来得快；真正紧张时，声音反而会放得很轻。",
+              "speech_profile": {
+                "rhythm": "短句居多，想到什么常先说半句，再根据对方反应补完；和熟人说话时会抢话，但不会长篇独白。",
+                "register": "轻松、直接的日常口语，偶尔使用林地、足迹和天气里的具体说法。",
+                "directness": "好奇时直接追问；不愿回答时先开个玩笑绕开，真正重要的拒绝则说得很清楚。",
+                "humor": "喜欢临时绰号、夸张复述和抓住朋友刚露出的破绽，笑话通常只占一两句。",
+                "reactions": "会抢先接话、纠正细节、忽然注意到别处的动静，也会在别人说重话时安静下来。",
+                "emotional_shifts": "放松时语速快而跳跃；尴尬时用玩笑遮一下；担心或戒备时音量降低，词句立刻变短。",
+                "avoids": "不把关心说成训诫，不用完整总结替别人解释感受，也不会为了显得活泼而句句开玩笑。"
+              },
+              "dialogue_examples": [
+                {"situation": "旧友闲聊", "text": "赛芮娅把杯子往自己这边一拖：“你先说。七年没消息，一进门就查我们，哪有这么便宜的事？”"},
+                {"situation": "意见不合", "text": "她摇了摇头：“不走那条路。脚印太整齐了。”停了一下，又补道，“你非要去也行，先告诉我为什么。”"},
+                {"situation": "被问到旧伤", "text": "“别盯了，早不疼了。”赛芮娅摸了摸耳尖，移开目光，“……下雨的时候有一点。就一点。”"},
+                {"situation": "危险迫近", "text": "她脸上的笑忽然没了，声音压得很轻：“火灭掉。别回头。后面那个不是我们的脚步声。”"}
+              ],
+              "aliases": ["赛芮娅"],
+              "attributes": {"physique": 22, "agility": 34, "perception": 39, "intellect": 24, "will": 27, "charisma": 23, "mystic_power": 8}
+            },
+            "state": {
+              "status": "party", "tier": "core", "pinned": true,
+              "relationship": "赛芮娅和 Arno 曾在碎岩谷把性命交到彼此手里。她信得过 Arno 守住防线的本事，也从不客气地指出他什么时候又想把所有责任揽到自己身上。七年未见没有让她变得客套；她更想先听听 Arno 这些年过得怎样，再谈任何远方的麻烦。",
+              "location": "王冠城 · 旧渡口 · 归锚酒馆", "activity": "坐在靠窗长凳上，抢在其他人之前朝 Arno 招手",
+              "objective": "让五个人先放下各自的身份，像旧日同伴一样好好吃一顿饭", "availability": "今晚没有安排别的行程，她打算把重逢留给酒菜、玩笑和这些年的故事。",
+              "next_move": "拿 Arno 的迟到开个玩笑，再把他拉到桌边坐下",
+              "anchor": "七年前与 Arno 等人合力击败黑龙烬鳞；看重证据、弱者安全和退出选择，不接受被当作听命的斥候。",
+              "memories": [{"text": "七年前在碎岩谷确认烬鳞的迁飞路线，为五人争取到利用矿道设伏的机会。", "importance": 10, "turn": 0, "kind": "shared_history"}],
+              "mechanics": {
+                "abilities": [{"id": "technique_trail_prediction", "mastery": "mastered"}, {"id": "technique_silent_feather_shot", "mastery": "skilled"}],
+                "specialties": ["追踪", "野外求生", "长弓", "绳索", "隐蔽接近"],
+                "loads": {"physical": "稳定", "focus": "稳定", "mystic": "稳定"}
+              }
+            }
+          },
+          {
+            "id": "orin_veyth",
+            "name": "奥林·维斯",
+            "profile": {
+              "role": "公共档案塔青年鉴定官、护持法师",
+              "ancestry": "人类",
+              "gender": "男性",
+              "age_stage": "中青年",
+              "height_cm": 179,
+              "weight_kg": 67,
+              "description": "深褐卷发总有些不服梳理，灰蓝眼睛在看见陌生术式时会明显亮起来。他衣着整洁，袖口却常有墨迹，右手食指仍戴着那枚旧铜环。",
+              "appearance": "奥林清瘦修长，站姿比衣着更规整；只有缺掉的扣子、袖口的墨痕和那枚从不摘下的铜环泄露了他的日常。",
+              "personality": "他聪明、可靠，越是紧张越容易冒出不合时宜的学术玩笑。真正动怒时，他反而不再开玩笑，语气会平静得令人不安。",
+              "background": "奥林出身港口家庭，靠奖学资格走进学院。碎岩谷一战中，是他拆开了巢穴旧术式的结构，让众人能封住矿道而不被一同埋葬。战后他凭实绩成为公共档案塔最年轻的一批正式鉴定官，负责一间小型危险遗物室，也带着几名总让他操心的学徒；他有权封存可疑物件，却仍要受塔内评议与施法负荷约束。",
+              "voice": "他习惯先给结论，再慢慢补上条件，偶尔会拿艰深得没人听懂的比喻自嘲。",
+              "speech_profile": {
+                "rhythm": "通常先说结论，再补一两个必要条件；遇到感兴趣的术式会越说越快，察觉别人没跟上时会自己刹住。",
+                "register": "准确但仍是口语，专业词只在确有用途时出现，随后会换成一句普通人能听懂的话。",
+                "directness": "处理实际问题很直接；遇到自己的感情会先用一本正经的玩笑挡一下，稍后才给短而诚实的回答。",
+                "humor": "把日常小事说成研究结论、风险评估或失败实验，也拿自己的疏忽开玩笑。",
+                "reactions": "常先纠正一个数字或措辞，再回答真正的问题；别人打断时会接住话头，而不是重新开始完整说明。",
+                "emotional_shifts": "放松时故作严谨；兴奋时语速加快；真正愤怒或危险时停止玩笑，只留下清楚、可执行的话。",
+                "avoids": "不把每次交谈都讲成课堂，不连续堆叠术语，也不把显而易见的感情分析给当事人听。"
+              },
+              "dialogue_examples": [
+                {"situation": "谈起学徒", "text": "“两个半。”奥林扶了扶杯子，“第三个只在需要替实验室赔钱时承认我是老师。”"},
+                {"situation": "否决冒险方案", "text": "他看了一眼门上的符痕：“结论先说，不碰。理由有三个——算了，你只需要看它为什么在往回流。”"},
+                {"situation": "被问是否想念旧友", "text": "奥林沉默片刻：“这是个措辞相当恶劣的问题。”他低头转了转铜环，“想。好了，下一题。”"},
+                {"situation": "术式突然失控", "text": "“都别动。”奥林的语气一下平了，“蓝线不是光，是边界。玛尔卡，把杯子放下——慢一点。”"}
+              ],
+              "aliases": ["奥林"],
+              "attributes": {"physique": 14, "agility": 18, "perception": 24, "intellect": 42, "will": 31, "charisma": 21, "mystic_power": 37}
+            },
+            "state": {
+              "status": "party", "tier": "core", "pinned": true,
+              "relationship": "奥林见过 Arno 在最坏的时候仍守住承诺，因此愿意认真听他说话，也保留拿他的骑士作风开玩笑的权利。两人当年争论最多的，从来不是要不要救人，而是怎样做才不会让下一批人重复付出同样的代价。七年后再次见面，他已经准备好了一肚子故作严谨的挖苦，也确实想念这位老朋友。",
+              "location": "王冠城 · 旧渡口 · 归锚酒馆", "activity": "坐在长桌内侧端着酒杯，用一本正经的语气同赛芮娅斗嘴",
+              "objective": "听听每个人这七年的经历，并确认旧朋友仍然能像从前一样自在说话", "availability": "他已经把今晚留给旧友，档案塔和学徒要等到明天再来烦他。",
+              "next_move": "用一个不太合时宜的学术玩笑欢迎 Arno 入席",
+              "anchor": "七年前拆解烬鳞巢穴的旧术式；坚持可验证的证据、知识责任和明确代价，不会因请求而无条件施法。",
+              "memories": [{"text": "七年前在碎岩谷拆解巢穴旧术式，让小队能够封闭矿道而不触发整片坍塌。", "importance": 10, "turn": 0, "kind": "shared_history"}],
+              "mechanics": {
+                "abilities": [{"id": "technique_boundary_ward", "mastery": "mastered"}, {"id": "technique_spell_severance", "mastery": "skilled"}, {"id": "technique_glimmer_lens", "mastery": "mastered"}],
+                "specialties": ["术式结构", "护持学", "古契约阅读", "危险遗物鉴定"],
+                "loads": {"physical": "稳定", "focus": "稳定", "mystic": "稳定"}
+              }
+            }
+          },
+          {
+            "id": "malka_redanvil",
+            "name": "玛尔卡·赤砧",
+            "profile": {
+              "role": "王冠城河港卫队副队长、训练教官",
+              "ancestry": "恶魔",
+              "gender": "女性",
+              "age_stage": "成年",
+              "height_cm": 205,
+              "weight_kg": 126,
+              "description": "玛尔卡比酒馆里绝大多数人都高，暗赤色皮肤和向后生长的黑色短角让她很难被忽略。她的旧伤很多，笑起来却比外表温和。",
+              "appearance": "她高大结实，肩背和手臂留着多年护卫生涯的伤痕；短角表面被仔细打磨过，厚皮护衣也总收拾得便于活动。",
+              "personality": "玛尔卡直率、豪爽，愿意在危险来临时站到最前面，但她从不把白白送命当成勇敢。她很少绕弯子，也懂得在人前给朋友留一点面子。",
+              "background": "玛尔卡年轻时替船队护航，后来厌倦了只替出价最高的人挥斧。碎岩谷里，她在最窄的矿道守住烬鳞的退路，让撤离的矿工有时间逃出去。战后她进入王冠城河港卫队，靠几次火灾疏散与夜间截运升任副队长；如今管一支轮值小队和新卫兵训练，仍会亲自巡堤、破障和护送高风险货队。",
+              "voice": "她声音低沉，说话干脆，喜欢拿搬货、打铁和吃饭来解释复杂的事。",
+              "speech_profile": {
+                "rhythm": "句子短而稳，常把结论放在第一句；需要解释时一次只补一个理由。",
+                "register": "朴素直接的日常用语，动词多，抽象词少；偶尔用吃饭、搬货或修东西作比方。",
+                "directness": "赞成、拒绝和担心都很明确，但会给朋友留体面，不在人前逼问他们不愿谈的事。",
+                "humor": "来自直白判断、体型差异和实际生活，不靠连续挖苦，也很少卖弄机智。",
+                "reactions": "说话时往往还在倒酒、挪椅子、检查装备或收拾东西；不必先解释自己的动作。",
+                "emotional_shifts": "高兴时笑得响；难过时话更少；进入危险时使用名字、方位和短命令，不发表英雄宣言。",
+                "avoids": "不把所有问题都比作打铁或搬货，不说空泛豪言，也不会用粗暴代替判断。"
+              },
+              "dialogue_examples": [
+                {"situation": "饭桌闲谈", "text": "玛尔卡把盘子推过去：“先吃。你的七年不会凉，这锅会。”"},
+                {"situation": "拒绝鲁莽计划", "text": "“不去。”她把斧柄靠回墙边，“不是怕死。是这办法只算了怎么进去，没算怎么把人带出来。”"},
+                {"situation": "掩饰担心", "text": "“我没担心。”玛尔卡看了看桌上多出来的那盘肉，“我只是点多了。你吃不吃？”"},
+                {"situation": "混乱中组织同伴", "text": "她一步挡到前面：“赛芮娅，左边。奥林，收术。Arno 跟我——别逞强，跟紧。”"}
+              ],
+              "aliases": ["玛尔卡"],
+              "attributes": {"physique": 43, "agility": 21, "perception": 19, "intellect": 22, "will": 29, "charisma": 25, "mystic_power": 14}
+            },
+            "state": {
+              "status": "party", "tier": "core", "pinned": true,
+              "relationship": "玛尔卡尊重 Arno 的自律，却一直不喜欢他把牺牲自己当成解决办法。七年前她替他挡过侧翼，他也在矿道坍塌时把她拖出了落石。两人之间很少说客套话；她认定真正的欢迎就是确认对方完好无缺，再让他坐下吃一顿热饭。",
+              "location": "王冠城 · 旧渡口 · 归锚酒馆", "activity": "站在长桌靠过道一侧，把热菜和酒杯往中间挪",
+              "objective": "让几个多年不见的老朋友先吃饱喝好，再慢慢谈各自的近况", "availability": "她把年轻护卫交给了副手，今晚可以安稳留在酒馆。",
+              "next_move": "直截了当地确认 Arno 没缺胳膊少腿，然后把空椅推给他",
+              "anchor": "七年前在狭窄矿道封住烬鳞退路；承担风险但不崇拜牺牲，保护同伴也尊重他们撤退和拒绝的权利。",
+              "memories": [{"text": "七年前在碎岩谷守住狭窄矿道，阻止烬鳞绕过防线袭击撤离中的居民。", "importance": 10, "turn": 0, "kind": "shared_history"}],
+              "mechanics": {
+                "abilities": [{"id": "technique_sweeping_axe_control", "mastery": "mastered"}, {"id": "technique_shoulder_breach", "mastery": "skilled"}],
+                "specialties": ["巨斧", "重装护卫", "队形撤离", "货运与补给"],
+                "loads": {"physical": "稳定", "focus": "稳定", "mystic": "稳定"}
+              }
+            }
+          },
+          {
+            "id": "evelyn_nox",
+            "name": "伊芙琳·诺斯",
+            "profile": {
+              "role": "诺斯领女公爵、私人调停人",
+              "ancestry": "吸血鬼",
+              "gender": "女性",
+              "age_stage": "外表成年",
+              "height_cm": 181,
+              "weight_kg": 63,
+              "description": "黑色长发，深酒红色眼睛，苍白肤色。伊芙琳把剪裁考究的深色衣装穿得一丝不乱，即使坐在喧闹酒馆里，也带着不容轻慢的贵族威仪。",
+              "appearance": "她身形高挑，姿态稳定，深色长外套的银扣与领针都来自诺斯家族。她不刻意掩饰吸血鬼的苍白，也不喜欢旁人替她解释自己的身份。",
+              "personality": "伊芙琳高傲、克制，习惯先看清房间里谁在等待、谁在撒谎、谁以为自己掌握局面。她对陌生人保持女公爵式的冷淡，对少数真正信任的人则藏着不肯直说的保护欲。",
+              "background": "伊芙琳继承了诺斯领的女公爵头衔，也曾被一个擅长把秘密变成枷锁的上层网络利用。她借一次内部倾轧夺回领地与自由。碎岩谷一战前，是她拿到了矿道布局，也识破了情报里故意留下的假路。此后她一面管理规模不大、收入有限的诺斯领，一面以私人身份处理调停与情报事务；爵位给她体面和一些门路，却远不足以让她支配王国政局。",
+              "voice": "她语速从容，用词精确，很少提高音量；冷淡的一句话往往比训斥更有分量，只有旧友偶尔能听出其中藏着的关心。",
+              "speech_profile": {
+                "rhythm": "从容、压缩，常在一句话前后留出停顿；说到足够为止，很少主动补齐所有解释。",
+                "register": "准确、克制而自然的成年人口语，正式场合更讲究措辞，私下不会突然变成古老贵族腔。",
+                "directness": "会直接指出逻辑漏洞或越界之处，但自己的关心通常藏在安排、纠正和看似冷淡的许可里。",
+                "humor": "干冷而轻，往往只纠正一个词或顺着别人的荒唐说法再推半步。",
+                "reactions": "先观察再开口；被打趣时可能只看对方一眼、改动一个称呼，或把话题送回对方手里。",
+                "emotional_shifts": "平时音量稳定；不悦时措辞更短更精确；真正担忧时会省去礼貌外壳，直接处理问题。",
+                "avoids": "不把冷淡写成长篇训话，不频繁强调身份，不用华丽隐喻掩盖每一句普通关心。"
+              },
+              "dialogue_examples": [
+                {"situation": "旧友迟到", "text": "伊芙琳抬眼看他：“你迟到了。”停了一息，她又道，“七年当然算迟到。”"},
+                {"situation": "不同意对方判断", "text": "“理由不错。”她把信纸折回原样，“结论不行。再想一个。”"},
+                {"situation": "不肯直说想念", "text": "“我没有等你。”伊芙琳用指尖将空椅推开少许，“只是这把椅子一直没人坐。”"},
+                {"situation": "察觉有人监视", "text": "她端起酒杯，目光没有转向门口：“门后两个，楼上一个。说话照旧。手离剑近些。”"}
+              ],
+              "aliases": ["伊芙琳"],
+              "attributes": {"physique": 22, "agility": 31, "perception": 28, "intellect": 29, "will": 34, "charisma": 36, "mystic_power": 27}
+            },
+            "state": {
+              "status": "party", "tier": "core", "pinned": true,
+              "relationship": "伊芙琳和 Arno 的信任从来不算轻松，却经得住危险。她知道他会为承诺付出代价，也总想确认那份承诺究竟出于原则，还是出于无法放下的愧疚。七年过去，她仍会在最关键的问题上逼他表态，但最后的决定始终留给他自己。",
+              "location": "王冠城 · 旧渡口 · 归锚酒馆", "activity": "坐在长桌主位一侧，安静观察几名旧友重逢",
+              "objective": "亲眼确认七年后的四位旧友过得如何，同时维持自己不动声色的体面", "availability": "她推掉了今晚的正式宴请，准备在归锚酒馆留到这场重逢自然结束。",
+              "next_move": "在另外三人闹够之后，让 Arno 坐下并用一句冷淡的问候承认自己也等了他很久",
+              "anchor": "七年前取得矿道布局并识破对方情报；重视选择、边界和权力代价，不是 Arno 可以命令的附属人物。",
+              "memories": [{"text": "七年前取得碎岩谷矿道布局，并找出让五人避开正面力量差距的封闭路线。", "importance": 10, "turn": 0, "kind": "shared_history"}],
+              "mechanics": {
+                "abilities": [{"id": "trait_darkvision", "mastery": "mastered"}, {"id": "technique_crimson_shadow_step", "mastery": "skilled"}, {"id": "technique_blood_trace_analysis", "mastery": "skilled"}],
+                "specialties": ["情报筛选", "礼仪交涉", "隐蔽行动", "文书辨伪"],
+                "loads": {"physical": "稳定", "focus": "稳定", "mystic": "稳定"}
+              }
+            }
+          }
+        ],
+        "items": [
+          {"id":"arno_silver_sword","name":"银纹单手剑","profile":{"category":"gear","base_type_id":"weapon.sword","rarity":"rare","rarity_known":true,"rarity_basis":"七年前由王冠城持照军械师为碎岩谷行动重整并留下可查工坊纹记","description":"经过长期保养的单手剑，银色纹路是工坊加固和辨识记号。","known_purpose":"可靠的近战武器；没有已确认的独立法术。"},"state":{"holder":"player","status":"equipped","importance":8,"quantity":1,"equipped_as":"主手"}},
+          {"id":"arno_oath_shield","name":"守誓重盾","profile":{"category":"gear","base_type_id":"armor.shield","rarity":"common","rarity_known":true,"description":"厚重而有多处修补痕迹的实用盾牌。","known_purpose":"格挡、掩护与执行守誓截击的必要装备。"},"state":{"holder":"player","status":"equipped","importance":8,"quantity":1,"equipped_as":"副手"}},
+          {"id":"arno_plate_armor","name":"巡誓板甲","profile":{"category":"gear","base_type_id":"armor.heavy","rarity":"common","rarity_known":true,"description":"适合长途行军、能够自行维护的板甲。"},"state":{"holder":"player","status":"equipped","importance":7,"quantity":1,"equipped_as":"躯干"}},
+          {"id":"arno_old_oath_badge","name":"旧盟约徽记","profile":{"category":"important","base_type_id":"treasure.ceremonial","rarity":"common","rarity_known":true,"description":"保留磨损和旧划痕的誓约徽记。","known_purpose":"证明 Arno 曾履行的守护誓约；没有已知主动效果。"},"state":{"holder":"player","status":"carried","importance":9,"quantity":1,"equipped_as":"随身"}},
+          {"id":"arno_travel_rations","name":"行旅补给","profile":{"category":"ordinary","base_type_id":"food.preserved","rarity":"common","rarity_known":true,"description":"适合三日普通行程的耐储食物。"},"state":{"holder":"player","status":"carried","importance":3,"quantity":3,"equipped_as":"背包"}},
+          {"id":"arno_rope","name":"麻绳","profile":{"category":"ordinary","base_type_id":"tool.rigging","rarity":"common","rarity_known":true,"description":"常见结实麻绳。"},"state":{"holder":"player","status":"carried","importance":4,"quantity":1,"equipped_as":"背包"}},
+          {"id":"arno_first_aid_kit","name":"止血包","profile":{"category":"gear","base_type_id":"medicine.care","rarity":"common","rarity_known":true,"description":"干净敷料、绷带和基础固定材料。","known_purpose":"处理普通外伤并配合战地救护；不能替代长期治疗。"},"state":{"holder":"player","status":"carried","importance":7,"quantity":1,"equipped_as":"背包"}},
+
+          {"id":"serya_longbow","name":"云杉反曲长弓","profile":{"category":"gear","base_type_id":"weapon.longbow","rarity":"rare","rarity_known":true,"rarity_basis":"由镜海北缘熟悉林地材料的专业弓师制作并持续维护","description":"适合长途携带和精确瞄准的反曲长弓。"},"state":{"holder":"serya_moontread","status":"equipped","importance":8,"quantity":1,"equipped_as":"主手"}},
+          {"id":"serya_arrows","name":"猎箭","profile":{"category":"gear","base_type_id":"weapon.ammunition","rarity":"common","rarity_known":true,"description":"修整一致的常规猎箭。"},"state":{"holder":"serya_moontread","status":"carried","importance":5,"quantity":24,"equipped_as":"箭袋"}},
+          {"id":"serya_trail_knife","name":"林径短刀","profile":{"category":"gear","base_type_id":"weapon.dagger","rarity":"common","rarity_known":true,"description":"兼用于营地工作和近身自卫的短刀。"},"state":{"holder":"serya_moontread","status":"equipped","importance":5,"quantity":1,"equipped_as":"备用武器"}},
+          {"id":"serya_leather_armor","name":"野外皮甲","profile":{"category":"gear","base_type_id":"armor.light","rarity":"common","rarity_known":true,"description":"适合林地移动的轻便皮甲。"},"state":{"holder":"serya_moontread","status":"equipped","importance":5,"quantity":1,"equipped_as":"躯干"}},
+          {"id":"serya_climbing_kit","name":"攀索包","profile":{"category":"gear","base_type_id":"tool.rigging","rarity":"common","rarity_known":true,"description":"包括短索、扣具和基础攀登用品。"},"state":{"holder":"serya_moontread","status":"carried","importance":5,"quantity":1,"equipped_as":"行囊"}},
+
+          {"id":"orin_warding_staff","name":"学院护法杖","profile":{"category":"gear","base_type_id":"weapon.focus","rarity":"rare","rarity_known":true,"rarity_basis":"由奥林任职的公共档案塔登记、校准并定期复核","description":"用于稳定护持术式的学院法杖。","known_purpose":"施法媒介，不会独立储存或自动施放法术。"},"state":{"holder":"orin_veyth","status":"equipped","importance":8,"quantity":1,"equipped_as":"主手"}},
+          {"id":"orin_copper_ring","name":"铜环","profile":{"category":"important","base_type_id":"clothing.adornment","rarity":"common","rarity_known":true,"description":"奥林长期戴在右手食指的普通铜环。","known_purpose":"个人标志，没有已知主动效果。"},"state":{"holder":"orin_veyth","status":"equipped","importance":7,"quantity":1,"equipped_as":"手指"}},
+          {"id":"orin_protective_shawl","name":"防护披肩","profile":{"category":"gear","base_type_id":"clothing.outerwear","rarity":"common","rarity_known":true,"description":"缝有常规防火衬层的学院披肩。"},"state":{"holder":"orin_veyth","status":"equipped","importance":5,"quantity":1,"equipped_as":"肩部"}},
+          {"id":"orin_writing_supplies","name":"封蜡与空白符纸","profile":{"category":"ordinary","base_type_id":"tool.writing","rarity":"common","rarity_known":true,"description":"记录、拓印和准备小型术式所需的常规材料。"},"state":{"holder":"orin_veyth","status":"carried","importance":5,"quantity":1,"equipped_as":"文书包"}},
+
+          {"id":"malka_great_axe","name":"河港巨型双面斧","profile":{"category":"gear","base_type_id":"weapon.axe","rarity":"rare","rarity_known":true,"rarity_basis":"按玛尔卡体型和河港破障工作定制的专业重斧","description":"需要充足空间和稳定落脚点才能发挥的双面重斧。"},"state":{"holder":"malka_redanvil","status":"equipped","importance":8,"quantity":1,"equipped_as":"双手"}},
+          {"id":"malka_plate_armor","name":"铆钉板甲","profile":{"category":"gear","base_type_id":"armor.heavy","rarity":"common","rarity_known":true,"description":"反复维修过的河港护卫板甲。"},"state":{"holder":"malka_redanvil","status":"equipped","importance":6,"quantity":1,"equipped_as":"躯干"}},
+          {"id":"malka_haul_rope","name":"牵引绳","profile":{"category":"ordinary","base_type_id":"tool.rigging","rarity":"common","rarity_known":true,"description":"适合货运牵引和临时固定的粗绳。"},"state":{"holder":"malka_redanvil","status":"carried","importance":4,"quantity":1,"equipped_as":"行囊"}},
+          {"id":"malka_repair_kit","name":"皮革修补包","profile":{"category":"gear","base_type_id":"tool.craft","rarity":"common","rarity_known":true,"description":"用于维护护具、绑带和货运装备的常用工具。"},"state":{"holder":"malka_redanvil","status":"carried","importance":5,"quantity":1,"equipped_as":"行囊"}},
+
+          {"id":"evelyn_rapier","name":"礼仪细剑","profile":{"category":"gear","base_type_id":"weapon.sword","rarity":"rare","rarity_known":true,"rarity_basis":"由熟悉上层礼仪和实战需求的持照剑匠制作","description":"外形适合正式场合，结构仍是可靠的轻型武器。"},"state":{"holder":"evelyn_nox","status":"equipped","importance":7,"quantity":1,"equipped_as":"主手"}},
+          {"id":"evelyn_throwing_blades","name":"隐蔽投刃","profile":{"category":"gear","base_type_id":"weapon.thrown","rarity":"common","rarity_known":true,"description":"三把便于隐藏携带的平衡投刃。"},"state":{"holder":"evelyn_nox","status":"concealed","importance":6,"quantity":3,"equipped_as":"隐蔽携带"}},
+          {"id":"evelyn_travel_clothes","name":"深色旅行装","profile":{"category":"ordinary","base_type_id":"clothing.outerwear","rarity":"common","rarity_known":true,"description":"剪裁利落、适合城市与短途旅行的深色衣装。"},"state":{"holder":"evelyn_nox","status":"equipped","importance":4,"quantity":1,"equipped_as":"躯干"}},
+          {"id":"evelyn_blood_rations","name":"密封血食","profile":{"category":"gear","base_type_id":"food.drink","rarity":"rare","rarity_known":true,"rarity_basis":"通过王冠城受监督的医疗与特殊饮食供应渠道合法取得","description":"两份密封、可追溯来源的血食。","known_purpose":"满足伊芙琳的血食需求；使用绯影换位会消耗一份。"},"state":{"holder":"evelyn_nox","status":"carried","importance":8,"quantity":2,"equipped_as":"内袋"}}
+        ],
+        "facts": [
+          {"id":"arno_old_team_history","subject_id":"player","predicate":"shared_history","value":"seven_years_ago_dragon_hunt","text":"七年前，Arno、赛芮娅、奥林、玛尔卡和伊芙琳在碎岩谷利用疏散、地形、术式拆解、情报和协作击败成年黑龙烬鳞；这不是任何成员能够正面复制的个人战绩。","truth_status":"true","visibility":"shared","witnesses":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"tags":["shared_history","shattered_valley","dragon"],"importance":10},
+          {"id":"arno_team_has_no_commander","subject_id":"player","predicate":"team_authority","value":"no_commander","text":"旧队伍没有正式队长；五人可以争执、拒绝和离开，Arno 无权命令其余四人。","truth_status":"true","visibility":"shared","witnesses":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"tags":["relationship","agency"],"importance":10},
+          {"id":"arno_necromancer_revival","subject_id":"world","predicate":"long_term_crisis","value":"necromancer_returned","text":"一名曾被认为已经消亡的死灵法师重新现世，阿维恩王国各地出现持续的亡灵、遗迹和秩序异常；危机的规模、目标与弱点尚未完全确认。","truth_status":"true","visibility":"shared","witnesses":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"tags":["main_story","necromancer","kingdom"],"importance":10},
+          {"id":"arno_multi_party_recruitment","subject_id":"world","predicate":"royal_response","value":"multiple_adventurer_teams","text":"阿维恩王国正在通过中间人召集多支冒险者小队，分别处理不同地区和不同版本的线索；Arno 小队可以询问条件、改谈委托、暂时拒绝或自行追查。","truth_status":"true","visibility":"shared","witnesses":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"tags":["main_story","recruitment","agency"],"importance":9},
+          {"id":"arno_open_ended_campaign","subject_id":"world","predicate":"campaign_shape","value":"continuing_open_story","text":"死灵法师危机没有规定的任务顺序、固定过程或强制终点；阶段性解决后，善后、政治变化、遗留势力和新的远方线索仍可继续成为故事。","truth_status":"true","visibility":"shared","witnesses":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"tags":["main_story","continuation","agency"],"importance":10}
+        ],
+        "threads": [
+          {"id":"shattered_valley_seal","kind":"mystery","title":"碎岩谷的异常","status":"active","stakes":"碎岩谷旧矿道附近出现了尚未查明的异常，若继续扩散，可能影响当地居民和往来商路。","summary":"王国收集到关于碎岩谷旧封印异常的零散报告，但尚未正式交给 Arno 小队；这是一条日后可能接触、拒绝或由其他队伍先行调查的线索。","related_entities":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"urgency":2},
+          {"id":"necromancer_revival_crisis","kind":"main_story","title":"复活的死灵法师","status":"active","stakes":"死灵法师的复活正在改变阿维恩王国的安全、政治和边境秩序，但威胁的规模、目标与弱点尚未完全确认。","summary":"跟随王国征召和各地线索，逐步确认死灵法师复活的原因、盟友、影响与可能的应对方式。某一阶段的威胁被压下去，不代表故事结束；善后、遗留势力和新的远方线索仍可继续展开。","related_entities":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"urgency":5},
+          {"id":"royal_adventurer_recruitment","kind":"political","title":"王国的多队征召","status":"active","stakes":"不同冒险队会接触到不同地区和不同版本的真相，王国、地方势力和冒险者之间的信任会随着行动变化。","summary":"王国通过中间人分派和协调多支队伍；Arno 小队可以接受、拒绝、改谈条件或自行追查，其他队伍的行动也可能改变局势。","related_entities":["player","serya_moontread","orin_veyth","malka_redanvil","evelyn_nox"],"urgency":4}
+        ]
+      }
+    }
+  ]
+}

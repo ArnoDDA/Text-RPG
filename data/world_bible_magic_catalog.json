@@ -1,0 +1,2144 @@
+[
+  {
+    "category": "Magic rules",
+    "title": "魔法与仪式：环阶总则",
+    "keys": [
+      "魔法",
+      "法术",
+      "仪式",
+      "环阶",
+      "一环",
+      "八环",
+      "施法",
+      "魔法等级"
+    ],
+    "secondaryKeys": [
+      "奥术",
+      "神术",
+      "契约",
+      "自然法术",
+      "血脉",
+      "灵能负荷",
+      "反制"
+    ],
+    "content": "魔法以一至八环描述术式的复杂度、准备要求和通常影响范围。一环通常处理个人眼前的小问题；四环开始可以稳定改变一处场景；七、八环往往会牵动远方、大片地域、古老结构或多个重要人物。环阶不是角色等级、法术位、每日次数，也不是固定伤害倍率。\n\n同一环内的法术用途差异很大：有些用于照明、沟通、旅行、治疗、隐匿、调查、保护、制造或改变环境，不能把魔法理解为单纯的攻击手段。法师、神职者、契约者、血脉施法者和自然行者可以学习到相近效果，但来源、许可、表现、材料与失效方式仍会不同。\n\n每个具体法术都必须记录已知效果、使用前提、代价、可见表现、持续方式与反制方法。掌握较高环术式不保证随时施展：灵能、智识或心性不足，材料或地点不合适，受伤、被打断、权限失效或世界规则封锁时，法术都可能无法安全完成。普通城镇、街道和一般商店不会随处提供高环术式、材料或施法者。",
+    "order": 50,
+    "priority": 190,
+    "source_id": "world_bible_magic_catalog:1"
+  },
+  {
+    "category": "Magic rules",
+    "title": "一环法术：微小改变与可靠手段",
+    "keys": [
+      "一环",
+      "一环法术",
+      "引灯术",
+      "温息术",
+      "寻痕术",
+      "净手术",
+      "低语线",
+      "微风牵引",
+      "封蜡印",
+      "浅眠曲",
+      "叶露术"
+    ],
+    "secondaryKeys": [
+      "戏法",
+      "照明",
+      "清洁",
+      "短讯",
+      "小型治疗",
+      "小型感知"
+    ],
+    "content": "一环法术处理一个人或近处物件的明确小问题，通常不需要长时间准备，但仍要求掌握正确术式和基本施法条件。它们在学院、神殿、行会和旅人之间较常见，却不会由所有人随意施用。\n\n【光亮术】令一件小型无生命物发出稳定柔光；强光、厚遮挡和水下环境会改变效果。\n【暖身术】缓和寒冷、潮湿或轻微冻僵，不能抵御暴风雪或治愈失温伤害。\n【追踪术】短时显出近处新近留下的足迹、血迹或搬动痕；雨水、拥挤地面和刻意清理可使它失效。\n【清洁术】清除衣物、器具或皮肤上的普通污渍与轻微异味，不能去除毒物、诅咒或深层污染。\n【私语术】让两名近距离、彼此知情的人交换低声短讯；墙壁、噪声和陌生第三人会切断联系。\n【风之手】推动轻物、翻页、引火或牵引细绳，不能拖拽活人或抵抗牢固的机械。\n【封印术】暂时封住信件、盒盖或细小裂口，并留下可辨认的施术痕迹；它不是牢不可破的锁。\n【安眠术】帮助愿意休息的人平复惊惧并更容易入睡，不能强迫清醒者失去意识。\n【叶露术】从健康植物或洁净空气中凝结少量可饮用水，无法在干旱中供应队伍，更不能净化未知毒水。",
+    "order": 100,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:2"
+  },
+  {
+    "category": "Magic rules",
+    "title": "二环法术：局部感知、护持与移动",
+    "keys": [
+      "二环",
+      "二环法术",
+      "烛影帷",
+      "脉线听",
+      "轻足术",
+      "浮托术",
+      "束缚丝",
+      "井泉净化",
+      "镜面辨伪",
+      "安神印",
+      "巢穴警铃"
+    ],
+    "secondaryKeys": [
+      "隐匿",
+      "防护",
+      "侦测",
+      "净水",
+      "搬运",
+      "警报"
+    ],
+    "content": "二环法术能稳定影响一个小区域、数个对象或一段明确过程。它们开始需要更持续的专注、合适媒介或安静准备，适合旅行、调查、守卫与救援，而不只是战斗。\n\n【阴影斗篷】在小范围内柔化轮廓与声响，帮助隐藏但不能使人完全消失；近距离观察和强光仍可能识破。\n【探测震动】读取墙体、器械或地面传来的规律振动，用于判断空腔、脚步或故障；不能翻译谈话或穿透厚重隔绝层。\n【轻盈步伐】减轻落地声与短程跳跃负担，不能让人飞行，也不能无视松动地面。\n【漂浮术】以平稳的力托起一件有限重量的无生命物，施术者失去专注时物件会安全落下或回到支撑处。\n【扭曲荆棘】射出可被看见和切断的灵丝，暂时缠住单一目标或封住窄口；体型、利刃和火焰会影响它。\n【净化水源】净化一小容器中已知的普通污水与轻度腐败，不能处理强毒、活性瘟疫或未知炼金污染。\n【识破幻术】借平整反光面辨出近处粗浅伪装、幻光或被替换的物件；它不能直接告诉施术者真相。\n【安神印】在愿意接受的对象身上留下短时安定印记，减轻惊慌与干扰，不会抹除记忆或改变意志。\n【警报术】为门、帐篷或小营地设下可选择提醒对象的警讯，必须预先布置，且能被熟练者发现与绕开。",
+    "order": 200,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:3"
+  },
+  {
+    "category": "Magic rules",
+    "title": "三环法术：场景应对与小队支援",
+    "keys": [
+      "三环",
+      "三环法术",
+      "雷幕击",
+      "石幕术",
+      "夜航眼",
+      "止创域",
+      "逆风翼",
+      "寻门术",
+      "清疫烟",
+      "回声标记",
+      "静水桥"
+    ],
+    "secondaryKeys": [
+      "战斗法术",
+      "小队治疗",
+      "飞行",
+      "开路",
+      "反隐匿",
+      "净化"
+    ],
+    "content": "三环法术可以在一次遭遇或一处场景中形成决定性方法，但不能替代队友、地形和真实后果。连续施展或带伤施展常会推进灵能或专注负荷。\n\n【雷鸣冲击】在明确方向上爆发短促震击，打乱阵形、击碎脆弱障碍或逼退近处目标；对坚固建筑与远强于施术者的生物效果有限。\n【石墙术】从现有土石中竖起一面短时矮墙或掩体，不能在空中无中生有，也不能承受持续重击。\n【黑暗视觉】让施术者在夜色、烟雾或幽暗中保持更好的方向感与轮廓辨识，无法看穿实体遮挡或高级遮蔽。\n【群体止血】在近处小范围稳定多名轻伤者的出血与恶化，为后续医疗争取时间；它不恢复失去的组织或解除复杂病因。\n【风翼滑翔】让一人完成受控滑翔、越过断口或减缓坠落，不能长距离飞越风暴。\n【寻路术】感知近处被隐藏、封闭或异常处理的通路，并指出可能的开启方式；它不自动解除锁、诅咒或守卫。\n【净化烟雾】驱散一处小空间内的常见污秽、虫害和低阶传染源，需要通风和时间，不能替代疫情处理。\n【回声标记】给可见地点、物件或同意的同伴留下短期可追踪的灵性回响；距离、位面隔绝和反制可遮蔽它。\n【水面行走】在平静或缓流表面形成短暂可通行的水面路径，不能跨越暴潮、深渊海域或持续承载重型车队。",
+    "order": 300,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:4"
+  },
+  {
+    "category": "Magic rules",
+    "title": "四环法术：场景塑形与持续守护",
+    "keys": [
+      "四环",
+      "四环法术",
+      "焰潮术",
+      "霜牢术",
+      "折光屋",
+      "迷径结",
+      "守望圆阵",
+      "群体浮行",
+      "远声桥",
+      "土脊塑形",
+      "梦幕"
+    ],
+    "secondaryKeys": [
+      "场景控制",
+      "群体移动",
+      "防御结界",
+      "幻术",
+      "地形改变",
+      "远距交谈"
+    ],
+    "content": "四环法术开始能够稳定改变一处场景或影响一个小队，通常需要专注、清晰边界、特定材料或预先选择的地点。它们不适合在普通酒馆或拥挤街道随意使用，失控时会留下明显后果。\n\n【烈焰浪潮】在预先选定的窄区域推动火焰浪潮，用于封路、驱散或焚毁易燃障碍；不能无视风向、燃料与周围平民。\n【冰霜囚笼】冻结一处入口、器械或有限目标的活动空间，减速并制造脆性束缚；火焰、重击与持续高温能瓦解它。\n【隐匿结界】让一个房间或营地在远处看起来与环境相融，近距离触摸、脚印和异常声响仍会暴露。\n【迷途结界】扰乱一段熟悉路线的方向感，使入侵者反复走回原处；必须依托真实建筑、树林或洞道，不能困住知晓全貌的人。\n【守护法阵】在固定地点建立持续数小时的防护圈，警示闯入、削弱低强度侵扰并保护休息者；它不是无法跨越的城墙。\n【群体漂浮】让数名愿意配合的人越过浅水、碎石或短险段，不能长时间悬空或搬运重型货物。\n【远距传音】在两处已知的安静锚点间建立有限时间的声音通道，内容可被监听，且不能穿透位面封锁。\n【塑土术】重塑现有松土、沙地或塌方边缘，修出坡道、浅沟或临时堤岸；不能凭空造山或改写坚硬基岩。\n【梦幕】为熟睡者编织一段受限的共享梦境，用于沟通、安抚或重现记忆片段；参与者仍可拒绝、醒来或带入自身偏见。",
+    "order": 400,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:5"
+  },
+  {
+    "category": "Magic rules",
+    "title": "五环法术：远距影响与重大抉择",
+    "keys": [
+      "五环",
+      "五环法术",
+      "风暴帆",
+      "断桥印",
+      "影身换位",
+      "燃印追迹",
+      "息灾雨",
+      "盟语契印",
+      "追忆镜",
+      "群星信标",
+      "驭兽和声"
+    ],
+    "secondaryKeys": [
+      "长途旅行",
+      "追踪",
+      "天气",
+      "契约",
+      "记忆",
+      "大型怪物",
+      "传讯"
+    ],
+    "content": "五环法术常会改变一段旅程、一场谈判、一处灾情或一个重要目标的处境。它们很少能在仓促中安全发动，通常要求可靠锚点、参与者、材料、契约或较长准备时间。\n\n【召唤顺风】为一艘已具备航行条件的船只校正一段航程的风势与浪向，不能穿越真正的海啸或让陆船下海。\n【断桥咒】在指定结构中显出脆弱节点，协助拆除、封锁或紧急加固；误判材料或使用在有人通行处会造成严重后果。\n【暗影换位】让两名彼此看得见且同意的对象交换位置，距离和负荷受限，不能穿越封闭空间或强行置换他人。\n【猎印追踪】沿已知且真实的个人、物件或誓约印记追索其近期方向，目标若更换身份、进入封锁地或获得反追踪保护，结果会变得模糊。\n【降雨术】在小片干燥或着火区域引来可控降雨，能减缓火情和尘暴，却无法保证农时或解决大陆性旱灾。\n【盟约术】为明确、自愿且被理解的约定留下可验证的灵性印记，违约会显形或通知约定者；它不能把不平等、欺骗或被迫同意变成正当契约。\n【记忆映照】由自愿当事人的叙述与遗留物重现不完整记忆片段，记忆可能错误、被隐瞒或受情绪影响，不能当作绝对证据。\n【星光信标】向已约定的远方地点发送可辨识的夜间光讯，适用于救援与航海，敌人同样可能看见它。\n【驭兽和声】在不违背动物本能的前提下安抚、引导一群普通动物或一只受惊坐骑，不能支配有自主意志的怪物。",
+    "order": 500,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:6"
+  },
+  {
+    "category": "Magic rules",
+    "title": "六环法术：领域控制与深度修复",
+    "keys": [
+      "六环",
+      "六环法术",
+      "云阶术",
+      "山河聆听",
+      "禁行域",
+      "岩甲塑形",
+      "人群隐幕",
+      "续命印",
+      "多门锚",
+      "驯雷柱",
+      "深泉复苏"
+    ],
+    "secondaryKeys": [
+      "领域法术",
+      "大型防护",
+      "复原",
+      "跨区移动",
+      "天气控制",
+      "群体隐匿"
+    ],
+    "content": "六环法术足以持续影响大片场所、复杂设施或多个关键对象，通常需要正式许可、稀有媒介、受保护的施法环境或多人协作。它们的失败后果不能只写成“法力不够”。\n\n【云梯术】在稳定天气中构筑一段可攀行的云雾阶路，用于越过山隘或高墙；强风、雷暴与长距离负重会使其崩散。\n【大地聆听】借当地岩层、水脉和风向获知区域内显著的坍塌、洪水、军队行进或魔力扰动；它给出征兆而非完整全知。\n【禁行结界】在一个明确地点设下针对特定进入方式的阻隔，例如飞行、潜行或未经许可的传送；必须定义范围与例外，不能把一整座城市变成绝对牢笼。\n【城墙加固】为建筑、城门或巨型构装加固一段时间，也可修复有限的结构损伤；不能让朽坏地基无视长期问题。\n【群体隐形】在短时间内遮蔽一群人的身份特征与移动痕迹，不能抹去他们产生的声音、行为和社会记录。\n【续命术】在生命尚可维持的危急伤者身上延缓恶化，为专业救治争取窗口；它不能复活死者或解除所有致命病因。\n【传送锚点】为数个已知入口建立相互识别的通行锚记，便于团队在同一区域快速往返；锚点被毁、封锁或敌对占据时不能强开。\n【避雷法阵】引导局地雷电远离营地、船桅或重要设施，需要良好导体与空旷条件，不能控制整场风暴。\n【深泉复苏】修复一处受损泉眼、灌渠或地下水的自然循环，必须先排除污染、战争破坏或过度取水的真实原因。",
+    "order": 600,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:7"
+  },
+  {
+    "category": "Magic rules",
+    "title": "七环法术：跨域仪式与古老工程",
+    "keys": [
+      "七环",
+      "七环法术",
+      "星门仪",
+      "遗迹回响",
+      "远行舟",
+      "时潮缓室",
+      "百目守望",
+      "天穹壁",
+      "梦境议庭",
+      "龙脉安抚",
+      "归乡灯塔"
+    ],
+    "secondaryKeys": [
+      "大型仪式",
+      "跨位面",
+      "时间",
+      "古代遗迹",
+      "城防",
+      "龙脉",
+      "远程旅行"
+    ],
+    "content": "七环术式通常是仪式、组织工程或历史事件的一部分。施术者本人并不等于能独自完成它；可信参与者、完整材料、精确地点、权限和长时间准备都可能是不可替代的条件。\n\n【传送门仪式】在两个被充分研究、彼此相容且未被封锁的锚点之间短时开启通行门，准备可持续数小时或更久，任何一端失稳都会终止仪式。\n【远古回响】让一处古老建筑显露被压抑的结构记忆、使用痕迹与崩坏节点，不能替代史料，也可能被旧日防护误导。\n【远行仪式】为一支小队在危险地形中铺设数日可维持的灵性航道，需要持续补给与引导，不会把未知荒野变成安全道路。\n【时间缓滞室】在一间封闭空间内轻微改变事件节奏，为救治、谈判或解除装置争取有限时间；它不能倒转既成事实，也不能让外界完全停止。\n【千里眼阵】把多个经过许可的瞭望点连成预警网络，能传递异常征兆但不读取每个人的私人生活。\n【天幕结界】在要塞、船队或避难地上方维持短时的广域遮护，削弱风暴碎片、飞散火焰或远距投射；维护成本高且会留下显眼光迹。\n【梦境会议】让多名自愿参与者在受保护的梦境中讨论、比对记忆与推演方案，不能强迫共识或消除现实中的权力关系。\n【地脉镇静】疏导一段已知地脉的紊乱，减轻魔力潮涌与环境灾害；错误介入可能把压力转移到别处。\n【归乡灯塔】为一条既有航线或迁徙路线建立长期可辨的灵光坐标，需要地方共同维护，不能自动带回迷路者。",
+    "order": 700,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:8"
+  },
+  {
+    "category": "Magic rules",
+    "title": "八环法术：边界、灾害与世界级责任",
+    "keys": [
+      "八环",
+      "八环法术",
+      "界域封印",
+      "城垣苏醒",
+      "天象引线",
+      "万里镜海",
+      "群体避难门",
+      "不灭灯塔",
+      "龙脉静止",
+      "失落名册",
+      "星潮归正"
+    ],
+    "secondaryKeys": [
+      "顶级法术",
+      "世界级仪式",
+      "封印",
+      "城市防御",
+      "大规模灾害",
+      "位面"
+    ],
+    "content": "八环术式接近凡俗可触及魔法的上限，通常只有大法师、古老团体、国家机构或特殊存在在极端条件下才可能完成。它们不是普通冒险奖励，也不应因角色强度提高而自然出现；每一次发动都需要可追查的来源、代价、社会后果与失败预案。\n\n【位面封印】暂时闭合或加固一个已知的位面裂隙，必须理解裂隙成因并有足够锚物；它不能任意封锁整片世界。\n【城防苏醒】唤醒一座拥有既有符文结构的城防体系，使其短时协同抵御明确威胁；没有工程基础的城镇不能凭空获得城墙。\n【风暴引导】在有限区域把已形成的强天气导向较安全的路径，用于减灾而非制造天灾；预测错误会带来灾难性责任。\n【远距观测】以多处经过同意的观测站为基础共享远方海况、航线与求救信号，不能窥视所有人或替代实地判断。\n【紧急传送门】在危急时把一批人员撤至已确认、安全且愿意接纳的锚点，受人数、空间稳定性、锚点权限和准备时间严格限制。\n【永明灯塔】为长期危险航道、裂隙边缘或荒原建立可持续多年的警示与定位装置，维护它需要组织、物资和继承者。\n【地脉封锁】在明确且局限的地脉灾害中短暂停止能量连锁，以便撤离和修复；不能抽取地脉为个人力量，也不能永久压制自然循环。\n【失落名册】重建一批因灾害散失的公开身份、契约或族谱线索，必须依托真实档案与见证，不能伪造血统、抹除罪责或替人定义身份。\n【星界校正】校正一处持续失稳的古代观测或传送设施，使其回到已知安全范围；它不能创造未知目的地，也无法绕过位面封锁。",
+    "order": 800,
+    "priority": 180,
+    "source_id": "world_bible_magic_catalog:9"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "光亮术",
+    "rename_by_order": true,
+    "keys": [
+      "引灯术",
+      "一环",
+      "照明",
+      "光源"
+    ],
+    "secondaryKeys": [
+      "黑暗",
+      "灯",
+      "火把"
+    ],
+    "content": "【一环｜照明】使一件小型无生命物发出稳定柔光。需要可触及的承载物；强光、厚遮挡、水下和刻意破坏承载物都会影响效果。它不能照亮整片街区或穿透实体。",
+    "order": 101,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:10"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "暖身术",
+    "rename_by_order": true,
+    "keys": [
+      "温息术",
+      "一环",
+      "保暖",
+      "寒冷"
+    ],
+    "secondaryKeys": [
+      "旅行",
+      "取暖",
+      "冻僵"
+    ],
+    "content": "【一环｜环境适应】缓和寒冷、潮湿和轻微冻僵。它只为个人提供短时舒适与恢复窗口，不能抵御暴风雪、代替保暖装备或治愈失温伤害。",
+    "order": 102,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:11"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "追踪术",
+    "rename_by_order": true,
+    "keys": [
+      "寻痕术",
+      "一环",
+      "足迹",
+      "追踪"
+    ],
+    "secondaryKeys": [
+      "血迹",
+      "调查",
+      "痕迹"
+    ],
+    "content": "【一环｜感知】短时显出近处新近留下的足迹、血迹与搬动痕。雨水、人群、硬地和刻意清理会使结果消失或变得模糊；它不会告诉施术者痕迹主人的身份。",
+    "order": 103,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:12"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "清洁术",
+    "rename_by_order": true,
+    "keys": [
+      "净手术",
+      "一环",
+      "清洁",
+      "污渍"
+    ],
+    "secondaryKeys": [
+      "衣物",
+      "器具",
+      "异味"
+    ],
+    "content": "【一环｜实用】清除衣物、器具或皮肤上的普通污渍与轻微异味。不能去除毒物、诅咒、病原或深层炼金污染，也不会修复已损坏物品。",
+    "order": 104,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:13"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "私语术",
+    "rename_by_order": true,
+    "keys": [
+      "低语线",
+      "一环",
+      "密语",
+      "传讯"
+    ],
+    "secondaryKeys": [
+      "交谈",
+      "通讯",
+      "耳语"
+    ],
+    "content": "【一环｜沟通】让两名彼此知情的近距离对象交换低声短讯。墙壁、噪声、距离和第三人的干扰会切断它；它不能监听陌生人或让对方被迫回应。",
+    "order": 105,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:14"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "风之手",
+    "rename_by_order": true,
+    "keys": [
+      "微风牵引",
+      "一环",
+      "推拉",
+      "引火"
+    ],
+    "secondaryKeys": [
+      "细绳",
+      "翻页",
+      "轻物"
+    ],
+    "content": "【一环｜操控】以微风推动轻物、翻页、引火或牵引细绳。它无法拖拽活人、夺走牢固物件或代替真正的搬运力量。",
+    "order": 106,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:15"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "封印术",
+    "rename_by_order": true,
+    "keys": [
+      "封蜡印",
+      "一环",
+      "封口",
+      "信件"
+    ],
+    "secondaryKeys": [
+      "盒子",
+      "私信",
+      "封条"
+    ],
+    "content": "【一环｜实用】暂时封住信件、盒盖或细小裂口，并留下可辨认的施术痕迹。它不是坚不可破的锁，细致拆封、破坏或对应解除法术都能绕开。",
+    "order": 107,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:16"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "安眠术",
+    "rename_by_order": true,
+    "keys": [
+      "浅眠曲",
+      "一环",
+      "睡眠",
+      "安抚"
+    ],
+    "secondaryKeys": [
+      "惊惧",
+      "休息",
+      "失眠"
+    ],
+    "content": "【一环｜恢复】帮助愿意休息的人平复惊惧并更容易入睡。它不能强迫清醒者昏睡，也不能处理持续威胁、重度创伤或需要专业治疗的心灵问题。",
+    "order": 108,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:17"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "阴影斗篷",
+    "rename_by_order": true,
+    "keys": [
+      "烛影帷",
+      "二环",
+      "隐匿",
+      "遮蔽"
+    ],
+    "secondaryKeys": [
+      "潜行",
+      "轮廓",
+      "声响"
+    ],
+    "content": "【二环｜隐匿】在小范围内柔化轮廓与声响，协助藏身或撤离。近距离观察、触摸、脚印和强光仍可能识破，不能使对象完全消失。",
+    "order": 201,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:18"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "探测震动",
+    "rename_by_order": true,
+    "keys": [
+      "脉线听",
+      "二环",
+      "振动",
+      "空腔"
+    ],
+    "secondaryKeys": [
+      "墙体",
+      "机关",
+      "脚步"
+    ],
+    "content": "【二环｜感知】读取墙体、器械或地面传来的规律振动，以判断空腔、脚步或故障。它不能翻译谈话，也无法穿透厚重隔绝层或持续震动的混乱环境。",
+    "order": 202,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:19"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "轻盈步伐",
+    "rename_by_order": true,
+    "keys": [
+      "轻足术",
+      "二环",
+      "潜行",
+      "跳跃"
+    ],
+    "secondaryKeys": [
+      "脚步",
+      "坠落",
+      "旅行"
+    ],
+    "content": "【二环｜移动】减轻落地声与短程跳跃负担。它不能让人飞行、无视松动地面或带着重物从高处毫发无伤地坠落。",
+    "order": 203,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:20"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "漂浮术",
+    "rename_by_order": true,
+    "keys": [
+      "浮托术",
+      "二环",
+      "搬运",
+      "悬浮"
+    ],
+    "secondaryKeys": [
+      "货物",
+      "器物",
+      "重物"
+    ],
+    "content": "【二环｜实用】以平稳力量托起一件有限重量的无生命物。施术者失去专注时物件会落回安全支撑处或缓慢下落；它不能用来悬吊活人或攻城。",
+    "order": 204,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:21"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "扭曲荆棘",
+    "rename_by_order": true,
+    "keys": [
+      "束缚丝",
+      "二环",
+      "束缚",
+      "灵丝"
+    ],
+    "secondaryKeys": [
+      "控制",
+      "封口",
+      "缠绕"
+    ],
+    "content": "【二环｜控制】射出可被看见和切断的灵丝，短时缠住单一目标或封住窄口。体型差、利刃、火焰和已有掩体都会影响它，不能越过巨大实力鸿沟。",
+    "order": 205,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:22"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "净化水源",
+    "rename_by_order": true,
+    "keys": [
+      "井泉净化",
+      "二环",
+      "净水",
+      "水源"
+    ],
+    "secondaryKeys": [
+      "饮水",
+      "井",
+      "污染"
+    ],
+    "content": "【二环｜恢复】净化小容器中已知的普通污水与轻度腐败。强毒、活性瘟疫、未知炼金污染和持续流入的污染源都超出它的边界。",
+    "order": 206,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:23"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "识破幻术",
+    "rename_by_order": true,
+    "keys": [
+      "镜面辨伪",
+      "二环",
+      "幻术",
+      "伪装"
+    ],
+    "secondaryKeys": [
+      "镜子",
+      "调查",
+      "假象"
+    ],
+    "content": "【二环｜调查】借平整反光面辨出近处粗浅伪装、幻光或被替换的物件。它只提示异常，不会自动说明真相，也难以对抗精心构筑的高级遮蔽。",
+    "order": 207,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:24"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "警报术",
+    "rename_by_order": true,
+    "keys": [
+      "巢穴警铃",
+      "二环",
+      "警报",
+      "营地"
+    ],
+    "secondaryKeys": [
+      "守卫",
+      "门",
+      "帐篷"
+    ],
+    "content": "【二环｜防护】为门、帐篷或小营地预先布置可选择提醒对象的警讯。熟练者能发现并绕开它；它只能报告闯入或扰动，不能阻止来者。",
+    "order": 208,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:25"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "雷鸣冲击",
+    "rename_by_order": true,
+    "keys": [
+      "雷幕击",
+      "三环",
+      "雷电",
+      "震击"
+    ],
+    "secondaryKeys": [
+      "战斗",
+      "击退",
+      "破坏"
+    ],
+    "content": "【三环｜元素与控制】在明确方向爆发短促震击，打乱阵形、击碎脆弱障碍或逼退近处目标。对坚固建筑与远强于施术者的生物效果有限，误用会波及近旁者。",
+    "order": 301,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:26"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "石墙术",
+    "rename_by_order": true,
+    "keys": [
+      "石幕术",
+      "三环",
+      "掩体",
+      "土石"
+    ],
+    "secondaryKeys": [
+      "防御",
+      "墙",
+      "地形"
+    ],
+    "content": "【三环｜塑形】从现有土石中竖起短时矮墙或掩体。必须有可用材料，无法在空中无中生有，也不能长期承受重型攻城器械。",
+    "order": 302,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:27"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "黑暗视觉",
+    "rename_by_order": true,
+    "keys": [
+      "夜航眼",
+      "三环",
+      "夜视",
+      "雾"
+    ],
+    "secondaryKeys": [
+      "黑暗",
+      "方向",
+      "侦察"
+    ],
+    "content": "【三环｜感知】令施术者在夜色、烟雾或幽暗中维持较好的方向感与轮廓辨识。它不能看穿实体遮挡、读取文字细节或无视高级魔法遮蔽。",
+    "order": 303,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:28"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "群体止血",
+    "rename_by_order": true,
+    "keys": [
+      "止创域",
+      "三环",
+      "止血",
+      "治疗"
+    ],
+    "secondaryKeys": [
+      "伤势",
+      "救援",
+      "稳定"
+    ],
+    "content": "【三环｜恢复】在近处小范围稳定数名轻伤者的出血与恶化，为后续医疗争取时间。它不恢复失去的组织、解除复杂病因或替代真正治疗。",
+    "order": 304,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:29"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "风翼滑翔",
+    "rename_by_order": true,
+    "keys": [
+      "逆风翼",
+      "三环",
+      "滑翔",
+      "坠落"
+    ],
+    "secondaryKeys": [
+      "移动",
+      "悬崖",
+      "跳跃"
+    ],
+    "content": "【三环｜移动】让一人完成受控滑翔、越过断口或减缓坠落。它不能支持长距离飞行，也无法在雷暴、强逆风或超重负荷下安全运作。",
+    "order": 305,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:30"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "寻路术",
+    "rename_by_order": true,
+    "keys": [
+      "寻门术",
+      "三环",
+      "暗门",
+      "通路"
+    ],
+    "secondaryKeys": [
+      "锁",
+      "地下城",
+      "调查"
+    ],
+    "content": "【三环｜调查】感知近处被隐藏、封闭或异常处理的通路，并提示可能的开启方式。它不会自动解除锁、诅咒、机关或守卫。",
+    "order": 306,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:31"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "净化烟雾",
+    "rename_by_order": true,
+    "keys": [
+      "清疫烟",
+      "三环",
+      "净化",
+      "虫害"
+    ],
+    "secondaryKeys": [
+      "瘟疫",
+      "空气",
+      "营地"
+    ],
+    "content": "【三环｜净化】驱散一处小空间内的常见污秽、虫害与低阶传染源。它需要通风和时间，不能代替隔离、药物或对未知疾病的调查。",
+    "order": 307,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:32"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "水面行走",
+    "rename_by_order": true,
+    "keys": [
+      "静水桥",
+      "三环",
+      "渡河",
+      "水面"
+    ],
+    "secondaryKeys": [
+      "旅行",
+      "河流",
+      "桥"
+    ],
+    "content": "【三环｜旅行】在平静或缓流水面形成短暂可通行路径。它不能跨越暴潮、深渊海域或持续承载重型车队，使用者仍须注意落水风险。",
+    "order": 308,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:33"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "烈焰浪潮",
+    "rename_by_order": true,
+    "keys": [
+      "焰潮术",
+      "四环",
+      "火焰",
+      "封路"
+    ],
+    "secondaryKeys": [
+      "元素",
+      "火场",
+      "战斗"
+    ],
+    "content": "【四环｜元素与场景控制】在预先选定的窄区域推动火焰浪潮，用于封路、驱散或焚毁易燃障碍。它不能无视风向、燃料与附近人员，施用后往往留下明确火灾风险。",
+    "order": 401,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:34"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "冰霜囚笼",
+    "rename_by_order": true,
+    "keys": [
+      "霜牢术",
+      "四环",
+      "冻结",
+      "束缚"
+    ],
+    "secondaryKeys": [
+      "冰霜",
+      "入口",
+      "控制"
+    ],
+    "content": "【四环｜控制】冻结一处入口、器械或有限目标的活动空间，形成减速和脆性束缚。火焰、重击与持续高温能瓦解它，不能永久封印目标。",
+    "order": 402,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:35"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "隐匿结界",
+    "rename_by_order": true,
+    "keys": [
+      "折光屋",
+      "四环",
+      "隐形",
+      "营地"
+    ],
+    "secondaryKeys": [
+      "伪装",
+      "房间",
+      "躲藏"
+    ],
+    "content": "【四环｜隐匿】令一个房间或营地在远处与环境相融。近距离触摸、脚印、烟火与异常声响仍会暴露，不能让其中的人物和行为消失。",
+    "order": 403,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:36"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "迷途结界",
+    "rename_by_order": true,
+    "keys": [
+      "迷径结",
+      "四环",
+      "迷路",
+      "迷宫"
+    ],
+    "secondaryKeys": [
+      "森林",
+      "洞穴",
+      "入侵者"
+    ],
+    "content": "【四环｜控制】扰乱一段真实路线的方向感，使不熟悉者反复走回原处。它必须依托建筑、树林或洞道，不能困住了解全貌的人或改变地形本身。",
+    "order": 404,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:37"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "守护法阵",
+    "rename_by_order": true,
+    "keys": [
+      "守望圆阵",
+      "四环",
+      "结界",
+      "营地"
+    ],
+    "secondaryKeys": [
+      "防护",
+      "休息",
+      "警戒"
+    ],
+    "content": "【四环｜防护】在固定地点建立可维持数小时的防护圈，警示闯入并削弱低强度侵扰。它不是无法跨越的城墙，布置地点与维持者仍是弱点。",
+    "order": 405,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:38"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "群体漂浮",
+    "rename_by_order": true,
+    "keys": [
+      "群体浮行",
+      "四环",
+      "队伍移动",
+      "悬浮"
+    ],
+    "secondaryKeys": [
+      "浅水",
+      "碎石",
+      "旅行"
+    ],
+    "content": "【四环｜移动】让数名愿意配合的人越过浅水、碎石或短险段。它不能长时间悬空、搬运重型货物或在混乱战场中保证所有人的安全。",
+    "order": 406,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:39"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "远距传音",
+    "rename_by_order": true,
+    "keys": [
+      "远声桥",
+      "四环",
+      "远程通话",
+      "锚点"
+    ],
+    "secondaryKeys": [
+      "沟通",
+      "传讯",
+      "声音"
+    ],
+    "content": "【四环｜沟通】在两处已知的安静锚点间建立有限时间的声音通道。通话可能被监听，且它不能穿透位面封锁或替代未知地点的定位。",
+    "order": 407,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:40"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "塑土术",
+    "rename_by_order": true,
+    "keys": [
+      "土脊塑形",
+      "四环",
+      "地形",
+      "坡道"
+    ],
+    "secondaryKeys": [
+      "泥土",
+      "沙地",
+      "堤岸"
+    ],
+    "content": "【四环｜塑形】重塑现有松土、沙地或塌方边缘，修出坡道、浅沟或临时堤岸。它不能凭空造山、改写坚硬基岩或抹除长期工程问题。",
+    "order": 408,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:41"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "召唤顺风",
+    "rename_by_order": true,
+    "keys": [
+      "风暴帆",
+      "五环",
+      "航海",
+      "风势"
+    ],
+    "secondaryKeys": [
+      "船",
+      "海上旅行",
+      "风暴"
+    ],
+    "content": "【五环｜旅行】为一艘已具备航行条件的船只校正一段航程的风势与浪向。它不能穿越海啸、让陆船下海或免除船员、补给与航海判断。",
+    "order": 501,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:42"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "断桥咒",
+    "rename_by_order": true,
+    "keys": [
+      "断桥印",
+      "五环",
+      "建筑",
+      "结构"
+    ],
+    "secondaryKeys": [
+      "拆除",
+      "加固",
+      "桥梁"
+    ],
+    "content": "【五环｜工程】显出指定结构的脆弱节点，协助拆除、封锁或紧急加固。误判材料或在有人通行时使用会造成严重后果，不能取代工程检查。",
+    "order": 502,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:43"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "暗影换位",
+    "rename_by_order": true,
+    "keys": [
+      "影身换位",
+      "五环",
+      "换位",
+      "移动"
+    ],
+    "secondaryKeys": [
+      "传送",
+      "队友",
+      "救援"
+    ],
+    "content": "【五环｜移动】让两名彼此可见且同意的对象交换位置。距离与负荷受限，不能穿越封闭空间、强行置换他人或绕过封锁区域。",
+    "order": 503,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:44"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "猎印追踪",
+    "rename_by_order": true,
+    "keys": [
+      "燃印追迹",
+      "五环",
+      "追踪",
+      "印记"
+    ],
+    "secondaryKeys": [
+      "失踪",
+      "物件",
+      "侦察"
+    ],
+    "content": "【五环｜感知】沿已知且真实的个人、物件或誓约印记追索其近期方向。目标进入封锁地、获得反追踪保护或更换身份时，结果会变得模糊。",
+    "order": 504,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:45"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "降雨术",
+    "rename_by_order": true,
+    "keys": [
+      "息灾雨",
+      "五环",
+      "降雨",
+      "灭火"
+    ],
+    "secondaryKeys": [
+      "干旱",
+      "火灾",
+      "天气"
+    ],
+    "content": "【五环｜环境】在小片干燥或着火区域引来可控降雨，减缓火情和尘暴。它不能保证农时、解决大陆性旱灾或在错误地点不产生次生洪涝。",
+    "order": 505,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:46"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "盟约术",
+    "rename_by_order": true,
+    "keys": [
+      "盟语契印",
+      "五环",
+      "契约",
+      "誓言"
+    ],
+    "secondaryKeys": [
+      "交易",
+      "承诺",
+      "见证"
+    ],
+    "content": "【五环｜契约】为明确、自愿且被理解的约定留下可验证灵印。它不能把欺骗、胁迫或不平等同意变成正当契约，也不会替双方履行责任。",
+    "order": 506,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:47"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "记忆映照",
+    "rename_by_order": true,
+    "keys": [
+      "追忆镜",
+      "五环",
+      "记忆",
+      "证据"
+    ],
+    "secondaryKeys": [
+      "调查",
+      "镜子",
+      "往事"
+    ],
+    "content": "【五环｜调查】由自愿当事人的叙述与遗留物重现不完整记忆片段。记忆可能错误、被隐瞒或受情绪影响，不能直接作为绝对证据。",
+    "order": 507,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:48"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "星光信标",
+    "rename_by_order": true,
+    "keys": [
+      "群星信标",
+      "五环",
+      "信号",
+      "救援"
+    ],
+    "secondaryKeys": [
+      "夜间",
+      "航海",
+      "通讯"
+    ],
+    "content": "【五环｜沟通】向约定的远方地点发送可辨识的夜间光讯，适用于救援与航海。敌人同样可能看见它，且它不包含完整谈话内容。",
+    "order": 508,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:49"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "云梯术",
+    "rename_by_order": true,
+    "keys": [
+      "云阶术",
+      "六环",
+      "攀行",
+      "云雾"
+    ],
+    "secondaryKeys": [
+      "高墙",
+      "山隘",
+      "旅行"
+    ],
+    "content": "【六环｜移动】在稳定天气中构筑一段可攀行的云雾阶路。强风、雷暴、长距离负重和施术者失去控制都会使其崩散。",
+    "order": 601,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:50"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "大地聆听",
+    "rename_by_order": true,
+    "keys": [
+      "山河聆听",
+      "六环",
+      "地脉",
+      "灾害"
+    ],
+    "secondaryKeys": [
+      "洪水",
+      "坍塌",
+      "军队"
+    ],
+    "content": "【六环｜感知】借当地岩层、水脉和风向获知区域内显著的坍塌、洪水、军队行进或魔力扰动。它给出征兆而非全知，异地与人为伪装会误导结果。",
+    "order": 602,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:51"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "禁行结界",
+    "rename_by_order": true,
+    "keys": [
+      "禁行域",
+      "六环",
+      "禁制",
+      "封锁"
+    ],
+    "secondaryKeys": [
+      "传送",
+      "潜行",
+      "飞行"
+    ],
+    "content": "【六环｜防护】在明确地点阻隔特定进入方式，例如飞行、潜行或未经许可的传送。它必须定义范围和例外，不能把整座城市变成绝对牢笼。",
+    "order": 603,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:52"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "城墙加固",
+    "rename_by_order": true,
+    "keys": [
+      "岩甲塑形",
+      "六环",
+      "城门",
+      "加固"
+    ],
+    "secondaryKeys": [
+      "建筑",
+      "构装",
+      "防御"
+    ],
+    "content": "【六环｜工程】为建筑、城门或巨型构装短时加固，并修复有限结构损伤。它不能让朽坏地基无视长期问题，也不能瞬间重建整座建筑。",
+    "order": 604,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:53"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "群体隐形",
+    "rename_by_order": true,
+    "keys": [
+      "人群隐幕",
+      "六环",
+      "群体隐匿",
+      "身份"
+    ],
+    "secondaryKeys": [
+      "撤离",
+      "伪装",
+      "追踪"
+    ],
+    "content": "【六环｜隐匿】短时遮蔽一群人的身份特征与移动痕迹。它不能抹去声音、行为、目击者记忆或社会记录，也不应被用来规避真实责任。",
+    "order": 605,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:54"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "续命术",
+    "rename_by_order": true,
+    "keys": [
+      "续命印",
+      "六环",
+      "危重伤",
+      "救命"
+    ],
+    "secondaryKeys": [
+      "治疗",
+      "濒死",
+      "救援"
+    ],
+    "content": "【六环｜恢复】在生命尚可维持的危急伤者身上延缓恶化，为专业救治争取窗口。它不能复活死者、再生肢体或解除所有致命病因。",
+    "order": 606,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:55"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "传送锚点",
+    "rename_by_order": true,
+    "keys": [
+      "多门锚",
+      "六环",
+      "锚点",
+      "通行"
+    ],
+    "secondaryKeys": [
+      "队伍",
+      "入口",
+      "移动"
+    ],
+    "content": "【六环｜旅行】为数个已知入口建立相互识别的通行锚记，便于团队在同一区域往返。锚点被毁、封锁或敌对占据时不能强开。",
+    "order": 607,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:56"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "避雷法阵",
+    "rename_by_order": true,
+    "keys": [
+      "驯雷柱",
+      "六环",
+      "雷电",
+      "避雷"
+    ],
+    "secondaryKeys": [
+      "风暴",
+      "船桅",
+      "营地"
+    ],
+    "content": "【六环｜环境】引导局地雷电远离营地、船桅或重要设施。它需要良好导体与空旷条件，不能操控整场风暴或把雷电任意转作武器。",
+    "order": 608,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:57"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "传送门仪式",
+    "rename_by_order": true,
+    "keys": [
+      "星门仪",
+      "七环",
+      "传送门",
+      "仪式"
+    ],
+    "secondaryKeys": [
+      "锚点",
+      "远行",
+      "位面"
+    ],
+    "content": "【七环｜仪式与旅行】在两个经充分研究、彼此相容且未被封锁的锚点间短时开启通行门。准备往往持续数小时或更久，任一端失稳都会终止仪式。",
+    "order": 701,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:58"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "远古回响",
+    "rename_by_order": true,
+    "keys": [
+      "遗迹回响",
+      "七环",
+      "遗迹",
+      "历史"
+    ],
+    "secondaryKeys": [
+      "建筑",
+      "调查",
+      "记忆"
+    ],
+    "content": "【七环｜调查仪式】让古老建筑显露被压抑的结构记忆、使用痕迹与崩坏节点。它不能替代史料，旧日防护与残留谎言也可能误导施术者。",
+    "order": 702,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:59"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "远行仪式",
+    "rename_by_order": true,
+    "keys": [
+      "远行舟",
+      "七环",
+      "远行",
+      "航道"
+    ],
+    "secondaryKeys": [
+      "荒野",
+      "小队",
+      "补给"
+    ],
+    "content": "【七环｜旅行仪式】为小队在危险地形中铺设数日可维持的灵性航道。它需要补给与持续引导，不能把未知荒野变成无风险道路。",
+    "order": 703,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:60"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "时间缓滞室",
+    "rename_by_order": true,
+    "keys": [
+      "时潮缓室",
+      "七环",
+      "时间",
+      "救治"
+    ],
+    "secondaryKeys": [
+      "谈判",
+      "机关",
+      "延缓"
+    ],
+    "content": "【七环｜场域】在一间封闭空间中轻微改变事件节奏，为救治、谈判或解除装置争取有限时间。它不能倒转既成事实，也不会让外界完全停止。",
+    "order": 704,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:61"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "千里眼阵",
+    "rename_by_order": true,
+    "keys": [
+      "百目守望",
+      "七环",
+      "预警",
+      "瞭望"
+    ],
+    "secondaryKeys": [
+      "守卫",
+      "异常",
+      "网络"
+    ],
+    "content": "【七环｜守望仪式】把多个经许可的瞭望点连成预警网络，传递异常征兆。它不读取每个人的私人生活，也需要有人维护、解释与响应信号。",
+    "order": 705,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:62"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "天幕结界",
+    "rename_by_order": true,
+    "keys": [
+      "天穹壁",
+      "七环",
+      "大型结界",
+      "避难"
+    ],
+    "secondaryKeys": [
+      "要塞",
+      "船队",
+      "风暴"
+    ],
+    "content": "【七环｜防护仪式】在要塞、船队或避难地上方维持短时广域遮护，削弱风暴碎片、飞散火焰与远距投射。维护成本很高且会留下显眼光迹。",
+    "order": 706,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:63"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "梦境会议",
+    "rename_by_order": true,
+    "keys": [
+      "梦境议庭",
+      "七环",
+      "梦境",
+      "会议"
+    ],
+    "secondaryKeys": [
+      "记忆",
+      "谈判",
+      "共识"
+    ],
+    "content": "【七环｜沟通仪式】让多名自愿参与者在受保护的梦境中讨论、比对记忆与推演方案。它不能强迫共识、改写人格或消除现实中的权力关系。",
+    "order": 707,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:64"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "地脉镇静",
+    "rename_by_order": true,
+    "keys": [
+      "龙脉安抚",
+      "七环",
+      "地脉",
+      "魔力灾害"
+    ],
+    "secondaryKeys": [
+      "灾害",
+      "自然",
+      "仪式"
+    ],
+    "content": "【七环｜环境仪式】疏导一段已知地脉的紊乱，减轻魔力潮涌与环境灾害。错误介入可能把压力转移到别处，不能把地脉抽取为个人力量。",
+    "order": 708,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:65"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "位面封印",
+    "rename_by_order": true,
+    "keys": [
+      "界域封印",
+      "八环",
+      "封印",
+      "裂隙"
+    ],
+    "secondaryKeys": [
+      "位面",
+      "仪式",
+      "灾害"
+    ],
+    "content": "【八环｜世界级仪式】暂时闭合或加固一处已知位面裂隙。必须理解裂隙成因并具备足够锚物，不能任意封锁整片世界或替代后续维护。",
+    "order": 801,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:66"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "城防苏醒",
+    "rename_by_order": true,
+    "keys": [
+      "城垣苏醒",
+      "八环",
+      "城防",
+      "符文"
+    ],
+    "secondaryKeys": [
+      "城市",
+      "防御",
+      "要塞"
+    ],
+    "content": "【八环｜工程仪式】唤醒已有符文结构的城防体系，使其短时协同抵御明确威胁。没有工程与符文基础的城镇不能凭空获得城墙。",
+    "order": 802,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:67"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "风暴引导",
+    "rename_by_order": true,
+    "keys": [
+      "天象引线",
+      "八环",
+      "天气",
+      "减灾"
+    ],
+    "secondaryKeys": [
+      "暴风",
+      "洪水",
+      "灾害"
+    ],
+    "content": "【八环｜环境仪式】在有限区域把已形成的强天气导向较安全路径，用于减灾而非制造天灾。预测错误会带来灾难性责任，必须由多方共同评估。",
+    "order": 803,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:68"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "远距观测",
+    "rename_by_order": true,
+    "keys": [
+      "万里镜海",
+      "八环",
+      "海况",
+      "观测"
+    ],
+    "secondaryKeys": [
+      "航线",
+      "救援",
+      "远望"
+    ],
+    "content": "【八环｜观测仪式】以多处经同意的观测站共享远方海况、航线与求救信号。它不能窥视所有人，也不会替代实地航海判断。",
+    "order": 804,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:69"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "紧急传送门",
+    "rename_by_order": true,
+    "keys": [
+      "群体避难门",
+      "八环",
+      "撤离",
+      "传送"
+    ],
+    "secondaryKeys": [
+      "灾难",
+      "锚点",
+      "避难所"
+    ],
+    "content": "【八环｜救援仪式】在危急时把一批人员撤至已确认、安全且愿意接纳的锚点。人数、空间稳定性、锚点权限和准备时间都严格受限。",
+    "order": 805,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:70"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "永明灯塔",
+    "rename_by_order": true,
+    "keys": [
+      "不灭灯塔",
+      "八环",
+      "灯塔",
+      "航道"
+    ],
+    "secondaryKeys": [
+      "荒原",
+      "警示",
+      "长期工程"
+    ],
+    "content": "【八环｜长期仪式】为危险航道、裂隙边缘或荒原建立可持续多年的警示与定位装置。它需要组织、物资和继承者维护，不能自行解决沿线危险。",
+    "order": 806,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:71"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "地脉封锁",
+    "rename_by_order": true,
+    "keys": [
+      "龙脉静止",
+      "八环",
+      "地脉",
+      "停止"
+    ],
+    "secondaryKeys": [
+      "能量连锁",
+      "撤离",
+      "修复"
+    ],
+    "content": "【八环｜灾害处置】在明确且局限的地脉灾害中短暂停止能量连锁，以便撤离和修复。它不能永久压制自然循环或将地脉据为己有。",
+    "order": 807,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:72"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "星界校正",
+    "rename_by_order": true,
+    "keys": [
+      "星潮归正",
+      "八环",
+      "传送设施",
+      "校正"
+    ],
+    "secondaryKeys": [
+      "古代装置",
+      "位面",
+      "安全"
+    ],
+    "content": "【八环｜修复仪式】校正一处持续失稳的古代观测或传送设施，使其回到已知安全范围。它不能创造未知目的地，也无法绕过位面封锁。",
+    "order": 808,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:73"
+  },
+  {
+    "category": "Magic rules",
+    "title": "魔法用途、稀有度与出现逻辑",
+    "keys": [
+      "魔法分类",
+      "法术用途",
+      "法术稀有度",
+      "高环法术",
+      "魔法物品",
+      "卷轴",
+      "施法者",
+      "魔法来源"
+    ],
+    "secondaryKeys": [
+      "攻击",
+      "防护",
+      "感知",
+      "治疗",
+      "旅行",
+      "制造",
+      "召唤",
+      "幻术",
+      "契约"
+    ],
+    "content": "魔法可按主要用途理解为感知与知识、沟通与心智、隐匿与误导、防护与反制、移动与旅行、恢复与稳定、元素与塑形、召唤与束缚、制造与附魔、契约与仪式。一个法术可以跨越多个用途，但具体效果仍由其自身边界决定。\n\n一、二环是受过正规训练者最可能掌握的常用术式；三、四环通常由成熟施法者、专业团队或受监管机构使用；五、六环应当与知名法师、重要宗教职位、特定组织、罕见血脉或正式工程相关；七、八环必须拥有明确的历史、权限、材料与社会痕迹。卷轴、法器、药剂和附魔器具可以承载有限效果，但不自动让持有者学会同名法术。\n\n任何高环法术在故事中出现，都应先回答：谁提供了知识与材料、为什么在此时施展、影响范围是否合理、谁能察觉或反制、失败会留下什么、结束后世界会怎样记住它。这样的限制不是削弱自由度，而是让罕见力量具有可信的重量。",
+    "order": 59,
+    "priority": 185,
+    "source_id": "world_bible_magic_catalog:74"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "回声纸鹤",
+    "rename_by_order": true,
+    "keys": ["回声纸鹤", "一环", "短讯", "纸鹤"],
+    "secondaryKeys": ["沟通", "传信", "折纸"],
+    "content": "【一环｜短讯】把一段不超过几句话的低声讯息折进纸鹤或薄片，让它飞到施术者事先指定的近处收信人身边。纸鹤会被风雨、封闭空间和错误的收信者阻挡，不能穿越城市或代替可靠信使。",
+    "order": 900,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:75"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "微火引线",
+    "rename_by_order": true,
+    "keys": ["微火引线", "一环", "引火", "火种"],
+    "secondaryKeys": ["照明", "烹饪", "火焰"],
+    "content": "【一环｜生活】在安全的可燃物上点起一小簇稳定火苗，便于点灯、烧水或生火。它不能点燃湿木、远处目标或无法承受热量的容器，也不会自动控制火势。",
+    "order": 901,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:76"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "识味术",
+    "rename_by_order": true,
+    "keys": ["识味术", "一环", "辨味", "食物检查"],
+    "secondaryKeys": ["毒物", "烹饪", "感知"],
+    "content": "【一环｜感知】分辨食物或饮水中明显的苦、酸、腐败和部分常见药味。它只能给出感官线索，不能确认所有毒物、诅咒或微量污染。",
+    "order": 902,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:77"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "固定术",
+    "rename_by_order": true,
+    "keys": ["固定术", "一环", "固定", "稳固"],
+    "secondaryKeys": ["修理", "绳结", "临时结构"],
+    "content": "【一环｜工艺】让两件相邻的小型物体在短时间内保持相对位置，方便修补、打结或固定帐篷。冲击、重量和持续时间超过术式边界时，固定会逐渐松脱。",
+    "order": 903,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:78"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "影灯",
+    "rename_by_order": true,
+    "keys": ["影灯", "二环", "光影", "暗处照明"],
+    "secondaryKeys": ["隐匿", "照明", "灯火"],
+    "content": "【二环｜照明】在一盏灯或石片上形成一圈柔和的定向光，只照亮施术者选择的区域，减少向远处泄露的光。它不能制造真正的黑暗，也会被遮挡和强光抵消。",
+    "order": 904,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:79"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "安声结界",
+    "rename_by_order": true,
+    "keys": ["安声结界", "二环", "隔音", "静音"],
+    "secondaryKeys": ["休息", "潜行", "谈话"],
+    "content": "【二环｜防护】在一间小屋、帐篷或短暂的谈话范围内削弱声音外泄。结界不阻挡震动、脚步和强行闯入，也不能保证里面的人听不见外界。",
+    "order": 905,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:80"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "物件回忆",
+    "rename_by_order": true,
+    "keys": ["物件回忆", "二环", "物品记忆", "触摸调查"],
+    "secondaryKeys": ["调查", "残留", "来源"],
+    "content": "【二环｜调查】通过触摸一件物品读取最近留下的强烈使用痕迹，例如反复开启、沾染的环境或最后一次异常冲击。它不会播放完整历史，也不能辨认每个经手人的身份。",
+    "order": 906,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:81"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "牵引绳",
+    "rename_by_order": true,
+    "keys": ["牵引绳", "二环", "绳索", "远距牵引"],
+    "secondaryKeys": ["攀爬", "救援", "移动"],
+    "content": "【二环｜移动】让一条已经固定的绳索在短距离内缓慢牵引轻物或愿意配合的人。它不能拉动失去意识的大型目标，锚点损坏时牵引会立即中断。",
+    "order": 907,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:82"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "路标显现",
+    "rename_by_order": true,
+    "keys": ["路标显现", "三环", "路线", "显形"],
+    "secondaryKeys": ["导航", "古道", "标记"],
+    "content": "【三环｜旅行】让一处真实存在过的道路标记、驿站符号或安全记号在短时间内显现。它只能显示施术者拥有依据的路线，不会创造通往未知地点的地图。",
+    "order": 908,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:83"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "霜火屏障",
+    "rename_by_order": true,
+    "keys": ["霜火屏障", "三环", "火焰防护", "寒焰"],
+    "secondaryKeys": ["元素", "防护", "营地"],
+    "content": "【三环｜防护】围绕一处小型营地或门口形成一圈冷热交替的元素屏障，减轻普通火焰、寒气和低阶冲击。它不能挡住所有攻击，也会被持续高强度力量逐渐消耗。",
+    "order": 909,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:84"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "水下呼吸",
+    "rename_by_order": true,
+    "keys": ["水下呼吸", "三环", "呼吸", "潜水"],
+    "secondaryKeys": ["水域", "救援", "海路"],
+    "content": "【三环｜环境】让一个人短时间从清洁水体中提取可呼吸的空气。浑浊、毒化、强流和超出持续时间的深水仍然危险，法术不会解决压力和方向问题。",
+    "order": 910,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:85"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "小型驱散",
+    "rename_by_order": true,
+    "keys": ["小型驱散", "三环", "驱散", "解除术"],
+    "secondaryKeys": ["结界", "诅咒", "反制"],
+    "content": "【三环｜反制】削弱或解除一个范围明确、环阶不高于三环的持续法术效果。它需要看见或接触目标，不能抹除已经造成的伤害，也不能自动破解古老契约。",
+    "order": 911,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:86"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "屋顶花园",
+    "rename_by_order": true,
+    "keys": ["屋顶花园", "四环", "植物", "临时生态"],
+    "secondaryKeys": ["种植", "食物", "城市"],
+    "content": "【四环｜塑形】让一处安全屋顶或庭院在数日内形成可维持的浅层植被和遮阴结构。植物仍需要水、土和后续照料，不能凭空替城市提供无限粮食。",
+    "order": 912,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:87"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "复合护盾",
+    "rename_by_order": true,
+    "keys": ["复合护盾", "四环", "多层防护", "护盾"],
+    "secondaryKeys": ["小队", "防护", "冲击"],
+    "content": "【四环｜守护】在数名自愿同行者之间分配多层的物理、元素和精神缓冲。每一层都只能承担明确范围的影响，成员分散、互不信任或持续遭受重击时会快速失效。",
+    "order": 913,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:88"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "远距交换",
+    "rename_by_order": true,
+    "keys": ["远距交换", "四环", "交换位置", "物品转移"],
+    "secondaryKeys": ["传送", "锚点", "距离"],
+    "content": "【四环｜移动】在两个已经标记且相互看得见的地点之间交换一件小型物品或两名自愿者的位置。遮挡、重量、锚点失效和不同位面会使术式无法完成。",
+    "order": 914,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:89"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "记忆封存",
+    "rename_by_order": true,
+    "keys": ["记忆封存", "四环", "封存记忆", "记忆保护"],
+    "secondaryKeys": ["隐私", "证词", "心智"],
+    "content": "【四环｜心智】把一段由本人明确选择的记忆暂时封存在信物或安全地点，减少意外读取和梦境干扰。封存不是删除，取回需要原持有人、正确媒介和完整程序。",
+    "order": 915,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:90"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "空间折返",
+    "rename_by_order": true,
+    "keys": ["空间折返", "五环", "折叠距离", "短程传送"],
+    "secondaryKeys": ["旅行", "传送", "锚点"],
+    "content": "【五环｜旅行】沿一条已经确认的道路或视线折叠一段距离，让小队跨过中间的一部分路程。它不能跨越未测绘的边界、封锁位面或没有回程方向的空间。",
+    "order": 916,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:91"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "真言回响",
+    "rename_by_order": true,
+    "keys": ["真言回响", "五环", "誓言", "证词"],
+    "secondaryKeys": ["审问", "契约", "记忆"],
+    "content": "【五环｜见证】在自愿的见证仪式中放大一段已经说出的誓言或证词，使矛盾处变得更容易察觉。它不能强迫人说真话，也不能直接判断复杂叙述的全部背景。",
+    "order": 917,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:92"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "梦行使者",
+    "rename_by_order": true,
+    "keys": ["梦行使者", "五环", "梦境", "远程会面"],
+    "secondaryKeys": ["心灵", "睡眠", "沟通"],
+    "content": "【五环｜沟通】让已经入睡且同意接触的人在共享梦境中进行一次短暂会面。梦境可以传递情绪和象征，却不保证细节可靠；惊醒、拒绝或精神干扰会中断连接。",
+    "order": 918,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:93"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "大范围净化",
+    "rename_by_order": true,
+    "keys": ["大范围净化", "五环", "净化", "污染"],
+    "secondaryKeys": ["水源", "瘟疫", "区域"],
+    "content": "【五环｜恢复】在准备充分的情况下净化一处建筑、井渠或小型聚落中的一类已知污染。它需要持续观察和后续卫生工作，不能一次清除所有病因、诅咒或社会后果。",
+    "order": 919,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:94"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "领域静默",
+    "rename_by_order": true,
+    "keys": ["领域静默", "六环", "禁魔", "静默区域"],
+    "secondaryKeys": ["反制", "施法", "区域控制"],
+    "content": "【六环｜控制】在一处明确边界内暂时压低法术声响、闪光和低阶施法效果。它不会消除已经存在的物理危险，高阶术式和特殊位面规则仍可能穿透或改写边界。",
+    "order": 920,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:95"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "伤痕逆转",
+    "rename_by_order": true,
+    "keys": ["伤痕逆转", "六环", "深度治疗", "恢复"],
+    "secondaryKeys": ["医疗", "创伤", "代价"],
+    "content": "【六环｜深度恢复】在明确病因并拥有足够准备时修复严重创伤的一部分结构。它不能抹去疼痛经历、缺失的时间、所有疾病或灵魂层面的损伤，施术后仍需要护理。",
+    "order": 921,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:96"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "召唤守望者",
+    "rename_by_order": true,
+    "keys": ["召唤守望者", "六环", "守卫", "召唤"],
+    "secondaryKeys": ["结界", "护卫", "契约"],
+    "content": "【六环｜召唤】召来一个受明确任务和时限约束的守望实体，负责观察、警示或保护一处地点。它不是无条件服从的军队，任务边界、来源、沟通方式和离场条件必须写清。",
+    "order": 922,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:97"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "迷宫测绘",
+    "rename_by_order": true,
+    "keys": ["迷宫测绘", "六环", "地下城", "空间测绘"],
+    "secondaryKeys": ["地图", "遗迹", "迷宫"],
+    "content": "【六环｜知识】把一处正在探索的复杂空间转换成带时间标记的简化路线图。地图会受到移动空间、幻术、未探索区域和施术者认知错误影响，不能保证出口安全。",
+    "order": 923,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:98"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "古契重述",
+    "rename_by_order": true,
+    "keys": ["古契重述", "七环", "古老契约", "重述"],
+    "secondaryKeys": ["契约", "法律", "历史"],
+    "content": "【七环｜仪式】在原件、见证人和完整语境仍然存在时，重新解释一项古老契约的适用边界。它不能凭空撕毁誓约，也不能替没有资格的人创造权利，所有改动都会留下新的见证痕迹。",
+    "order": 924,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:99"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "群星桥",
+    "rename_by_order": true,
+    "keys": ["群星桥", "七环", "位面桥", "星路"],
+    "secondaryKeys": ["位面", "传送", "锚点"],
+    "content": "【七环｜位面】在两个已经验证的远方锚点之间建立短时的跨域通行桥。桥梁需要主持者、材料、护持和关闭程序，任何一个锚点不可靠都可能导致偏移或回程中断。",
+    "order": 925,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:100"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "灾厄预演",
+    "rename_by_order": true,
+    "keys": ["灾厄预演", "八环", "预演", "灾害预警"],
+    "secondaryKeys": ["预言", "撤离", "可能性"],
+    "content": "【八环｜观测】以大量证据和见证构造一段可能灾害的有限预演，让参与者看见不同决策可能触发的后果。它不是确定预言，不能保证未来必然如此，也不能替代现实中的撤离和准备。",
+    "order": 926,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:101"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "位面避难所",
+    "rename_by_order": true,
+    "keys": ["位面避难所", "八环", "避难", "边界空间"],
+    "secondaryKeys": ["位面", "庇护", "灾害"],
+    "content": "【八环｜防护】在已经准备好的锚点附近形成一个短暂的边界避难所，容纳有限人数和物资。避难所不能无限维持、不能逃避所有追踪，关闭时必须确认所有人和物品都已安全返回。",
+    "order": 927,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:102"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "旋风拂尘",
+    "rename_by_order": true,
+    "keys": ["旋风拂尘", "一环", "清扫", "微风"],
+    "secondaryKeys": ["家务", "灰尘", "生活"],
+    "content": "【一环｜生活】以一股受控微风聚拢近处灰尘、落叶和轻碎屑，便于清扫小房间或整理桌面。湿泥、油污、重物和藏在缝隙里的东西不会因此消失。",
+    "order": 930,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:103"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "细语留痕",
+    "rename_by_order": true,
+    "keys": ["细语留痕", "一环", "记录", "声音"],
+    "secondaryKeys": ["沟通", "证词", "短时"],
+    "content": "【一环｜记录】把一句不超过数息的低声话留在纸片、木片或石片上，触碰者可以听见一次原本的音色。介质损坏、环境嘈杂或超过保存时间都会让声音变得模糊。",
+    "order": 931,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:104"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "温酒术",
+    "rename_by_order": true,
+    "keys": ["温酒术", "一环", "加热", "饮品"],
+    "secondaryKeys": ["火候", "厨房", "日常"],
+    "content": "【一环｜生活】把一小杯饮品加热到适合入口的温度，不改变酒精度、成分或毒性。容器过热、液体过多或施术者试图用它煮沸物品时，术式会提前失效。",
+    "order": 932,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:105"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "微光标记",
+    "rename_by_order": true,
+    "keys": ["微光标记", "二环", "标记", "定位"],
+    "secondaryKeys": ["导航", "物品", "识别"],
+    "content": "【二环｜定位】在同意的物品或门框上留下只有施术者和指定同伴能辨认的微光记号，持续到下一次日落。覆盖、转移、反制或离开有效范围会使记号失去方向感。",
+    "order": 933,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:106"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "缓冲落地",
+    "rename_by_order": true,
+    "keys": ["缓冲落地", "二环", "减速", "坠落"],
+    "secondaryKeys": ["救援", "移动", "安全"],
+    "content": "【二环｜救援】让一名自愿者在短距离坠落或跳跃结束时减轻冲击，争取站稳或抓住近处边缘。它不能承受建筑倒塌、长时间下坠或替代可靠的绳索和落点判断。",
+    "order": 934,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:107"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "物件定位",
+    "rename_by_order": true,
+    "keys": ["物件定位", "二环", "寻找", "物品"],
+    "secondaryKeys": ["调查", "追踪", "熟悉物"],
+    "content": "【二环｜调查】在施术者曾经持有或仔细观察过的物品仍位于近处时，指出一个大致方向。相似物、隔绝层、移动中的目标和刻意伪装会使结果变得含糊。",
+    "order": 935,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:108"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "影缝术",
+    "rename_by_order": true,
+    "keys": ["影缝术", "三环", "阴影", "封口"],
+    "secondaryKeys": ["潜行", "修补", "遮蔽"],
+    "content": "【三环｜遮蔽】把两片相邻阴影暂时缝成一道可见的暗缝，用于遮住小孔、减弱门缝光线或隐藏一件小物。强光、触碰、风和持续拉扯会让缝线逐渐松开。",
+    "order": 936,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:109"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "踏风跃",
+    "rename_by_order": true,
+    "keys": ["踏风跃", "三环", "跳跃", "风"],
+    "secondaryKeys": ["移动", "越障", "身法"],
+    "content": "【三环｜移动】在一次起跳中形成短促上托气流，帮助一人越过屋顶间隙、低墙或断裂地面。它不提供持续飞行，起点、落点、负重和风向仍决定是否安全。",
+    "order": 937,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:110"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "共享止痛",
+    "rename_by_order": true,
+    "keys": ["共享止痛", "三环", "止痛", "小队"],
+    "secondaryKeys": ["医疗", "创伤", "照护"],
+    "content": "【三环｜医疗】把一名伤者可以承受的部分疼痛分散到愿意共同承担的数人身上，使其短时完成转移或包扎。它不修复伤口，分担者也会受到真实疲劳和迟来的痛感影响。",
+    "order": 938,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:111"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "玻璃门",
+    "rename_by_order": true,
+    "keys": ["玻璃门", "四环", "透明屏障", "门"],
+    "secondaryKeys": ["防护", "观察", "建筑"],
+    "content": "【四环｜建筑】在已有门框或墙洞中形成一面可开合的透明硬质屏障，持续一段时间并允许双方观察。它不是绝对牢不可破，重击、震动、温差和边界外的绕行仍然有效。",
+    "order": 939,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:112"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "结霜封存",
+    "rename_by_order": true,
+    "keys": ["结霜封存", "四环", "保存", "寒霜"],
+    "secondaryKeys": ["食物", "样本", "炼金"],
+    "content": "【四环｜保存】在不损坏内容物的前提下，把一只小型容器保持在低温稳定状态，延缓腐败和部分反应。它不能冻结活体、阻止所有毒性变化，也需要持续的容器完整性。",
+    "order": 940,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:113"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "旅店庇护",
+    "rename_by_order": true,
+    "keys": ["旅店庇护", "四环", "休息", "庇护"],
+    "secondaryKeys": ["营地", "安全", "睡眠"],
+    "content": "【四环｜守护】为一间已经有人管理的房间建立短时安定边界，降低普通噪声、寒冷和小动物侵扰，让其中的人可以休息。它不会阻挡知情者、强行闯入者或房屋本身的结构危险。",
+    "order": 941,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:114"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "旧路回声",
+    "rename_by_order": true,
+    "keys": ["旧路回声", "五环", "路线", "回忆"],
+    "secondaryKeys": ["旅行", "调查", "历史"],
+    "content": "【五环｜调查】从一条真实存在过的道路、桥梁或驿站中读取近期留下的片段性声响和人流方向。回声不等于完整目击证词，会受天气、重建、施术者偏见和路线分叉影响。",
+    "order": 942,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:115"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "生命连结",
+    "rename_by_order": true,
+    "keys": ["生命连结", "五环", "共享生命", "照护"],
+    "secondaryKeys": ["治疗", "小队", "代价"],
+    "content": "【五环｜恢复】让两名自愿者在短时间内共同承担一部分伤势恶化，使照护者能及时稳定伤者。它不会转移所有伤害，连结中断、距离拉开或双方意愿改变都会使术式停止。",
+    "order": 943,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:116"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "门锁回忆",
+    "rename_by_order": true,
+    "keys": ["门锁回忆", "五环", "锁具", "记忆"],
+    "secondaryKeys": ["调查", "机关", "安全"],
+    "content": "【五环｜调查】让一把仍然完整的锁短暂显出最近一次被正常开启、破坏或更换的模糊痕迹。它不会提供开锁方法，也不能确认操作者的身份和动机。",
+    "order": 944,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:117"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "逆流行舟",
+    "rename_by_order": true,
+    "keys": ["逆流行舟", "六环", "水流", "航行"],
+    "secondaryKeys": ["河流", "船只", "运输"],
+    "content": "【六环｜航行】在一段已经测量过的河道中暂时减轻逆流对一艘船的阻力，帮助船队通过浅滩或回到安全水面。它不能对抗洪峰、瀑布、暗礁或未经测绘的水域。",
+    "order": 945,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:118"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "群体复原",
+    "rename_by_order": true,
+    "keys": ["群体复原", "六环", "恢复", "小队"],
+    "secondaryKeys": ["治疗", "疲劳", "照护"],
+    "content": "【六环｜恢复】在完整休息、药物和施术程序配合下，帮助一小队恢复部分由劳累、失血或轻度术式负荷造成的损耗。它不能替代手术、补回永久损失或清除未知病因。",
+    "order": 946,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:119"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "法术追猎",
+    "rename_by_order": true,
+    "keys": ["法术追猎", "六环", "追踪法术", "反制"],
+    "secondaryKeys": ["调查", "高环", "痕迹"],
+    "content": "【六环｜调查】沿着残留的施法痕迹判断一个法术的大致来源、方向和环阶范围。痕迹会衰退，多个术式叠加、位面隔绝和刻意伪装都会降低可信度。",
+    "order": 947,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:120"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "城市梦网",
+    "rename_by_order": true,
+    "keys": ["城市梦网", "七环", "梦境", "城市"],
+    "secondaryKeys": ["沟通", "公共设施", "睡眠"],
+    "content": "【七环｜沟通】在经过许可的城市节点之间建立一夜有效的共享梦境网络，让值守者、医者和远处的管理者交换有限信息。参与者仍可拒绝接入，梦境内容也不能取代书面记录和现实验证。",
+    "order": 948,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:121"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "古物复写",
+    "rename_by_order": true,
+    "keys": ["古物复写", "七环", "遗物", "复制"],
+    "secondaryKeys": ["考古", "工艺", "历史"],
+    "content": "【七环｜工艺】从一件仍然完整的古物中复写有限的形制、铭文或结构信息，帮助工匠制作研究用复制品。它不会复制灵魂、传承、独有材料或原物承载的高阶力量。",
+    "order": 949,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:122"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "星海航线",
+    "rename_by_order": true,
+    "keys": ["星海航线", "七环", "航海", "星图"],
+    "secondaryKeys": ["导航", "远行", "观测"],
+    "content": "【七环｜航行】以已确认的星位、潮汐和锚点为依据，为一支船队规划一段跨海安全窗口。它只提供路线判断，不会消除风暴、敌对势力、补给限制或船员失误。",
+    "order": 950,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:123"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "永昼环",
+    "rename_by_order": true,
+    "keys": ["永昼环", "八环", "长时照明", "灯塔"],
+    "secondaryKeys": ["航路", "能源", "工程"],
+    "content": "【八环｜工程】在已经建立的灯塔、瞭望台或避难所上维持一圈多年可见的稳定光源。它需要持续维护和燃料或锚点，不会制造太阳，也不能照穿雾、山脉或位面边界。",
+    "order": 951,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:124"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "灾厄收束",
+    "rename_by_order": true,
+    "keys": ["灾厄收束", "八环", "灾害", "封锁"],
+    "secondaryKeys": ["撤离", "地脉", "责任"],
+    "content": "【八环｜灾害处置】在已经识别成因的局部灾害中暂时收束扩散边界，为撤离和修复争取时间。它不会抹除灾害源头，施术者必须承担边界选择、遗漏区域和后续维护的责任。",
+    "order": 952,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:125"
+  },
+  {
+    "category": "Magic & rituals",
+    "title": "世界回声",
+    "rename_by_order": true,
+    "keys": ["世界回声", "八环", "历史", "见证"],
+    "secondaryKeys": ["记录", "古代事件", "责任"],
+    "content": "【八环｜见证】借助多个真实遗址和见证物，重现一场重大历史事件的有限环境回声。它不是全知回放，缺失的材料、被改写的记忆和施术者的解释都会影响结果。",
+    "order": 953,
+    "priority": 176,
+    "source_id": "world_bible_magic_catalog:126"
+  }
+]

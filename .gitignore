@@ -1,0 +1,13 @@
+# Personal story data: keep it out of the portable Codex project.
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+.codex-rpg-memory/
+
+# Local runtime files
+.DS_Store
+node_modules/
+__pycache__/
+
+# Generated inside release archives; a source-tree copy becomes stale after edits.
+SHA256SUMS.txt

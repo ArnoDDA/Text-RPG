@@ -1,0 +1,14 @@
+{
+  "name": "secret-fire",
+  "description": "Portable local solo text RPG driven by the currently signed-in Codex account.",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "play": "npm run start",
+    "test": "PYTHONPYCACHEPREFIX=/tmp/codex-rpg-pycache python3 -m unittest discover -s tests -v && node --test tests/*.test.mjs",
+    "canon:import": "python3 tools/import_world_bible.py --db \"${CODEX_RPG_DB:-$HOME/.codex-rpg-memory/campaign.sqlite3}\" --all",
+    "runtime:publish": "python3 tools/sync_local_app.py --replace --restart"
+  }
+}

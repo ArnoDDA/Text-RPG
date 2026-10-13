@@ -1,0 +1,90 @@
+{
+  "player_action": "退到石柱旁观察庭院。",
+  "narration": "冒险者退到庭院东侧的石柱旁。翻倒的火盆仍在石地上吐出浓烟，持矛守卫越过火光逼近，却没有贸然冲进烟里；受伤的信使则靠在半开的侧门边，正用一只手撑住门板。侧门仍能通向外巷，但守卫已经开始收窄两人之间的空隙。",
+  "scene": {
+    "location": "王冠城 · 内庭",
+    "immediate_situation": "持矛守卫正借着火势封锁侧门，受伤的信使仍在门边。",
+    "present_entities": ["guard_spear", "wounded_messenger"],
+    "state": {
+      "activity": "exploration",
+      "threat": "combat",
+      "basis": "持矛守卫正在逼近并封锁出口"
+    },
+    "model": {
+      "player_position": "庭院东侧石柱后",
+      "participants": [
+        {
+          "id": "guard_spear",
+          "name": "持矛守卫",
+          "position": "火盆另一侧的近处",
+          "activity": "借烟雾逼近",
+          "condition": "未见明显伤势",
+          "stance": "opposed"
+        },
+        {
+          "id": "wounded_messenger",
+          "name": "受伤的信使",
+          "position": "半开的侧门旁",
+          "activity": "撑住门板",
+          "condition": "肩部流血",
+          "stance": "uncertain"
+        }
+      ],
+      "elements": [
+        {
+          "id": "east_pillar",
+          "name": "东侧石柱",
+          "kind": "cover",
+          "position": "玩家身旁",
+          "state": "能够遮挡正面视线"
+        },
+        {
+          "id": "side_door",
+          "name": "侧门",
+          "kind": "route",
+          "position": "信使身后",
+          "state": "半开，仍可通往外巷"
+        },
+        {
+          "id": "spilled_brazier",
+          "name": "翻倒的火盆",
+          "kind": "hazard",
+          "position": "庭院中央",
+          "state": "炭火和浓烟正在扩散"
+        }
+      ],
+      "pressures": [
+        {
+          "id": "guard_closing_distance",
+          "name": "守卫正在逼近",
+          "text": "持矛守卫正在收窄通往侧门的空隙",
+          "source": "持矛守卫",
+          "urgency": "immediate"
+        }
+      ]
+    }
+  },
+  "entities": [
+    {
+      "id": "guard_spear",
+      "type": "npc",
+      "name": "持矛守卫",
+      "profile": {"role": "王冠城守卫"},
+      "state": {"status": "known", "tier": "background", "location": "王冠城 · 内庭"}
+    },
+    {
+      "id": "wounded_messenger",
+      "type": "npc",
+      "name": "受伤的信使",
+      "profile": {"role": "身份不明的信使"},
+      "state": {"status": "known", "tier": "recurring", "location": "王冠城 · 内庭"}
+    }
+  ],
+  "state_updates": [
+    {"entity_id": "player", "patch": {"location": "王冠城 · 内庭"}}
+  ],
+  "events": [],
+  "facts": [],
+  "beliefs": [],
+  "threads": []
+}

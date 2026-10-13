@@ -1,0 +1,87 @@
+{
+  "game_time": "灰历 421 年，暮春十二日，深夜",
+  "player_action": "接过信使递来的王室纹章戒指，并把它藏进斗篷内袋。",
+  "narration": "雨水沿着黑鸦酒馆的檐口落下。信使把戒指塞进冒险者掌心，指尖冰得像死人的手；巷口的灯火随即晃动，巡逻队的脚步声正朝这里靠近。伊莲娜没有阻止，只盯着那枚戒指，像在等一个早已注定的错误。",
+  "scene": {
+    "location": "灰烬镇·黑鸦酒馆后巷",
+    "present_entities": ["npc_elena", "npc_messenger"],
+    "immediate_situation": "巡逻队正在靠近；玩家持有一枚来历不明的王室纹章戒指。"
+  },
+  "entities": [
+    {
+      "id": "npc_elena",
+      "type": "npc",
+      "name": "伊莲娜",
+      "profile": {"role": "边境炼金术师", "speech": "克制、讥讽"},
+      "state": {"location": "灰烬镇·黑鸦酒馆后巷", "condition": "警觉"}
+    },
+    {
+      "id": "npc_messenger",
+      "type": "npc",
+      "name": "黑衣信使",
+      "profile": {"role": "身份不明的传信人"},
+      "state": {"location": "灰烬镇·黑鸦酒馆后巷", "condition": "重伤"}
+    },
+    {
+      "id": "item_royal_ring",
+      "type": "item",
+      "name": "王室纹章戒指",
+      "profile": {"category": "clue", "appearance": "银质，刻有被刮花的王冠", "description": "银质戒指，王冠图案被人刻意刮花", "known_purpose": "尚不明确"},
+      "state": {"holder": "player", "status": "concealed", "importance": 9, "quantity": 1}
+    }
+  ],
+  "state_updates": [
+    {"entity_id": "player", "patch": {"location": "灰烬镇·黑鸦酒馆后巷"}}
+  ],
+  "events": [
+    {
+      "kind": "item_handoff",
+      "description": "黑衣信使将王室纹章戒指交给玩家，伊莲娜目击了整个过程。",
+      "visibility": "witnessed_only",
+      "witnesses": ["player", "npc_elena", "npc_messenger"],
+      "related_entities": ["item_royal_ring", "npc_elena", "npc_messenger"],
+      "tags": ["戒指", "王室", "伊莲娜"],
+      "importance": 9
+    }
+  ],
+  "facts": [
+    {
+      "subject_id": "item_royal_ring",
+      "predicate": "held_by",
+      "value": "player",
+      "text": "王室纹章戒指目前由玩家持有，并被藏在斗篷内袋。",
+      "visibility": "witnessed_only",
+      "witnesses": ["player", "npc_elena", "npc_messenger"],
+      "tags": ["戒指", "王室", "背包"],
+      "importance": 10
+    }
+  ],
+  "beliefs": [
+    {
+      "actor_id": "npc_elena",
+      "text": "伊莲娜怀疑玩家拿起戒指会招来王室追捕，但她尚未说出原因。",
+      "tags": ["戒指", "王室", "追捕"],
+      "importance": 8
+    }
+  ],
+  "threads": [
+    {
+      "id": "royal_ring_origin",
+      "kind": "question",
+      "title": "王室纹章戒指的来历",
+      "stakes": "戒指可能牵连王室追捕与伊莲娜的隐瞒。",
+      "summary": "玩家已经持有戒指，但不知道信使为何将它交出。",
+      "related_entities": ["item_royal_ring", "npc_elena"],
+      "urgency": 9
+    },
+    {
+      "id": "elena_promise",
+      "kind": "promise",
+      "title": "伊莲娜对戒指来历的解释",
+      "stakes": "她是否坦白会影响两人的合作。",
+      "summary": "伊莲娜尚未承诺解释，但她的沉默已经成为压力。",
+      "related_entities": ["npc_elena", "item_royal_ring"],
+      "urgency": 6
+    }
+  ]
+}

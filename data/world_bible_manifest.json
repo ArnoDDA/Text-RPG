@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "universe": "shattered_realms",
+  "sources": [
+    { "id": "core_encyclopedia", "path": "world_bible_core_encyclopedia.json" },
+    { "id": "social_foundations", "path": "world_bible_social_foundations.json" },
+    { "id": "playable_depth", "path": "world_bible_playable_depth.json" },
+    { "id": "attribute_system", "path": "world_bible_attribute_system.json" },
+    { "id": "ability_system_guide", "path": "world_bible_ability_system_guide.json" },
+    { "id": "magic_catalog", "path": "world_bible_magic_catalog.json" },
+    { "id": "item_system_guide", "path": "world_bible_item_system_guide.json" },
+    { "id": "material_culture", "path": "world_bible_material_culture.json" },
+    { "id": "database_records", "path": "world_bible_database_records.json" }
+  ]
+}

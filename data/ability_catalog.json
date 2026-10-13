@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "forms": [
+    {"id": "specialty", "label": "专业", "description": "长期训练或知识领域，不是一次发动的招式。"},
+    {"id": "technique", "label": "技法", "description": "能够主动执行的明确方法，包括法术、武技与专业技巧。"},
+    {"id": "trait", "label": "特性", "description": "持续存在，或在明确条件下生效的能力。"},
+    {"id": "ritual", "label": "仪式", "description": "依靠时间、材料、地点或参与者完成的复杂过程。"}
+  ],
+  "mastery": [
+    {"id": "novice", "label": "初学"},
+    {"id": "skilled", "label": "熟练"},
+    {"id": "mastered", "label": "精通"}
+  ],
+  "loads": {
+    "physical": {"label": "身体负荷", "stages": ["稳定", "疲劳", "透支", "崩溃"]},
+    "focus": {"label": "专注负荷", "stages": ["稳定", "分散", "动摇", "失控"]},
+    "mystic": {"label": "灵能负荷", "stages": ["稳定", "吃力", "过载", "枯竭"]}
+  },
+  "sources": ["learning", "training", "bloodline", "faith", "pact", "spirit_nature", "item", "craft"],
+  "function_tags": ["attack", "defense", "movement", "perception", "stealth", "control", "recovery", "transformation", "summoning", "creation", "communication", "utility"],
+  "abilities": [
+    {
+      "id": "technique_flame_bolt", "name": "火焰箭", "aliases": ["火焰弹", "炎矢"],
+      "form": "technique", "source": "learning", "function_tags": ["attack", "utility"],
+      "trigger_terms": ["火焰", "点燃", "引火", "烧断", "照明"],
+      "known_effect": "将受控火焰投向视线内的单一目标，也可降低输出用于点燃或照明。",
+      "limits": "不能转化为治疗、持续火墙或无燃料的大范围火灾；不能仅靠精通跨越二十点的规模鸿沟。",
+      "requirements": ["能够施法", "看见目标", "至少一只手可完成术式"],
+      "primary_attributes": ["mystic_power", "intellect"], "minimum_scale": 15, "scale_cap": 32,
+      "activation": "active", "cost": {"mystic": "light"}, "range": "近至中距离且目标可见", "duration": "瞬时",
+      "counters": ["掩体", "闪避", "火焰防护", "打断施法"], "visibility": ["火光", "热量", "施法动作", "残余焦痕"]
+    },
+    {
+      "id": "technique_arcane_ward", "name": "奥术护盾", "aliases": ["法术护盾", "守护结界"],
+      "form": "technique", "source": "learning", "function_tags": ["defense", "control"],
+      "trigger_terms": ["护盾", "结界", "防护", "格挡法术", "挡住"],
+      "known_effect": "在自己或近处单一目标周围形成短暂屏障，削弱一次正面冲击或维持有限防护。",
+      "limits": "不是绝对免疫，不能覆盖整片战场，也不能挡住绕过屏障的窒息、毒物或地面崩塌。",
+      "requirements": ["能够施法", "能感知要保护的目标", "屏障与威胁之间没有完全阻隔"],
+      "primary_attributes": ["mystic_power", "will"], "minimum_scale": 15, "scale_cap": 35,
+      "activation": "reaction_or_maintained", "cost": {"focus": "light", "mystic": "light"}, "range": "自身或近处单一目标", "duration": "一次冲击或短时维持",
+      "counters": ["连续重击", "侧后方攻击", "专门破法", "施法者失去专注"], "visibility": ["短暂光幕", "低沉震鸣", "受击时的涟漪"]
+    },
+    {
+      "id": "technique_disarming_cut", "name": "缴械斩", "aliases": ["缴械技法", "卸刃"],
+      "form": "technique", "source": "training", "function_tags": ["attack", "control"],
+      "trigger_terms": ["缴械", "打落武器", "卸掉武器", "挑开武器", "夺下武器"],
+      "known_effect": "利用兵刃、角度与时机迫使近身对手失去手中武器，而非直接造成重伤。",
+      "limits": "必须能影响对手的持握或武器；面对体魄相差二十点以上的目标，需要伤势、卡位或失衡等决定性事实改变问题。",
+      "requirements": ["持有适合的近战武器", "进入可接触对方武器的距离", "能够观察对方持握"],
+      "primary_attributes": ["agility", "perception", "physique"], "minimum_scale": 12, "scale_cap": 38,
+      "activation": "active", "cost": {"physical": "light"}, "range": "近身", "duration": "瞬时",
+      "counters": ["稳固持握", "体型与力量差距", "长兵器距离", "放弃武器顺势反击"], "visibility": ["明确的武器动作", "金属碰撞声"]
+    },
+    {
+      "id": "trait_darkvision", "name": "夜视", "aliases": ["黑暗视觉", "暗视"],
+      "form": "trait", "source": "bloodline", "function_tags": ["perception", "utility"],
+      "trigger_terms": ["黑暗", "暗处", "无光", "夜里", "看清"],
+      "known_effect": "在微光或普通黑暗中辨认近处轮廓、动作与道路。",
+      "limits": "不能看穿墙壁、伪装或魔法遮蔽；完全无光时颜色与细节会显著缺失。",
+      "requirements": ["眼睛未被遮挡且仍能正常使用"],
+      "primary_attributes": ["perception"], "minimum_scale": 1, "scale_cap": 30,
+      "activation": "passive", "cost": {}, "range": "近至中距离", "duration": "持续",
+      "counters": ["强光骤变", "浓雾", "实体遮挡", "魔法黑暗"], "visibility": ["通常无法从外表确认"]
+    },
+    {
+      "id": "technique_stabilizing_touch", "name": "稳伤之触", "aliases": ["稳定伤势", "止血触碰"],
+      "form": "technique", "source": "faith", "function_tags": ["recovery", "utility"],
+      "trigger_terms": ["止血", "稳定伤势", "急救", "救治", "濒死"],
+      "known_effect": "通过接触减缓失血与伤势恶化，使伤者获得接受后续治疗的时间。",
+      "limits": "稳定不等于完整治愈；不能再生肢体、清除复杂诅咒，也不能令已死亡者复生。",
+      "requirements": ["能够接触伤者", "伤者仍有可维持的生命体征", "施术者的信仰权限仍然有效"],
+      "primary_attributes": ["will", "mystic_power", "intellect"], "minimum_scale": 10, "scale_cap": 30,
+      "activation": "active", "cost": {"focus": "light", "mystic": "light"}, "range": "接触", "duration": "即时稳定，后续仍需照护",
+      "counters": ["持续受到伤害", "无法维持的致命损毁", "能力来源被切断"], "visibility": ["接触动作", "微弱暖光", "出血减缓"]
+    },
+    {
+      "id": "technique_oathbound_interception", "name": "守誓截击", "aliases": ["守誓拦截", "盾护同伴"],
+      "form": "technique", "source": "training", "function_tags": ["defense", "control"],
+      "trigger_terms": ["拦截", "护住", "挡在", "替同伴", "盾牌"],
+      "known_effect": "持盾时介入相邻对象面对的一次已看见近身威胁，以自己的站位和防具改变攻击路线。",
+      "limits": "不能拦截未察觉、远离自身或绕过实体路线的威胁；不是自动免伤，也不能在无法行动时发动。",
+      "requirements": ["装备可用盾牌", "能够看见威胁", "与被保护对象相邻", "仍能移动或调整盾位"],
+      "primary_attributes": ["physique", "perception", "will"], "minimum_scale": 20, "scale_cap": 45,
+      "activation": "reaction", "cost": {"physical": "light"}, "range": "相邻对象", "duration": "一次近身威胁",
+      "counters": ["多方向夹击", "远程火力", "无法移动", "绕开盾面的攻击"], "visibility": ["明确的跨步与举盾动作", "盾牌承受冲击"]
+    },
+    {
+      "id": "technique_trail_prediction", "name": "猎线预判", "aliases": ["路径预判", "循迹判断"],
+      "form": "technique", "source": "training", "function_tags": ["perception", "utility"],
+      "trigger_terms": ["追踪", "痕迹", "脚印", "路线", "迁徙", "去向"],
+      "known_effect": "依据可观察的痕迹、地形与目标习惯，判断目标最近采用的可行路线。",
+      "limits": "没有痕迹、痕迹被天气覆盖或目标使用未知移动方式时，不能凭空知道去向；不提供法术侦测。",
+      "requirements": ["存在可检查的痕迹或环境变化", "能够接近并观察现场"],
+      "primary_attributes": ["perception", "intellect"], "minimum_scale": 18, "scale_cap": 42,
+      "activation": "active", "cost": {"focus": "light"}, "range": "当前可调查区域", "duration": "一次调查所得的有限判断",
+      "counters": ["强降雨或新雪", "刻意反追踪", "传送或飞行", "被多人踩乱的现场"], "visibility": ["检查地面、植被和残留物", "标记可能路线"]
+    },
+    {
+      "id": "technique_silent_feather_shot", "name": "静羽射击", "aliases": ["静羽箭", "低声精确射击"],
+      "form": "technique", "source": "training", "function_tags": ["attack", "stealth"],
+      "trigger_terms": ["射击", "弓箭", "瞄准", "无声", "精确射击"],
+      "known_effect": "在完成瞄准且视线明确时，以控制弓弦和呼吸的方式进行声音较低的精确射击。",
+      "limits": "不是完全无声，不能无视掩体、射程、风向或目标移动；仓促出手时失去精确优势。",
+      "requirements": ["装备适用长弓和箭矢", "目标可见", "有完成瞄准的短暂时间", "站位足以张弓"],
+      "primary_attributes": ["agility", "perception"], "minimum_scale": 20, "scale_cap": 42,
+      "activation": "active", "cost": {"physical": "light", "ammunition": "一支箭"}, "range": "弓箭有效射程内", "duration": "瞬时",
+      "counters": ["完整掩体", "强风", "突然移动", "近身压制"], "visibility": ["弓弦轻响", "箭矢轨迹", "射手姿势"]
+    },
+    {
+      "id": "technique_boundary_ward", "name": "界线护幕", "aliases": ["边界护幕", "护持界线"],
+      "form": "technique", "source": "learning", "function_tags": ["defense", "control"],
+      "trigger_terms": ["护幕", "界线", "防护", "结界", "封住通道"],
+      "known_effect": "在预先确定的一段短距离边界上维持可见护幕，削弱穿越边界的冲击或迫使对象改变路线。",
+      "limits": "不能临时覆盖整片战场、不能阻断地下或绕行路线，也不是不可穿透的墙；失去专注后会消散。",
+      "requirements": ["能够观察并标定连续边界", "施法者保持专注", "边界长度在短距离内"],
+      "primary_attributes": ["mystic_power", "intellect", "will"], "minimum_scale": 22, "scale_cap": 44,
+      "activation": "maintained", "cost": {"focus": "light", "mystic": "light"}, "range": "近处一段短边界", "duration": "保持专注期间",
+      "counters": ["绕行", "专门破法", "连续重击", "打断施法者"], "visibility": ["沿边界出现的光线", "受击时的涟漪", "持续术式声"]
+    },
+    {
+      "id": "technique_spell_severance", "name": "断式", "aliases": ["术式打断", "断开法术结构"],
+      "form": "technique", "source": "learning", "function_tags": ["control", "defense"],
+      "trigger_terms": ["打断法术", "反制", "术式结构", "中断施法", "断式"],
+      "known_effect": "识别正在成形且结构可观察的法术节点，并用针对性干扰迫使其失去连续性。",
+      "limits": "不能反制未知、已经完成、完全不可观察或规模远超自身灵能的术式；失败可能增加灵能负荷。",
+      "requirements": ["法术仍在成形", "能够观察其结构或媒介", "有足够时间作出干扰"],
+      "primary_attributes": ["intellect", "mystic_power", "perception"], "minimum_scale": 24, "scale_cap": 46,
+      "activation": "reaction", "cost": {"focus": "light", "mystic": "light"}, "range": "可观察的近至中距离术式", "duration": "针对一次成形过程",
+      "counters": ["瞬发且无可见结构", "陌生体系", "多重施法", "压倒性的规模差距"], "visibility": ["针对节点的反向术式", "短促能量扰动"]
+    },
+    {
+      "id": "technique_glimmer_lens", "name": "微光透镜", "aliases": ["术痕透镜", "细微文字放大"],
+      "form": "technique", "source": "learning", "function_tags": ["perception", "utility"],
+      "trigger_terms": ["细小文字", "术式痕迹", "放大", "检视", "鉴定"],
+      "known_effect": "放大已经存在的细微文字、刻痕和可见术式残留，帮助进行精密观察。",
+      "limits": "不能创造不存在的信息、看穿实体遮挡、读取记忆或直接判断未知物件的全部用途。",
+      "requirements": ["对象可见或可接触", "存在能够被放大的真实痕迹"],
+      "primary_attributes": ["intellect", "perception", "mystic_power"], "minimum_scale": 12, "scale_cap": 38,
+      "activation": "active", "cost": {"focus": "light"}, "range": "手边或近处对象", "duration": "检查期间",
+      "counters": ["痕迹已被磨除", "完整遮挡", "专门反鉴定措施"], "visibility": ["法杖或透镜上的微光", "被放大的局部纹路"]
+    },
+    {
+      "id": "technique_sweeping_axe_control", "name": "横斧压阵", "aliases": ["横斧封路", "长兵压阵"],
+      "form": "technique", "source": "training", "function_tags": ["attack", "control"],
+      "trigger_terms": ["巨斧", "压阵", "逼退", "封路", "控制距离"],
+      "known_effect": "利用重型长兵器的威胁范围迫使近身对手改变位置，为同伴撤离或重整留出空间。",
+      "limits": "狭窄空间、湿滑地面、脆弱地板或同伴位于挥击线内都会限制使用；不能凭动作自动逼退远强于自己的目标。",
+      "requirements": ["装备可用重斧或长兵器", "有足够挥击空间", "落脚稳定", "挥击线内没有需要保护的对象"],
+      "primary_attributes": ["physique", "perception"], "minimum_scale": 24, "scale_cap": 48,
+      "activation": "active", "cost": {"physical": "light"}, "range": "近身至长兵器控制范围", "duration": "一次压制动作",
+      "counters": ["狭窄空间", "低姿态贴身", "远程攻击", "失衡地面"], "visibility": ["宽幅斧势", "明显的控制范围"]
+    },
+    {
+      "id": "technique_shoulder_breach", "name": "盾肩开路", "aliases": ["肩撞开路", "重装推障"],
+      "form": "technique", "source": "training", "function_tags": ["movement", "control"],
+      "trigger_terms": ["推开", "撞开", "开路", "障碍", "挤出通道"],
+      "known_effect": "在有稳定支撑和足够空间时，以重装、肩部和全身发力推开阻路者或可移动障碍。",
+      "limits": "不能推开固定建筑、无处受力的巨大物体或体魄差距悬殊且站稳的对手；脆弱地板可能先行损坏。",
+      "requirements": ["有助跑或稳定发力空间", "脚下能够承重", "目标可以被物理推动"],
+      "primary_attributes": ["physique", "will"], "minimum_scale": 22, "scale_cap": 48,
+      "activation": "active", "cost": {"physical": "light"}, "range": "接触", "duration": "一次推进",
+      "counters": ["固定结构", "体型和力量鸿沟", "湿滑或脆弱地面", "尖锐迎击"], "visibility": ["明确的冲撞动作", "重装碰撞声"]
+    },
+    {
+      "id": "technique_crimson_shadow_step", "name": "绯影换位", "aliases": ["阴影换位", "短距影步"],
+      "form": "technique", "source": "bloodline", "function_tags": ["movement", "stealth"],
+      "trigger_terms": ["阴影", "换位", "影步", "短距离移动", "闪到"],
+      "known_effect": "在两处连续阴影之间完成一次短距离快速移动。",
+      "limits": "不能穿墙、跨越没有连续阴影的开阔地或在直射日光下发动；每次需要消耗一份血食。",
+      "requirements": ["起点和终点之间存在连续阴影", "终点在短距离内且能够容纳身体", "携有并消耗一份血食", "不处于直射日光"],
+      "primary_attributes": ["agility", "mystic_power", "perception"], "minimum_scale": 20, "scale_cap": 38,
+      "activation": "active", "cost": {"mystic": "light", "item": "一份血食"}, "range": "连续阴影之间的短距离", "duration": "瞬时",
+      "counters": ["直射日光", "无连续阴影", "封闭终点", "血食耗尽"], "visibility": ["阴影短暂加深", "深红残影", "起止点的空气扰动"]
+    },
+    {
+      "id": "technique_blood_trace_analysis", "name": "血迹辨认", "aliases": ["血样分析", "炼金血迹辨认"],
+      "form": "technique", "source": "training", "function_tags": ["perception", "utility"],
+      "trigger_terms": ["血迹", "血样", "炼金成分", "辨认血", "检验"],
+      "known_effect": "通过已经取得的血样，辨认其中近期混入的特定常见炼金成分或已知处理痕迹。",
+      "limits": "不能读取记忆、情感、灵魂或完整身份，也不能从不存在或已彻底污染的样本得出可靠结论。",
+      "requirements": ["取得可检查的血样", "目标成分属于已知或可比较范围", "有基本检查时间"],
+      "primary_attributes": ["perception", "intellect"], "minimum_scale": 14, "scale_cap": 36,
+      "activation": "active", "cost": {"focus": "light"}, "range": "接触样本", "duration": "一次检查",
+      "counters": ["样本污染", "未知成分", "时间过久", "刻意伪造"], "visibility": ["近距离观察和气味辨认", "少量样本处理"]
+    },
+    {
+      "id": "ritual_waygate_passage", "name": "界门通行仪式", "aliases": ["远途界门", "传送门仪式"],
+      "form": "ritual", "source": "learning", "function_tags": ["movement", "utility"],
+      "trigger_terms": ["传送门", "远距离传送", "界门", "跨越空间", "传送仪式"],
+      "known_effect": "在两个已确认且彼此相容的锚点之间暂时开启可供小队通行的界门。",
+      "limits": "不能把未知地点仅凭名称当成锚点，不能在一次普通行动中完成，也不能忽略封锁空间的世界规则。",
+      "requirements": ["至少两名合格参与者", "两端锚点已确认", "完整仪式材料", "不受打扰的准备时间", "适合展开阵式的地点"],
+      "primary_attributes": ["mystic_power", "intellect", "will"], "minimum_scale": 45, "scale_cap": 70,
+      "activation": "ritual", "cost": {"mystic": "heavy", "focus": "heavy", "materials": "全部消耗", "time": "数小时或更久"}, "range": "由两个真实锚点决定", "duration": "短时开启",
+      "counters": ["破坏阵式", "移除锚物", "中断参与者", "位面封锁", "材料不完整"], "visibility": ["大型阵式", "持续能量波动", "强烈声光", "可调查的残留痕迹"]
+    }
+  ]
+}

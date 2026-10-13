@@ -1,0 +1,362 @@
+[
+  {
+    "source_id": "world_bible_database_records:1",
+    "category": "Nations, city-states & powers",
+    "title": "王冠城",
+    "keys": ["王冠城", "王冠河谷", "旧渡口", "桥市", "归锚酒馆"],
+    "record": {"record_type": "settlement", "canonical_name": "王冠城", "aliases": ["王冠河谷首府", "旧渡口城"], "summary": "王冠河谷的河运与行政中心，桥市、旧渡口和军械账让它同时拥有商贸、官署与旅行者生活。", "status": "active", "region": "王冠河谷", "fields": {"kind": "river_city", "scale": "major", "government": "王冠王国地方官署与河谷议会并行", "services": ["桥市", "驿站", "河船", "法庭", "学院分院"]}, "relations": [{"type": "located_in", "target": "王冠河谷"}, {"type": "connected_to", "target": "镜海航路"}]},
+    "content": "王冠城坐落在几条河流汇合处，桥市、旧渡口和高地官署把城市分成不同的生活节奏。白天，运粮船、学徒、军械商和过桥旅人共享窄街；夜里，河灯、酒馆和守桥人的换班决定哪些消息能顺利穿城。城市的秩序依靠成文法、河运习惯与许多具体的人共同维持。"
+  },
+  {
+    "source_id": "world_bible_database_records:2",
+    "category": "Nations, city-states & powers",
+    "title": "归锚酒馆",
+    "keys": ["归锚酒馆", "旧渡口", "酒馆", "旅店"],
+    "record": {"record_type": "place", "canonical_name": "归锚酒馆", "aliases": ["旧渡口酒馆"], "summary": "面向旧渡口的公共酒馆，适合短住、用餐、交换消息与让旧识重新见面。", "status": "active", "region": "王冠城旧渡口", "fields": {"kind": "inn", "access": "public", "services": ["餐食", "客房", "寄存", "河船消息"], "tone": "熟悉而热闹"}, "relations": [{"type": "located_in", "target": "王冠城"}, {"type": "supports", "target": "旅人生活"}]},
+    "content": "归锚酒馆不是秘密据点，也不是注定发生冲突的舞台。它为船员、学徒、邻里和暂住者提供热食、床位与一张可以坐久一些的桌子。店里的消息通常从账单、天气、熟客和船期开始，只有当有人把事情带进来时，才会变成更大的故事。"
+  },
+  {
+    "source_id": "world_bible_database_records:3",
+    "category": "Nations, city-states & powers",
+    "title": "碧帆港",
+    "keys": ["碧帆港", "静塔旧区", "港口", "静塔"],
+    "record": {"record_type": "settlement", "canonical_name": "碧帆港", "aliases": ["西岸港", "静塔港"], "summary": "镜海西岸的贸易港，以船帆工坊、抄写业和静塔旧区闻名。", "status": "active", "region": "镜海西岸", "fields": {"kind": "port_city", "scale": "major", "economy": ["航运", "抄写", "修帆", "海产"], "notable_districts": ["静塔旧区", "西码头"]}, "relations": [{"type": "on_route", "target": "镜海与环海航路"}, {"type": "contains", "target": "静塔旧区"}]},
+    "content": "碧帆港把航运、抄写和修补看得同样重要。西码头处理货物，静塔旧区处理档案、失忆者的证词和不愿被遗忘的名字。港口居民习惯把异常现象先登记、再讨论；这让碧帆港显得谨慎，却也给远道而来的人留下了重新开始的空间。"
+  },
+  {
+    "source_id": "world_bible_database_records:4",
+    "category": "Nations, city-states & powers",
+    "title": "月井城",
+    "keys": ["月井城", "飞毯", "水账", "月井"],
+    "record": {"record_type": "settlement", "canonical_name": "月井城", "aliases": ["井城"], "summary": "赤日荒漠北缘的水井城市，以水账、飞毯运输和夜间市场维持跨境生活。", "status": "active", "region": "赤日荒漠与绿洲链", "fields": {"kind": "oasis_city", "scale": "regional", "scarce_resources": ["水", "阴影", "驮运"], "services": ["水账登记", "飞毯租赁", "夜市"]}, "relations": [{"type": "located_in", "target": "赤日荒漠与绿洲链"}, {"type": "trades_with", "target": "七路商盟"}]},
+    "content": "月井城的公共生活围绕水井展开。水账记录每一桶水的来源、价格和优先顺序，飞毯与骆驼队则把人和货物送往下一处绿洲。当地人欢迎遵守规则的旅客，也会警惕任何试图把水源私有化的人。"
+  },
+  {
+    "source_id": "world_bible_database_records:5",
+    "category": "Nations, city-states & powers",
+    "title": "石门联邦",
+    "keys": ["石门联邦", "石门", "深岩道", "矿镇"],
+    "record": {"record_type": "polity", "canonical_name": "石门联邦", "aliases": ["石门", "山堡联邦"], "summary": "由山堡、矿镇与工程行会组成的联邦，重视安全记录、工坊责任和氏族承诺。", "status": "active", "region": "铁冠山脉", "fields": {"kind": "federation", "authority": "山堡议席与工坊代表", "exports": ["金属", "石材", "工程服务"], "law_focus": ["矿道安全", "工坊责任", "矿权"]}, "relations": [{"type": "located_in", "target": "铁冠山脉与深岩道"}, {"type": "member_of", "target": "镜海航约"}]},
+    "content": "石门联邦的权力不只在议场，也在矿道、工坊和记录员手中的安全册。一个工程师能否解释事故、一个家族是否履行承诺、一个矿权是否留下证据，常常比贵族头衔更能决定他人在石门的信任。"
+  },
+  {
+    "source_id": "world_bible_database_records:6",
+    "category": "Magic, professions & organizations",
+    "title": "白塔议会",
+    "keys": ["白塔议会", "白塔", "法师议会", "秘法约章"],
+    "record": {"record_type": "faction", "canonical_name": "白塔议会", "aliases": ["白塔", "议会"], "summary": "跨城邦的法术教育、研究与许可机构，不垄断全部魔法，但负责记录高风险实践。", "status": "active", "region": "环镜大陆的镜海诸国", "fields": {"kind": "magical_institution", "authority": "许可、学院认证、事故调查", "membership": "导师、学院与获认可的施法者", "stance": "审慎而非全面禁止"}, "relations": [{"type": "governs", "target": "高风险施法"}, {"type": "affected_by", "target": "静塔事故与秘法约章"}]},
+    "content": "白塔议会负责让危险知识留下责任链：谁教过它、谁使用过它、谁看见过事故、谁有能力补救。它会颁发许可、保存研究记录并参与事故审查，却不能替每个地方决定何为正当。议会内部也存在研究自由与公共安全之间的争论。"
+  },
+  {
+    "source_id": "world_bible_database_records:7",
+    "category": "Magic, professions & organizations",
+    "title": "七路商盟",
+    "keys": ["七路商盟", "商盟", "汇票", "货运保险"],
+    "record": {"record_type": "faction", "canonical_name": "七路商盟", "aliases": ["商盟", "七路"], "summary": "连接陆路、河运和海路的商人网络，以汇票、货运保险和商队信誉降低跨境交易成本。", "status": "active", "region": "镜海与环海航路", "fields": {"kind": "trade_network", "services": ["汇票", "保险", "商队", "货单认证"], "risks": ["债务纠纷", "走私渗透", "路线封锁"]}, "relations": [{"type": "operates_on", "target": "镜海与环海航路"}, {"type": "opposed_by", "target": "黑帆会"}]},
+    "content": "七路商盟不靠一支军队维持影响力，而靠可被兑现的账、能找到责任人的货单和愿意为信誉付出代价的商号。商盟的规则让陌生人可以做生意，也让假票、失踪货物和不公平债务成为需要调查的现实问题。"
+  },
+  {
+    "source_id": "world_bible_database_records:8",
+    "category": "Magic, professions & organizations",
+    "title": "灯塔圣约",
+    "keys": ["灯塔圣约", "灯塔", "救援", "收容所"],
+    "record": {"record_type": "faction", "canonical_name": "灯塔圣约", "aliases": ["灯塔修会", "圣约"], "summary": "维护灯塔、海难救援、旅人收容和失踪者名册的跨地区公益组织。", "status": "active", "region": "沿海与主要航路", "fields": {"kind": "relief_order", "services": ["救援", "医疗", "临时收容", "失踪登记"], "membership": "守灯人、医者、船员、记录员", "ethic": "救人优先，账目公开"}, "relations": [{"type": "protects", "target": "镜海航路"}, {"type": "cooperates_with", "target": "七路商盟"}]},
+    "content": "灯塔圣约把救援看成公共责任，而不是对某个国家或阶层的恩惠。守灯人会记录来往船只、失踪者姓名和救援消耗；他们的收容所通常不问旅人的过去，只要求遵守共同空间的安全规矩。"
+  },
+  {
+    "source_id": "world_bible_database_records:9",
+    "category": "Magic, professions & organizations",
+    "title": "灰钥协会",
+    "keys": ["灰钥协会", "灰钥", "冒险者协会", "遗迹委托"],
+    "record": {"record_type": "faction", "canonical_name": "灰钥协会", "aliases": ["灰钥", "协会"], "summary": "为独立向导、调查者、护卫和遗迹工作者提供委托登记、担保与事故记录的职业网络。", "status": "active", "region": "城市、边境与遗迹带", "fields": {"kind": "professional_network", "services": ["委托登记", "身份担保", "路线信息", "事故备案"], "does_not_guarantee": ["委托真实性", "报酬兑现", "探险安全"]}, "relations": [{"type": "serves", "target": "冒险者与自由职业者"}, {"type": "records", "target": "遗迹与路线"}]},
+    "content": "灰钥协会让自由职业者有一处可以核对委托和留下记录的地方。协会会说明报酬、已知风险与委托人的身份，却不保证每份消息都是真的，也不替接下任务的人决定该承担多少风险。"
+  },
+  {
+    "source_id": "world_bible_database_records:10",
+    "category": "Magic, professions & organizations",
+    "title": "黑帆会",
+    "keys": ["黑帆会", "黑帆", "走私", "地下网络"],
+    "record": {"record_type": "faction", "canonical_name": "黑帆会", "aliases": ["黑帆", "黑帆网络"], "summary": "跨越港口的走私与情报网络，成员从避税商人到真正的暴力团伙各不相同。", "status": "active", "region": "港口与边境", "fields": {"kind": "underworld_network", "services": ["隐秘运输", "假货单", "消息交换", "藏匿"], "internal_variation": "没有统一道德或单一首领", "risk": "暴力、背叛与连坐"}, "relations": [{"type": "competes_with", "target": "七路商盟"}, {"type": "uses", "target": "港口航路"}]},
+    "content": "黑帆会不是一支整齐的军队，而是彼此借用路线、仓库和名字的地下网络。有些成员只帮人绕过高税，有些则贩运禁物、勒索或伤害证人。调查黑帆会时，先分清某个联系人代表哪一条支线，比记住一个总首领更重要。"
+  },
+  {
+    "source_id": "world_bible_database_records:11",
+    "category": "Nations, city-states & powers",
+    "title": "阿维恩王国",
+    "keys": ["阿维恩王国", "阿维恩", "王国", "王冠河谷"],
+    "record": {"record_type": "polity", "canonical_name": "阿维恩王国", "aliases": ["阿维恩", "河谷王国"], "summary": "以王冠河谷为核心的王国，重视土地文书、桥梁税和法庭见证。", "status": "active", "region": "王冠河谷", "fields": {"kind": "kingdom", "government": "王室、地方贵族与城市官署", "strengths": ["农业", "河运", "军械", "成文法"], "tensions": ["河税", "继承", "边境矿权"]}, "relations": [{"type": "contains", "target": "王冠城"}, {"type": "trades_with", "target": "洛萨自由城邦同盟"}]},
+    "content": "阿维恩王国的权力写在土地、桥梁与法庭文书上。贵族、地方官和城市商人都能影响一项决定，普通居民则通过税、工坊、服役和诉讼感受到王国的存在。它并非一个没有裂缝的整体，许多地方问题首先是生活问题，后来才变成政治问题。"
+  },
+  {
+    "source_id": "world_bible_database_records:12",
+    "category": "Nations, city-states & powers",
+    "title": "洛萨自由城邦同盟",
+    "keys": ["洛萨自由城邦同盟", "洛萨", "自由城邦", "港口同盟"],
+    "record": {"record_type": "polity", "canonical_name": "洛萨自由城邦同盟", "aliases": ["洛萨同盟", "自由城邦"], "summary": "由港口和商贸城市组成的同盟，政治影响力来自股份、航运和议席，而非单一王室。", "status": "active", "region": "镜海西南沿岸", "fields": {"kind": "city_state_league", "government": "城市议席与商会", "strengths": ["航运", "金融", "剧场", "契约法"], "tensions": ["贫富差距", "港口竞争", "走私"]}, "relations": [{"type": "member_of", "target": "镜海航约"}, {"type": "competes_with", "target": "阿维恩王国"}]},
+    "content": "洛萨的城市把自由理解为可以进入市场、签订契约和参与议席的资格，但资格从来不平均。富裕商号、剧场、码头工人和外来旅客共同塑造街区；一张股份证明可能打开一扇门，也可能把某个人排除在外。"
+  },
+  {
+    "source_id": "world_bible_database_records:13",
+    "category": "Peoples & bloodlines",
+    "title": "精灵诸族",
+    "keys": ["精灵诸族", "精灵", "高等精灵", "木精灵", "黑暗精灵"],
+    "record": {"record_type": "people", "canonical_name": "精灵诸族", "aliases": ["精灵", "精灵族群"], "summary": "拥有多种地方文化和寿命传统的族群集合，不能由单一王国或性格概括。", "status": "established", "region": "绿荫、城市与远方聚落", "fields": {"kind": "people_group", "internal_diversity": ["城市精灵", "木林传统", "地下社群", "混合家庭"], "common_misconception": "长寿不等于没有个人目标或情感变化"}, "relations": [{"type": "has_variants", "target": "文化与地方传统"}, {"type": "participates_in", "target": "镜海贸易"}]},
+    "content": "精灵诸族共享一部分祖源，却拥有截然不同的语言、家庭、职业和迁徙经历。有人在林地守护古径，有人在港口经营抄写铺，也有人在多族群家庭中长大。长寿会改变记忆尺度，却不会替个人决定善恶、爱谁或想过怎样的生活。"
+  },
+  {
+    "source_id": "world_bible_database_records:14",
+    "category": "Peoples & bloodlines",
+    "title": "矮人、半身人与侏儒",
+    "keys": ["矮人", "半身人", "侏儒", "石门", "工坊"],
+    "record": {"record_type": "people_group", "canonical_name": "矮人、半身人与侏儒", "aliases": ["山地族群", "工坊族群"], "summary": "常被外界以工艺和山地联系在一起的多个族群，实际拥有城市、农庄、商路和多种家庭传统。", "status": "established", "region": "铁冠山脉、河谷与港口", "fields": {"kind": "people_group", "common_livelihoods": ["工程", "工坊", "贸易", "农业", "档案"], "social_anchor": "承诺、工时、照护与作品责任"}, "relations": [{"type": "strong_presence_in", "target": "石门联邦"}, {"type": "trades_with", "target": "七路商盟"}]},
+    "content": "矮人、半身人与侏儒并不是一个统一民族。石门工坊重视工程和责任，半身人社区可能以耕作、旅店或河运为生，侏儒家庭则常在学院、剧场和修理业中建立自己的网络。外界对他们的刻板印象经常比他们的真实生活简单。"
+  },
+  {
+    "source_id": "world_bible_database_records:15",
+    "category": "Peoples & bloodlines",
+    "title": "龙裔与龙血状态",
+    "keys": ["龙裔", "龙血", "龙族", "鳞片", "祖源"],
+    "record": {"record_type": "people_and_state", "canonical_name": "龙裔与龙血状态", "aliases": ["龙裔", "龙血者"], "summary": "龙裔是拥有龙类祖源或显著龙血影响的人群，不等同于真龙，也不自动拥有传说级力量。", "status": "established", "region": "各地城市与边境", "fields": {"kind": "bloodline", "possible_traits": ["鳞片", "耐性", "声带变化", "家族传说"], "limits": ["不等同真龙", "不保证施法", "不决定性格"], "social_risks": ["被当作稀有物件", "血统买卖", "误认身份"]}, "relations": [{"type": "distinct_from", "target": "真龙与龙的诸谱"}, {"type": "described_by", "target": "祖源、文化、血统与状态"}]},
+    "content": "龙裔的龙血可能来自家族、契约、古老变形或尚未解释的遗传影响。它可以改变外貌、感官或某些耐性，却不能替一个人决定道德、职业和命运。真正危险的往往是别人把龙裔当作宝物、武器或政治象征，而不是龙血本身。"
+  },
+  {
+    "source_id": "world_bible_database_records:16",
+    "category": "Gods, celestials, fiends & otherworld",
+    "title": "静门与死后世界",
+    "keys": ["静门", "灵魂", "死后世界", "复生", "葬礼"],
+    "record": {"record_type": "cosmic_system", "canonical_name": "静门与死后世界", "aliases": ["静门", "彼岸"], "summary": "关于死亡、灵魂去向和复生边界的共同世界记录；不同神殿可以有不同解释，但强行拘束灵魂通常被视为危险。", "status": "established_uncertain", "region": "各地神殿与死者记忆", "fields": {"kind": "afterlife_system", "known_rules": ["死亡会造成真实断裂", "灵魂不是普通资源", "复生需要代价与边界"], "disputes": ["灵魂是否能回返", "死者记忆是否完整", "神殿解释是否相同"]}, "relations": [{"type": "regulated_by", "target": "秘法约章"}, {"type": "worshipped_through", "target": "十四主神"}]},
+    "content": "静门既是许多葬礼中的象征，也可能是神学、魔法和个人失去交汇的概念。世界承认死者不应被随意当作材料；复生、灵魂容器和死后回声因此都需要记录清楚发生了什么，而不能用一句“魔法解决”跳过代价。"
+  },
+  {
+    "source_id": "world_bible_database_records:17",
+    "category": "Historical ages & major events",
+    "title": "镜海航约",
+    "keys": ["镜海航约", "航约", "港口规则", "海难救援"],
+    "record": {"record_type": "treaty", "canonical_name": "镜海航约", "aliases": ["航约", "镜海条约"], "summary": "协调镜海港口通行、救援、灯塔、货物责任和失踪登记的多方条约体系。", "status": "active_and_amended", "region": "镜海与环海航路", "fields": {"kind": "maritime_treaty", "covers": ["靠泊", "救援", "灯塔", "货单", "失踪者"], "enforced_by": ["港务官", "灯塔圣约", "商盟信誉"], "weakness": "偏远港口和战争时期执行不一"}, "relations": [{"type": "supports", "target": "灯塔圣约"}, {"type": "shapes", "target": "七路商盟"}]},
+    "content": "镜海航约不是一份放在王宫里的单一文书，而是一套在港口、灯塔和船长账簿中反复确认的规则。它让救援、靠泊和货物责任有共同语言，也留下了许多关于赔偿、失踪和谁有资格代表死者发言的争议。"
+  },
+  {
+    "source_id": "world_bible_database_records:18",
+    "category": "Historical ages & major events",
+    "title": "七河战争",
+    "keys": ["七河战争", "战争", "战后迁徙", "河税"],
+    "record": {"record_type": "historical_event", "canonical_name": "七河战争", "aliases": ["七河战争", "河谷战争"], "summary": "半个多世纪前围绕河税、桥梁、矿权和继承展开的区域战争，塑造了今天的迁徙与混居。", "status": "ended_with_lingering_effects", "region": "王冠河谷与北方山道", "fields": {"kind": "regional_war", "lasting_effects": ["新社区", "退役军人", "战争纪念", "河税争议", "失踪家族文书"], "sources": ["贵族档案", "工匠刻石", "家族故事", "歌者传统"]}, "relations": [{"type": "preceded", "target": "灰岸协定与战后秩序"}, {"type": "caused", "target": "战后迁徙与共居"}]},
+    "content": "七河战争已经结束，却没有结束它留下的生活问题。退役士兵、失去土地的家庭、被迫迁徙的工匠和重新划定的河税继续影响城市与村镇。不同档案对战争的责任归属并不一致，玩家遇到的每一份历史材料都应标明它来自谁。"
+  },
+  {
+    "source_id": "world_bible_database_records:19",
+    "category": "Historical ages & major events",
+    "title": "静塔事故",
+    "keys": ["静塔事故", "失去的七日", "静塔", "记忆事故", "秘法约章"],
+    "record": {"record_type": "historical_event", "canonical_name": "静塔事故", "aliases": ["失去的七日", "静塔事件"], "summary": "碧帆港研究塔发生的记忆与传讯异常，导致证词断裂并推动秘法约章重写。", "status": "partially_documented", "region": "碧帆港静塔旧区", "fields": {"kind": "magical_accident", "known_effects": ["证词互相矛盾", "第七日记录空白", "回声窗现象"], "evidence": ["七日手稿", "幸存者证词", "旧区门牌", "小堂档案"], "open_questions": ["异常来源", "坐标指向", "缺失记录是否可恢复"]}, "relations": [{"type": "led_to", "target": "秘法约章"}, {"type": "studied_by", "target": "白塔议会"}]},
+    "content": "静塔事故最可靠的结论只有几条：研究塔曾发生大范围传讯和记忆异常，许多证词互相冲突，记录员凯默留下了缺失第七日的手稿。后来的秘法约章因此强调知情同意、证词保存和不可逆伤害，而不是把事故包装成一个已经解释完的传说。"
+  },
+  {
+    "source_id": "world_bible_database_records:20",
+    "category": "Attributes & rules",
+    "title": "城市登记与旅人权利",
+    "keys": ["旅人权利", "身份登记", "通行", "公民", "居民"],
+    "record": {"record_type": "civic_rule", "canonical_name": "城市登记与旅人权利", "aliases": ["旅人登记", "通行规则"], "summary": "各地对居民、旅人、学徒和雇佣者的登记、住宿与通行规则，存在地区差异但不应把人变成财产。", "status": "regional_variants", "region": "迷失之地", "fields": {"kind": "civil_record", "common_requirements": ["说明来意", "缴纳合理税费", "危险物品查验"], "protected_interests": ["人身自由", "受审权", "基本住宿", "拒绝胁迫契约"], "variation": "战争、疫病和敏感边境会加强检查"}, "relations": [{"type": "implemented_by", "target": "地方官署"}, {"type": "interacts_with", "target": "七路商盟"}]},
+    "content": "旅行者可能需要登记、缴税或接受武器和高危材料查验，但普通旅人不应因为没有贵族文书就失去人格与基本安全。不同城市的规则需要在当地确认；一张登记纸说明的是行政关系，不是某个人可以被买卖或强迫劳动的理由。"
+  },
+  {
+    "source_id": "world_bible_database_records:21",
+    "category": "Magic rules",
+    "title": "法术许可与风险分级",
+    "keys": ["法术许可", "风险分级", "高危施法", "施法责任", "秘法约章"],
+    "record": {"record_type": "magic_rule", "canonical_name": "法术许可与风险分级", "aliases": ["施法许可", "高危法术规则"], "summary": "用影响范围、不可逆性、目标同意和失控后果判断施法监管强度；法术环阶不等同于许可证等级。", "status": "active_with_local_variants", "region": "环镜大陆的镜海诸国", "fields": {"kind": "regulatory_rule", "risk_factors": ["范围", "持续时间", "不可逆性", "灵魂影响", "位面不稳定"], "records_required": ["施法者", "材料来源", "见证人", "事故处置", "受影响者"], "prohibited_examples": ["活人献祭", "强迫灵魂束缚", "居住区失控位面门"]}, "relations": [{"type": "administered_by", "target": "白塔议会"}, {"type": "constrained_by", "target": "知情同意"}]},
+    "content": "法术环阶只描述术式复杂度和通常规模，不直接决定是否合法或危险。真正需要记录的是施法者、材料、受影响者、见证人和补救办法。小法术也可能因目标不同而造成严重伤害，高环法术则可能在授权、隔离和准备充分时被安全使用。"
+  },
+  {
+    "source_id": "world_bible_database_records:22",
+    "category": "Monsters, dragons & supernatural phenomena",
+    "title": "异常生物处置记录",
+    "keys": ["异常生物", "怪物处置", "观察记录", "公共防护", "猎杀"],
+    "record": {"record_type": "field_protocol", "canonical_name": "异常生物处置记录", "aliases": ["怪物记录", "处置原则"], "summary": "记录生物身份、行为、栖息地、受害者和可行处置手段，避免把未知生物自动归类为敌人。", "status": "active", "region": "边境、荒野与城市异常地带", "fields": {"kind": "safety_protocol", "record_before_action": ["可观察特征", "行为模式", "是否有语言与意志", "巢穴与幼体", "公共风险"], "preferred_responses": ["隔离", "疏散", "谈判", "驱离", "救援", "必要时战斗"], "prohibited_shortcuts": ["只凭外貌判断", "把传闻当事实", "为了战利品制造冲突"]}, "relations": [{"type": "used_by", "target": "灰钥协会"}, {"type": "supports", "target": "地方守卫"}]},
+    "content": "世界中的异常生物不都等于敌人。可靠的处置记录先保存可观察特征、行为、语言、栖息地和公共风险，再决定隔离、驱离、谈判或战斗。猎杀可以是必要的最后手段，却不应成为面对未知生命时唯一的数据库标签。"
+  },
+  {
+    "source_id": "world_bible_database_records:23",
+    "category": "World overview",
+    "title": "旅店、商队与日常服务",
+    "keys": ["旅店", "商队", "住宿", "补给", "日常服务"],
+    "record": {"record_type": "service_system", "canonical_name": "旅店、商队与日常服务", "aliases": ["旅途服务", "道路生活"], "summary": "记录旅行者真正会使用的住宿、补给、修理、翻译、寄存和消息服务，而不是只记录危险地点。", "status": "active", "region": "迷失之地", "fields": {"kind": "everyday_system", "services": ["住宿", "餐食", "饮水", "修理", "寄存", "翻译", "向导", "船票"], "trust_signals": ["公开价格", "熟客担保", "清楚家规", "可查记录"], "common_problems": ["涨价", "错过船期", "货物损坏", "语言误会", "床位不足"]}, "relations": [{"type": "depends_on", "target": "道路、海域与边界"}, {"type": "recorded_by", "target": "七路商盟"}]},
+    "content": "旅途中的数据库不只需要记录怪物和遗迹，也要记录哪里能喝到干净的水、谁能修补车轮、哪家旅店公开价格、哪条船会按时离港。日常服务决定人物能否休息、相遇、交易和建立信任，它们本身就是世界持续运转的证据。"
+  },
+  {
+    "source_id": "world_bible_database_records:24",
+    "category": "World overview",
+    "title": "数据库记录的真实性等级",
+    "keys": ["真实性", "记录等级", "已证实", "传闻", "档案来源"],
+    "record": {"record_type": "knowledge_rule", "canonical_name": "数据库记录的真实性等级", "aliases": ["事实等级", "证据等级"], "summary": "百科数据库区分已证实事实、地方共识、个人信念、待核材料和相互矛盾的来源，不把所有文本都当成同一强度的真相。", "status": "system_rule", "region": "迷失之地", "fields": {"kind": "epistemic_schema", "levels": ["canonical", "well_attested", "local_belief", "unverified", "contradictory"], "required_metadata": ["来源", "时间", "见证人", "适用范围", "最后核对"], "default": "unverified"}, "relations": [{"type": "applies_to", "target": "所有百科记录"}, {"type": "protects", "target": "玩家自主判断"}]},
+    "content": "百科数据库会区分已经证实的事实、多个地方都承认的常识、某个群体的信念、尚未核实的材料和彼此冲突的档案。记录一条信息时，来源、时间、适用范围与证据比漂亮的结论更重要；未知应保持未知，不能为了完整而伪造确定性。"
+  },
+  {
+    "source_id": "world_bible_database_records:25",
+    "category": "Cosmos & planes",
+    "title": "物质位面",
+    "keys": ["物质位面", "凡世", "现世", "迷失之地"],
+    "record": {"record_type": "plane", "canonical_name": "物质位面", "aliases": ["凡世", "现世"], "summary": "多数居民生活、城市与历史发生的主要位面，包含镜海、诸邦、荒野和地下世界。", "status": "established", "region": "世界尺度", "fields": {"kind": "primary_plane", "known_access": ["陆路", "海路", "仪式通路", "自然裂隙"], "ordinary_life": "可通过食物、工作、家庭、法律和旅行理解", "boundary_risks": ["位面门", "时间残响", "异界生物"]}, "relations": [{"type": "contains", "target": "镜海与环海航路"}, {"type": "connected_to", "target": "映照位面"}]},
+    "content": "物质位面是多数角色所说的“世界”：有道路、港口、家庭、城市、荒野和会留下伤痕的时间。它不是唯一存在的地方，却是最适合记录日常生活与具体后果的共同基础。涉及其他位面时，记录进入方式、回返条件和谁亲眼见过，比单纯使用宏大名称更可靠。"
+  },
+  {
+    "source_id": "world_bible_database_records:26",
+    "category": "Cosmos & planes",
+    "title": "映照位面",
+    "keys": ["映照位面", "妖精荒野", "阴影堕界", "梦境", "镜像"],
+    "record": {"record_type": "plane_group", "canonical_name": "映照位面", "aliases": ["妖精荒野", "阴影堕界"], "summary": "与物质位面相互映照的位面集合，常以情绪、记忆、自然和阴影改变空间规则。", "status": "partially_mapped", "region": "物质位面之外", "fields": {"kind": "reflected_planes", "known_variants": ["妖精荒野", "阴影堕界", "梦境边缘"], "common_effects": ["时间感偏移", "名称有重量", "路径随关系变化"], "safe_practices": ["留下回程标记", "确认同行者意愿", "不要随意交出真名"]}, "relations": [{"type": "reflects", "target": "物质位面"}, {"type": "linked_by", "target": "真名、誓言与强制契约"}]},
+    "content": "映照位面并不是一张可以照搬的地图。妖精荒野可能让承诺、季节和故事改变道路，阴影堕界可能放大失去与未说出口的愿望。进入这些地方需要明确回程条件；不确定的传闻应保持为传闻，不能因为一个华丽名称就假定所有规则都已知。"
+  },
+  {
+    "source_id": "world_bible_database_records:27",
+    "category": "Cosmos & planes",
+    "title": "位面通路与回程锚点",
+    "keys": ["位面通路", "传送门", "回程锚点", "星界", "以太界"],
+    "record": {"record_type": "travel_system", "canonical_name": "位面通路与回程锚点", "aliases": ["位面门", "传送通路"], "summary": "连接不同位面的门、仪式和异常通道；通路必须记录出口、持续时间、锚点和可能的失控后果。", "status": "regulated_and_uncertain", "region": "物质位面与边界地带", "fields": {"kind": "planar_route", "required_records": ["入口", "出口", "锚点", "开放条件", "回程条件", "见证者"], "failure_modes": ["偏移", "断门", "时间残响", "带回不属于此地的东西"], "safe_baseline": "没有确认出口和回程条件时，不把通路当作普通旅行"}, "relations": [{"type": "connects", "target": "物质位面"}, {"type": "governed_by", "target": "法术许可与风险分级"}]},
+    "content": "位面通路的数据库记录应像航海日志，而不是一句“打开传送门”。入口、出口、锚点、开放条件、回程条件和谁负责关闭都必须尽可能明确。没有回程锚点的通路可以成为故事，但不应被系统默认为安全快捷旅行。"
+  },
+  {
+    "source_id": "world_bible_database_records:28",
+    "category": "Rumours, mysteries & forbidden lore",
+    "title": "失去的七日坐标",
+    "keys": ["失去的七日", "七日坐标", "凯默手稿", "静塔坐标", "传闻"],
+    "record": {"record_type": "rumour", "canonical_name": "失去的七日坐标", "aliases": ["静塔坐标", "第七日空白"], "summary": "凯默手稿中无法对应现存街道的坐标，可能指向旧支渠、港外海面或事故中被抹去的地点。", "status": "unverified", "region": "碧帆港静塔旧区", "fields": {"kind": "historical_mystery", "evidence": ["七日手稿", "空白页", "回声窗记录"], "competing_explanations": ["被填平的支渠", "港外海面", "记忆异常制造的假坐标"], "investigation_cost": "需要档案、幸存者证词和旧区实地核对"}, "relations": [{"type": "originates_from", "target": "静塔事故"}, {"type": "stored_in", "target": "静塔旧区"}]},
+    "content": "“失去的七日坐标”目前只是待核档案，不是已经确认的秘密地点。它来自凯默手稿和几份彼此不完全相同的抄本。数据库保留三种主要解释，也保留证据缺口；任何角色都可以调查、相信、怀疑或暂时放下它。"
+  },
+  {
+    "source_id": "world_bible_database_records:29",
+    "category": "Rumours, mysteries & forbidden lore",
+    "title": "深岩第六门",
+    "keys": ["深岩第六门", "第六门", "封门", "矿道传闻", "深岩"],
+    "record": {"record_type": "rumour", "canonical_name": "深岩第六门", "aliases": ["第六门", "封门矿道"], "summary": "石门旧矿图上被封存的第六道门，传闻与旧矿权、工程事故和不属于矿脉的回声有关。", "status": "unverified", "region": "铁冠山脉与深岩道", "fields": {"kind": "sealed_site_rumour", "known_evidence": ["残缺矿图", "封门记录", "旧债文书"], "possible_stakes": ["矿权", "救援", "家族声誉", "工程真相"], "access": "需要确认旧矿图与现行安全记录"}, "relations": [{"type": "located_in", "target": "铁冠山脉与深岩道"}, {"type": "linked_to", "target": "深岩封门"}]},
+    "content": "深岩第六门的记录不能直接写成“门后有宝藏”。现有材料只证明旧矿图上曾有一处被封存的入口，封门原因和门后空间都没有可靠共识。旧矿权、事故责任与家族债务让它成为一个同时涉及生活和历史的调查对象。"
+  },
+  {
+    "source_id": "world_bible_database_records:30",
+    "category": "Rumours, mysteries & forbidden lore",
+    "title": "消失的第七路",
+    "keys": ["消失的第七路", "第七路", "商盟失踪", "失踪商路", "走私"],
+    "record": {"record_type": "rumour", "canonical_name": "消失的第七路", "aliases": ["第七路", "失踪商路"], "summary": "七路商盟旧账中一条突然停止使用的路线，可能是改道、战争遗留、走私掩护或记录错误。", "status": "contradictory", "region": "镜海与内陆商道之间", "fields": {"kind": "route_mystery", "sources": ["旧货单", "商队口述", "保险拒赔记录", "黑帆传闻"], "competing_explanations": ["道路被洪水改道", "商盟内部隐瞒损失", "黑帆会接管路线", "账目抄写错误"], "next_evidence": "比较不同年份的货单与灯塔记录"}, "relations": [{"type": "associated_with", "target": "七路商盟"}, {"type": "possibly_used_by", "target": "黑帆会"}]},
+    "content": "消失的第七路是一个有多种来源、没有统一结论的路线谜团。有人从旧货单中看见它，有人只听过商队传闻，保险记录却显示某些货物曾在不同地点被申报。它适合被调查，也适合被当作不可靠消息；数据库不会替玩家预先选定答案。"
+  },
+  {
+    "source_id": "world_bible_database_records:31",
+    "category": "Nations, city-states & powers",
+    "title": "旧渡口",
+    "keys": ["旧渡口", "王冠城旧渡口", "渡船", "桥市", "河运"],
+    "record": {"record_type": "district", "canonical_name": "旧渡口", "aliases": ["旧渡口区", "渡口街"], "summary": "王冠城河岸的旧码头和居民区，连接桥市、渡船、仓库与归锚酒馆。", "status": "active", "region": "王冠城", "fields": {"kind": "riverfront_district", "services": ["渡船", "仓储", "修补", "旅店", "小额货运"], "daily_rhythm": ["清晨卸货", "午后过桥", "夜间河灯"], "local_risks": ["涨水", "货单纠纷", "拥挤"]}, "relations": [{"type": "part_of", "target": "王冠城"}, {"type": "contains", "target": "归锚酒馆"}]},
+    "content": "旧渡口比桥市更慢，也更靠近居民真正过日子的地方。渡船、仓库、修补铺和临河住户共享一段不断被潮气磨亮的石岸；归锚酒馆的客人从这里来，也从这里把消息带往别处。"
+  },
+  {
+    "source_id": "world_bible_database_records:32",
+    "category": "Nations, city-states & powers",
+    "title": "静塔旧区",
+    "keys": ["静塔旧区", "碧帆港旧区", "旧塔", "档案街", "回声窗"],
+    "record": {"record_type": "district", "canonical_name": "静塔旧区", "aliases": ["旧塔区", "静塔街"], "summary": "碧帆港保存事故档案、抄写铺和旧塔遗迹的城区，日常生活与未解决的记录纠缠在一起。", "status": "restricted_parts", "region": "碧帆港", "fields": {"kind": "archival_district", "services": ["抄写", "档案查阅", "旧物修复", "船员登记"], "notable_sites": ["静塔遗址", "回声窗", "失踪名册室"], "access_rules": ["公开街区可自由通行", "封存房间需登记", "事故材料需注明来源"]}, "relations": [{"type": "part_of", "target": "碧帆港"}, {"type": "contains", "target": "失去的七日坐标"}]},
+    "content": "静塔旧区没有被整齐地改造成纪念馆。抄写铺、船员登记处和仍在使用的住屋围着事故遗址生长，街角常有人讨论一份旧档案是否可靠。这里的规矩不是不许提问，而是提问时要留下来源、时间和见证人。"
+  },
+  {
+    "source_id": "world_bible_database_records:33",
+    "category": "Magic, professions & organizations",
+    "title": "银枝守望团",
+    "keys": ["银枝守望团", "银枝", "林地守望", "古径", "边地"],
+    "record": {"record_type": "faction", "canonical_name": "银枝守望团", "aliases": ["银枝守望", "守望团"], "summary": "维护林径、救援迷路者并记录边地异常的巡护组织，成员来自不同族群和地方传统。", "status": "active", "region": "苍翠林海与边地丘陵", "fields": {"kind": "frontier_warden_order", "services": ["路线维护", "失踪者搜寻", "火灾预警", "异常记录"], "membership": ["巡林员", "向导", "草药师", "地方联络人"], "limits": "不拥有所有林地的司法权"}, "relations": [{"type": "protects", "target": "苍翠林海与边地丘陵"}, {"type": "cooperates_with", "target": "灯塔圣约"}]},
+    "content": "银枝守望团的工作大多发生在没有观众的地方：重新标出被雨水冲掉的路牌、把迷路的孩子送回村子、在发现异常足迹后通知附近聚落。守望团可以提出建议和警告，却不能把每片林地都当作自己的领地。"
+  },
+  {
+    "source_id": "world_bible_database_records:34",
+    "category": "Magic, professions & organizations",
+    "title": "港务登记所",
+    "keys": ["港务登记所", "港务", "靠泊登记", "船证", "货单"],
+    "record": {"record_type": "public_institution", "canonical_name": "港务登记所", "aliases": ["港务处", "靠泊登记处"], "summary": "负责记录船只靠泊、货单、船员身份、失踪申报和基础救援联络的公共机构。", "status": "active_with_local_variants", "region": "镜海主要港口", "fields": {"kind": "port_registry", "records": ["船名", "船长", "靠泊时间", "货物责任人", "紧急联系人"], "public_access": "基础靠泊信息公开，个人隐私和调查材料受限", "common_failures": ["抄写错误", "战争封港", "假货单"]}, "relations": [{"type": "implements", "target": "镜海航约"}, {"type": "coordinates_with", "target": "灯塔圣约"}]},
+    "content": "港务登记所让一次靠岸变成可追查的事实。船名、货物责任人和靠泊时间写进册子后，货损、失踪和救援才有可能找到责任链；登记所不是万能的真相机构，战争、走私和抄写错误都会留下空白。"
+  },
+  {
+    "source_id": "world_bible_database_records:35",
+    "category": "Magic, professions & organizations",
+    "title": "旧塔档案馆",
+    "keys": ["旧塔档案馆", "档案馆", "失踪名册", "静塔档案", "抄写员"],
+    "record": {"record_type": "archive", "canonical_name": "旧塔档案馆", "aliases": ["旧塔档案室", "静塔档案馆"], "summary": "保存静塔事故、失踪者、船期和城市抄本的档案机构，重视来源链和版本差异。", "status": "active", "region": "碧帆港静塔旧区", "fields": {"kind": "public_archive", "collections": ["事故记录", "船期", "失踪名册", "旧地图", "抄本比对"], "access": "目录公开，敏感原件需申请", "evidence_practice": ["保留原件", "标记抄本", "记录见证人", "注明缺页"]}, "relations": [{"type": "located_in", "target": "静塔旧区"}, {"type": "stores", "target": "失去的七日坐标"}]},
+    "content": "旧塔档案馆最看重的不是一份记录写得多确定，而是后来的人能否看见它从哪里来。原件、抄本、缺页和补写都要分开标记；档案员可以告诉来访者某个说法何时出现，却不会替他们把缺失的证据补成结论。"
+  },
+  {
+    "source_id": "world_bible_database_records:36",
+    "category": "Magic, professions & organizations",
+    "title": "旅人互助会",
+    "keys": ["旅人互助会", "旅人互助", "临时收容", "同行担保", "路费"],
+    "record": {"record_type": "mutual_aid_network", "canonical_name": "旅人互助会", "aliases": ["旅人会", "路上互助"], "summary": "由旅店、船员、向导和临时住客组成的地方互助网络，为旅行者提供短期帮助和可靠介绍。", "status": "informal_active", "region": "道路、港口与边境聚落", "fields": {"kind": "mutual_aid", "services": ["一晚住宿", "干粮", "翻译", "失物转交", "同行介绍"], "membership_signal": "公开的互助牌或熟人担保", "limits": "不提供无条件贷款，也不替成员承担全部后果"}, "relations": [{"type": "complements", "target": "旅店、商队与日常服务"}, {"type": "relies_on", "target": "七路商盟"}]},
+    "content": "旅人互助会没有统一会所，通常只靠一块牌子、一封介绍信或一个愿意作证的熟人维持。它把陌生人的求助变得稍微容易，却也要求成员说明自己能提供什么、不能保证什么。"
+  },
+  {
+    "source_id": "world_bible_database_records:37",
+    "category": "Magic rules",
+    "title": "施法事故档案",
+    "keys": ["施法事故", "魔法事故", "补救记录", "失控法术", "事故调查"],
+    "record": {"record_type": "incident_schema", "canonical_name": "施法事故档案", "aliases": ["魔法事故报告", "失控记录"], "summary": "用于记录施法目标、范围、材料、见证人、伤害、补救和后续限制的标准档案。", "status": "active", "region": "白塔议会及地方施法机构", "fields": {"kind": "incident_record", "required_fields": ["施法者", "目标", "时间", "地点", "材料", "见证人", "影响", "补救"], "review_stages": ["先保护现场", "再保存证据", "最后评估责任与许可"], "privacy": "受影响者的个人资料不应公开到超出安全需要的范围"}, "relations": [{"type": "extends", "target": "法术许可与风险分级"}, {"type": "used_by", "target": "白塔议会"}]},
+    "content": "施法事故档案先回答发生了什么，再讨论谁应该受到惩罚。现场保护、证据保存、受影响者照护和补救方案都要留下记录；一场事故不能只被压缩成“法术失败”，因为失败方式决定下一次如何避免它。"
+  },
+  {
+    "source_id": "world_bible_database_records:38",
+    "category": "Attributes & rules",
+    "title": "能力、属性与专业索引",
+    "keys": ["能力索引", "属性", "专业", "训练", "能力记录"],
+    "record": {"record_type": "character_schema", "canonical_name": "能力、属性与专业索引", "aliases": ["能力数据库", "角色能力记录"], "summary": "把人物的基础属性、训练来源、专业能力、熟练程度、使用条件和代价分开记录。", "status": "system_rule", "region": "玩家角色与重要人物档案", "fields": {"kind": "character_capability_schema", "dimensions": ["基础属性", "专业", "技法", "特性", "仪式"], "proficiency": ["接触", "熟悉", "可靠", "精通", "传承级"], "must_record": ["来源", "可用条件", "负荷", "反制", "最近一次使用"]}, "relations": [{"type": "defined_by", "target": "能力、属性与专业"}, {"type": "supports", "target": "角色卡与叙事判定"}]},
+    "content": "能力记录不应只写一个好听的职业名。数据库会把属性、训练、具体技法、掌握程度和使用代价分开，方便叙事者知道人物能做什么、为什么能做、在什么条件下会失败，以及谁曾经教过这项能力。"
+  },
+  {
+    "source_id": "world_bible_database_records:39",
+    "category": "Items & equipment",
+    "title": "物品鉴定与证据链",
+    "keys": ["物品鉴定", "证据链", "物品来源", "真伪", "复刻"],
+    "record": {"record_type": "item_database_rule", "canonical_name": "物品鉴定与证据链", "aliases": ["鉴定记录", "物品证据"], "summary": "记录物品的名称、类别、材质、来源、持有链、已知性质和未知部分，避免把传闻当成物品能力。", "status": "system_rule", "region": "物品、背包与交易记录", "fields": {"kind": "item_provenance_schema", "identity_fields": ["规范名称", "类别", "材质", "制作者", "来源", "当前持有者"], "knowledge_levels": ["外观所见", "可靠鉴定", "持有人推测", "未证实传闻"], "red_flags": ["无来源高价", "被篡改的封印", "无法解释的能力"]}, "relations": [{"type": "defined_by", "target": "名称、鉴定与真实能力"}, {"type": "protects", "target": "交易与钱包"}]},
+    "content": "一件物品的名称不等于它的真相。鉴定记录要把外观、材质、来源、历任持有人和已经验证的效果分开；如果能力只来自某人的传闻，数据库应保留这个不确定性，而不是替玩家宣布它一定是真的。"
+  },
+  {
+    "source_id": "world_bible_database_records:40",
+    "category": "Items & equipment",
+    "title": "货币与信用记录",
+    "keys": ["货币", "信用", "债务", "汇票", "钱庄"],
+    "record": {"record_type": "economic_schema", "canonical_name": "货币与信用记录", "aliases": ["钱币记录", "信用账"], "summary": "记录硬币、汇票、货物折价、借贷责任和兑现地点，让交易后果能在故事中持续存在。", "status": "active", "region": "环镜大陆的城市与商路", "fields": {"kind": "economy_record", "currencies": ["铜币", "银币", "金币", "地方铸币"], "credit_instruments": ["汇票", "货运保险", "商号担保", "物资折价"], "must_track": ["金额", "债权人", "到期条件", "兑现地点", "违约后果"]}, "relations": [{"type": "used_by", "target": "七路商盟"}, {"type": "appears_in", "target": "交易与钱包"}]},
+    "content": "钱币只是交换的一种形式。旅人可能用银币付房钱，用汇票取货，用修理服务抵债，也可能因为一张不被承认的票据被迫改变路线。信用记录让交易成为持续关系，而不是一段对话结束后就消失的数字。"
+  },
+  {
+    "source_id": "world_bible_database_records:41",
+    "category": "Monsters, dragons & supernatural phenomena",
+    "title": "不死者与死后失序",
+    "keys": ["不死者", "死后失序", "亡灵", "灵魂残响", "葬礼"],
+    "record": {"record_type": "creature_group", "canonical_name": "不死者与死后失序", "aliases": ["亡灵", "不死生物"], "summary": "死者残留、灵魂束缚和人为复动造成的异常集合；不应把所有死后现象当成同一种敌人。", "status": "known_with_local_variants", "region": "墓地、战场、事故现场与被强行拘束的空间", "fields": {"kind": "undead_phenomena", "observables": ["记忆残片", "重复行为", "温度异常", "无法完成的承诺"], "response_order": ["保护活人", "确认是否有自我意志", "解除束缚", "安置遗骸", "记录见证"], "ethical_limits": ["不得把灵魂当作普通材料", "不得用猎杀替代调查"]}, "relations": [{"type": "governed_by", "target": "静门与死后世界"}, {"type": "documented_by", "target": "异常生物处置记录"}]},
+    "content": "不死者并不总是会冲向活人。有些只是重复死前最后一个动作，有些被强迫留在某件物品附近，还有些已经失去大部分自我。处置的第一步是保护活人，第二步才是判断该现象是否仍有可以被听见的意志。"
+  },
+  {
+    "source_id": "world_bible_database_records:42",
+    "category": "Monsters, dragons & supernatural phenomena",
+    "title": "构装体登记册",
+    "keys": ["构装体", "人工生命", "遗物守卫", "核心", "登记册"],
+    "record": {"record_type": "creature_registry", "canonical_name": "构装体登记册", "aliases": ["人工生命记录", "构装体档案"], "summary": "记录构装体的制造者、核心、指令边界、维护责任和是否具有独立意志。", "status": "active_with_gaps", "region": "工坊、遗迹、学院与旧战场", "fields": {"kind": "construct_registry", "required_fields": ["制造者", "核心类型", "任务边界", "维护周期", "停机方式", "知情同意"], "risk_factors": ["指令冲突", "核心损坏", "自我意识被否认", "遗迹防御逻辑失效"], "default_response": "先隔离并读取记录，不能因为外表像工具就跳过责任"}, "relations": [{"type": "related_to", "target": "遗物、高阶魔法与施法的代价"}, {"type": "uses", "target": "物品鉴定与证据链"}]},
+    "content": "构装体的身体可能由木、石、金属或旧法术组成，但数据库首先要记录它被谁制造、被赋予什么边界、由谁负责维护。一个会说话的构装体是否拥有独立意志，不能由它的外观或价格单独决定。"
+  },
+  {
+    "source_id": "world_bible_database_records:43",
+    "category": "Historical ages & major events",
+    "title": "灰岸协定",
+    "keys": ["灰岸协定", "战后协定", "边境调停", "赔偿", "迁徙"],
+    "record": {"record_type": "treaty", "canonical_name": "灰岸协定", "aliases": ["灰岸和约", "战后协定"], "summary": "七河战争后处理桥梁、矿权、迁徙、赔偿和失踪文书的战后协定，许多条款至今仍有争议。", "status": "active_with_disputes", "region": "王冠河谷与北方山道", "fields": {"kind": "postwar_treaty", "covered_topics": ["边界", "矿权", "难民安置", "赔偿", "失踪者文书"], "enforcement": ["地方官署", "行会见证", "家族文书", "调停院"], "unresolved": ["旧债", "被改写的继承记录", "混居村落的管辖权"]}, "relations": [{"type": "followed", "target": "七河战争"}, {"type": "shaped", "target": "战后迁徙与共居"}]},
+    "content": "灰岸协定让战争结束后的生活有了可以引用的条款，却没有让所有人立刻获得公平。桥梁、矿权和迁徙身份被写进文书，旧债和失踪者却常常卡在不同档案之间。今天的争议很多都不是重新开战，而是追问一条旧承诺究竟还算不算数。"
+  },
+  {
+    "source_id": "world_bible_database_records:44",
+    "category": "Cosmos & planes",
+    "title": "回声窗",
+    "keys": ["回声窗", "静塔回声", "记忆回放", "异常观测", "窗"],
+    "record": {"record_type": "phenomenon", "canonical_name": "回声窗", "aliases": ["回声记录窗", "静塔窗口"], "summary": "静塔事故后出现的局部异常，可短暂重复某个空间曾经留下的声音、动作或记忆片段。", "status": "observed_unstable", "region": "碧帆港静塔旧区及少数相关地点", "fields": {"kind": "memory_echo_phenomenon", "observed_effects": ["重复声音", "延迟影像", "不完整对话", "时间顺序错位"], "safe_observation": ["保持距离", "记录日期", "不把回声当作实时求救", "标记持续时间"], "unknowns": ["触发条件", "是否能回应", "与位面通路的关系"]}, "relations": [{"type": "associated_with", "target": "静塔事故"}, {"type": "stored_in", "target": "旧塔档案馆"}]},
+    "content": "回声窗会让一段已经发生过的声音或动作短暂地出现在眼前，因此很容易被误认成正在发生的事件。观测者要记录地点、时间和持续长度，先确认自己看到的是回声而不是求救；任何回应都可能改变下一次出现的内容。"
+  },
+  {
+    "source_id": "world_bible_database_records:45",
+    "category": "World overview",
+    "title": "旅行路线记录",
+    "keys": ["路线记录", "旅程", "路程", "驿站", "安全路线"],
+    "record": {"record_type": "route_record", "canonical_name": "旅行路线记录", "aliases": ["道路日志", "行程记录"], "summary": "记录实际走过的地点、耗时、补给、同行者、风险和已确认的下一站，不把未知道路当成已探索。", "status": "system_rule", "region": "所有可旅行地点", "fields": {"kind": "journey_schema", "required_fields": ["出发地", "目的地", "日期", "同行者", "耗时", "补给", "异常", "到达确认"], "route_states": ["已走过", "听闻", "封锁", "季节性开放", "未确认"], "benefits": ["保持连续性", "支持补给规划", "保留人物共同经历"]}, "relations": [{"type": "uses", "target": "旅店、商队与日常服务"}, {"type": "connects", "target": "地图与地点记录"}]},
+    "content": "路线记录只把真正走过的路写成已确认。出发地、耗时、同行者、补给和途中发生的异常会影响下一次旅程；听来的捷径可以保存为线索，却不应伪装成地图上已经安全的道路。"
+  }
+]
